@@ -10,4 +10,8 @@ public class ModPlacedFeatures {
     public static final Holder<PlacedFeature> RUBY_ORE_PLACED = PlacementUtils.register("ruby_ore_placed",
             ModConfiguredFeatures.RUBY_ORE, ModOrePlacement.commonOrePlacement(20,
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(256))));
+
+    public static final Holder<PlacedFeature> FOOLS_GOLD_ORE_PLACED = PlacementUtils.register("fools_gold_ore_placed",
+            ModConfiguredFeatures.FOOLS_GOLD_ORE, ModOrePlacement.commonOrePlacement(20,
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(256))));
 }

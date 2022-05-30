@@ -3,6 +3,7 @@
   "values": [
     "mofmc:ruby_block",
     "mofmc:raw_ruby_block",
-    "mofmc:ruby_ore"
+    "mofmc:ruby_ore",
+    "mofmc:fools_gold_ore"
   ]
 }
