@@ -1,11 +1,17 @@
 {
   "item.mofmc.ruby": "Ruby",
   "item.mofmc.raw_ruby": "Raw Ruby",
+
   "item.mofmc.ruby_sword": "Ruby Sword",
   "item.mofmc.ruby_pickaxe": "Ruby Pickaxe",
   "item.mofmc.ruby_shovel": "Ruby Shovel",
   "item.mofmc.ruby_axe": "Ruby Axe",
   "item.mofmc.ruby_hoe": "Ruby Hoe",
+
+  "item.mofmc.ruby_helmet": "Ruby Helmet",
+  "item.mofmc.ruby_chestplate": "Ruby Chestplate",
+  "item.mofmc.ruby_leggings": "Ruby Leggings",
+  "item.mofmc.ruby_boots": "Ruby Boots",
 
   "block.mofmc.ruby_block": "Ruby Block",
   "block.mofmc.raw_ruby_block": "Raw Ruby Block",

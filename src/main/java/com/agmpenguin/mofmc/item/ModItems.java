@@ -1,6 +1,7 @@
 package com.agmpenguin.mofmc.item;
 
 import com.agmpenguin.mofmc.mofmc;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -33,6 +34,18 @@ public class ModItems {
             () -> new HoeItem(ModTiers.RUBY, 0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
 
+    public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
+            () -> new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+    public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+    public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
+            () -> new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+    public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
+            () -> new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
