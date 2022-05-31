@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "mofmc:fools_gold_ore"
+    "item": "mofmc:raw_fools_gold"
   },
-  "result": "mofmc:fools_gold",
+  "result": "mofmc:fools_gold_ingot",
   "experience": 0.7,
   "cookingtime": 200
 }

@@ -2,7 +2,9 @@
   "item.mofmc.ruby": "Ruby",
   "item.mofmc.raw_ruby": "Raw Ruby",
 
-  "item.mofmc.fools_gold": "Fools Gold",
+  "item.mofmc.fools_gold_ingot": "Fool's Gold Ingot",
+  "item.mofmc.raw_fools_gold": "Raw Fool's Gold",
+
 
   "item.mofmc.ruby_sword": "Ruby Sword",
   "item.mofmc.ruby_pickaxe": "Ruby Pickaxe",
@@ -19,7 +21,8 @@
   "block.mofmc.raw_ruby_block": "Raw Ruby Block",
   "block.mofmc.ruby_ore": "Ruby Ore",
 
-  "block.mofmc.fools_gold_ore": "Fools Gold Ore",
+  "item.mofmc.fools_gold_block": "Fool's Gold Block",
+  "block.mofmc.fools_gold_ore": "Fool's Gold Ore",
 
   "itemGroup.mofmctab": "More Ores For MC"
 }

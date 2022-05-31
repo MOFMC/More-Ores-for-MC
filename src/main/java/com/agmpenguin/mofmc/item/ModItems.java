@@ -16,7 +16,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
     public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
-    public static final RegistryObject<Item> FOOLS_GOLD = ITEMS.register("fools_gold",
+    public static final RegistryObject<Item> FOOLS_GOLD_INGOT = ITEMS.register("fools_gold_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+    public static final RegistryObject<Item> RAW_FOOLS_GOLD = ITEMS.register("raw_fools_gold",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
 
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",

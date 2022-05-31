@@ -8,7 +8,7 @@ public class ModTiers {
     public static final ForgeTier RUBY = new ForgeTier(2, 250, 6.0f,
             2.0f, 14, BlockTags.NEEDS_IRON_TOOL,
             () -> Ingredient.of(ModItems.RUBY.get()));
-    public static final ForgeTier FOOLS_GOLD = new ForgeTier(2, 250, 6.0f,
+    public static final ForgeTier FOOLS_GOLD_INGOT = new ForgeTier(2, 250, 6.0f,
             2.0f, 14, BlockTags.NEEDS_IRON_TOOL,
-            () -> Ingredient.of(ModItems.FOOLS_GOLD.get()));
+            () -> Ingredient.of(ModItems.FOOLS_GOLD_INGOT.get()));
 }
