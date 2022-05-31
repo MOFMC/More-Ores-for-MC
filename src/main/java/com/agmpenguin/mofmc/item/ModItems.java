@@ -37,6 +37,22 @@ public class ModItems {
             () -> new HoeItem(ModTiers.RUBY, 0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
 
+    public static final RegistryObject<Item> FOOLS_GOLD_SWORD = ITEMS.register("fools_gold_sword",
+            () -> new SwordItem(ModTiers.FOOLS_GOLD_INGOT, 2, 3f,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+    public static final RegistryObject<Item> FOOLS_GOLD_PICKAXE = ITEMS.register("fools_gold_pickaxe",
+            () -> new PickaxeItem(ModTiers.FOOLS_GOLD_INGOT, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+    public static final RegistryObject<Item> FOOLS_GOLD_SHOVEL = ITEMS.register("fools_gold_shovel",
+            () -> new ShovelItem(ModTiers.FOOLS_GOLD_INGOT, 0, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+    public static final RegistryObject<Item> FOOLS_GOLD_AXE = ITEMS.register("fools_gold_axe",
+            () -> new AxeItem(ModTiers.FOOLS_GOLD_INGOT, 4, 0f,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+    public static final RegistryObject<Item> FOOLS_GOLD_HOE = ITEMS.register("fools_gold_hoe",
+            () -> new HoeItem(ModTiers.FOOLS_GOLD_INGOT, 0, 0f,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+
     public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
             () -> new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));

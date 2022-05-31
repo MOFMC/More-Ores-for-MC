@@ -5,12 +5,17 @@
   "item.mofmc.fools_gold_ingot": "Fool's Gold Ingot",
   "item.mofmc.raw_fools_gold": "Raw Fool's Gold",
 
-
   "item.mofmc.ruby_sword": "Ruby Sword",
   "item.mofmc.ruby_pickaxe": "Ruby Pickaxe",
   "item.mofmc.ruby_shovel": "Ruby Shovel",
   "item.mofmc.ruby_axe": "Ruby Axe",
   "item.mofmc.ruby_hoe": "Ruby Hoe",
+
+  "item.mofmc.fools_gold_sword": "Fool's Gold Sword",
+  "item.mofmc.fools_gold_pickaxe": "Fool's Gold Pickaxe",
+  "item.mofmc.fools_gold_shovel": "Fool's Gold Shovel",
+  "item.mofmc.fools_gold_axe": "Fool's Gold Axe",
+  "item.mofmc.fools_gold_hoe": "Fool's Gold Hoe",
 
   "item.mofmc.ruby_helmet": "Ruby Helmet",
   "item.mofmc.ruby_chestplate": "Ruby Chestplate",
