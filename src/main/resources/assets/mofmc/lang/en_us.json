@@ -18,10 +18,11 @@
   "item.mofmc.ruby_boots": "Ruby Boots",
 
   "block.mofmc.ruby_block": "Ruby Block",
-  "block.mofmc.raw_ruby_block": "Raw Ruby Block",
+  "block.mofmc.block_of_raw_ruby": "Block of Raw Ruby",
   "block.mofmc.ruby_ore": "Ruby Ore",
 
-  "item.mofmc.fools_gold_block": "Fool's Gold Block",
+  "block.mofmc.fools_gold_block": "Fool's Gold Block",
+  "block.mofmc.block_of_raw_fools_gold": "Block of Raw Fool's Gold",
   "block.mofmc.fools_gold_ore": "Fool's Gold Ore",
 
   "itemGroup.mofmctab": "More Ores For MC"

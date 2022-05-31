@@ -24,7 +24,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOFMC_TAB);
 
-    public static final RegistryObject<Block> RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
+    public static final RegistryObject<Block> BLOCK_OF_RAW_RUBY = registerBlock("block_of_raw_ruby",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOFMC_TAB);
 
@@ -37,6 +37,10 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOFMC_TAB);
 
     public static final RegistryObject<Block> FOOLS_GOLD_BLOCK = registerBlock("fools_gold_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOFMC_TAB);
+
+    public static final RegistryObject<Block> BLOCK_OF_RAW_FOOLS_GOLD = registerBlock("block_of_raw_fools_gold",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOFMC_TAB);
 

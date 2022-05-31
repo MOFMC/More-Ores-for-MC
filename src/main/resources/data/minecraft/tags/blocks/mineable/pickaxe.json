@@ -2,8 +2,10 @@
   "replace": false,
   "values": [
     "mofmc:ruby_block",
-    "mofmc:raw_ruby_block",
+    "mofmc:block_of_raw_ruby",
     "mofmc:ruby_ore",
-    "mofmc:fools_gold_ore"
+    "mofmc:fools_gold_ore",
+    "mofmc:fools_gold_block",
+    "mofmc:block_of_raw_fools_gold"
   ]
 }
