@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mofmc:fools_gold_block"
+    }
+  ],
+  "result": {
+    "item": "mofmc:fools_gold_ingot",
+    "count": 9
+  }
+}

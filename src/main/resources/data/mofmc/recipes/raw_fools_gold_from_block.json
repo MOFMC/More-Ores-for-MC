@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mofmc:block_of_raw_fools_gold"
+    }
+  ],
+  "result": {
+    "item": "mofmc:raw_fools_gold",
+    "count": 9
+  }
+}
