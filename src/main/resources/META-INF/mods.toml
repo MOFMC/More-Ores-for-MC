@@ -21,7 +21,7 @@ modId="mofmc" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 
 # ${file.jarVersion}
-version="${file.jarVersion}" #mandatory
+version="1.18.2-1.2.0-beta.5" #mandatory
 
 # A display name for the mod
 displayName="More Ores For MC" #mandatory
@@ -40,7 +40,7 @@ description='''
 Adds in ores, tools, and more to Minecraft.
 
 
-Version 1.2.0 Beta 4 for 1.18.2.
+Version 1.2.0 Beta 5 for 1.18.2.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mofmc]] #optional

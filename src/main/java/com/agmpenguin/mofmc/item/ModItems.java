@@ -54,16 +54,29 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
 
     public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
-            () -> new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.HEAD,
+            () -> new ArmorItem(ModArmorMaterialRuby.RUBY, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
     public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.CHEST,
+            () -> new ArmorItem(ModArmorMaterialRuby.RUBY, EquipmentSlot.CHEST,
                     new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
     public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
-            () -> new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.LEGS,
+            () -> new ArmorItem(ModArmorMaterialRuby.RUBY, EquipmentSlot.LEGS,
                     new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
     public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
-            () -> new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.FEET,
+            () -> new ArmorItem(ModArmorMaterialRuby.RUBY, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+
+    public static final RegistryObject<Item> FOOLS_GOLD_HELMET = ITEMS.register("fools_gold_helmet",
+            () -> new ArmorItem(ModArmorMaterialFoolsGold.FOOLS_GOLD, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+    public static final RegistryObject<Item> FOOLS_GOLD_CHESTPLATE = ITEMS.register("fools_gold_chestplate",
+            () -> new ArmorItem(ModArmorMaterialFoolsGold.FOOLS_GOLD, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+    public static final RegistryObject<Item> FOOLS_GOLD_LEGGINGS = ITEMS.register("fools_gold_leggings",
+            () -> new ArmorItem(ModArmorMaterialFoolsGold.FOOLS_GOLD, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
+    public static final RegistryObject<Item> FOOLS_GOLD_BOOTS = ITEMS.register("fools_gold_boots",
+            () -> new ArmorItem(ModArmorMaterialFoolsGold.FOOLS_GOLD, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.MOFMC_TAB)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
