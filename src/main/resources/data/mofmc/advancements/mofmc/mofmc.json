@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:ruby"
+    },
+    "title": "More Ores for MC",
+    "description": "",
+    "background": "mofmc:textures/block/ruby_ore.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "mofmc": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:crafting_table"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mofmc"
+    ]
+  ]
+}

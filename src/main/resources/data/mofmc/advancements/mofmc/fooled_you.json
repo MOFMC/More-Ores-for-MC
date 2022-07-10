@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:fools_gold_ingot"
+    },
+    "title": "Fooled You!",
+    "description": "Smelt Raw Fool's Gold",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mofmc:mofmc/april_fools",
+  "criteria": {
+    "fools_gold_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:fools_gold_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fools_gold_ingot"
+    ]
+  ]
+}

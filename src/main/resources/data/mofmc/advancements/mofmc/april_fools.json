@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:raw_fools_gold"
+    },
+    "title": "April Fool'!",
+    "description": "Get Raw Fools Gold",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mofmc:mofmc/mofmc",
+  "criteria": {
+    "raw_fools_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:raw_fools_gold"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "raw_fools_gold"
+    ]
+  ]
+}

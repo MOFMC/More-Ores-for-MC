@@ -4,14 +4,15 @@
       "item": "mofmc:ruby"
     },
     "title": "Rubies!",
-    "description": "Get a ruby.",
+    "description": "Get a ruby",
     "frame": "task",
     "show_toast": true,
-    "annouce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": false
   },
-  "parent": "mofmc:mofmc",
+  "parent": "mofmc:mofmc/mofmc",
   "criteria": {
-    "requirement": {
+    "ruby": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -23,5 +24,10 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "ruby"
+    ]
+  ]
 }
