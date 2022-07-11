@@ -11,9 +11,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterialFoolsGold implements ArmorMaterial {
-    FOOLS_GOLD("fools_gold", 28, new int[]{2, 5, 8, 3}, 19, SoundEvents.ARMOR_EQUIP_GOLD,
+    FOOLS_GOLD("fools_gold", 7, new int[]{1, 3, 5, 2}, 19, SoundEvents.ARMOR_EQUIP_GOLD,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.FOOLS_GOLD_INGOT.get()));
-
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;
     private final int durabilityMultiplier;

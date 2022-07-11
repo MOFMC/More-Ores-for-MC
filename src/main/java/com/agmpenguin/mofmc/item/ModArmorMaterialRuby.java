@@ -11,7 +11,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterialRuby implements ArmorMaterial {
-    RUBY("ruby", 28, new int[]{2, 5, 8, 3}, 19, SoundEvents.ARMOR_EQUIP_GOLD,
+    RUBY("ruby", 28, new int[]{3, 6, 8, 3}, 19, SoundEvents.ARMOR_EQUIP_GOLD,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.RUBY.get()));
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
