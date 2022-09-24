@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mofmc:deepslate_fools_gold_ore"
+  },
+  "result": "mofmc:fools_gold_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

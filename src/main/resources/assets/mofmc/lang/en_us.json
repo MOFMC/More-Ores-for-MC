@@ -30,10 +30,12 @@
   "block.mofmc.ruby_block": "Ruby Block",
   "block.mofmc.block_of_raw_ruby": "Block of Raw Ruby",
   "block.mofmc.ruby_ore": "Ruby Ore",
+  "block.mofmc.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
   "block.mofmc.fools_gold_block": "Fool's Gold Block",
   "block.mofmc.block_of_raw_fools_gold": "Block of Raw Fool's Gold",
   "block.mofmc.fools_gold_ore": "Fool's Gold Ore",
+  "block.mofmc.deepslate_fools_gold_ore": "Deepslate Fool's Gold Ore",
 
   "itemGroup.mofmctab": "More Ores For MC"
 }

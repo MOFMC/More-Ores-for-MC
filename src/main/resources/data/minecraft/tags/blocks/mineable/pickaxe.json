@@ -4,7 +4,9 @@
     "mofmc:ruby_block",
     "mofmc:block_of_raw_ruby",
     "mofmc:ruby_ore",
+    "mofmc:deepslate_ruby_ore",
     "mofmc:fools_gold_ore",
+    "mofmc:deepslate_fools_gold_ore",
     "mofmc:fools_gold_block",
     "mofmc:block_of_raw_fools_gold"
   ]

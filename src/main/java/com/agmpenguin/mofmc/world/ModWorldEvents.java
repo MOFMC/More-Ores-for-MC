@@ -15,6 +15,11 @@ import org.jetbrains.annotations.NotNull;
 
 @Mod.EventBusSubscriber(modid = mofmc.MOD_ID)
 public class ModWorldEvents {
+
+    @SubscribeEvent
+    public static void biomeLoadingEvent(final BiomeLoadingEvent event) {
+        ModOreGeneration.generateOres(event);
+    }
     static int messageAlreadyReceived = 2;
 
     @SubscribeEvent
@@ -45,9 +50,5 @@ public class ModWorldEvents {
         }
     }
 
-    @SubscribeEvent
-    public static void biomeLoadingEvent(final BiomeLoadingEvent event) {
-        ModOreGeneration.generateOres(event);
-    }
 
 }
