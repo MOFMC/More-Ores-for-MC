@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "mofmc:block/pyrite_block" }
+  }
+}

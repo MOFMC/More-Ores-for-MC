@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "mofmc:pyrite_ore"
+  },
+  "result": "mofmc:pyrite_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

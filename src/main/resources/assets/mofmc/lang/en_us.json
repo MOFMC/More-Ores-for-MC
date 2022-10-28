@@ -1,0 +1,34 @@
+{
+  "item.mofmc.ruby": "Ruby",
+  "item.mofmc.pyrite_ingot": "Pyrite Ingot",
+
+  "item.mofmc.ruby_sword": "Ruby Sword",
+  "item.mofmc.ruby_shovel": "Ruby Shovel",
+  "item.mofmc.ruby_pickaxe": "Ruby Pickaxe",
+  "item.mofmc.ruby_axe": "Ruby Axe",
+  "item.mofmc.ruby_hoe": "Ruby Hoe",
+
+  "item.mofmc.pyrite_sword": "Pyrite Sword",
+  "item.mofmc.pyrite_shovel": "Pyrite Shovel",
+  "item.mofmc.pyrite_pickaxe": "Pyrite Pickaxe",
+  "item.mofmc.pyrite_axe": "Pyrite Axe",
+  "item.mofmc.pyrite_hoe": "Pyrite Hoe",
+
+  "item.mofmc.ruby_helmet": "Ruby Helmet",
+  "item.mofmc.ruby_chestplate": "Ruby Chestplate",
+  "item.mofmc.ruby_leggings": "Ruby Leggings",
+  "item.mofmc.ruby_boots": "Ruby Boots",
+
+  "item.mofmc.pyrite_helmet": "Pyrite Helmet",
+  "item.mofmc.pyrite_chestplate": "Pyrite Chestplate",
+  "item.mofmc.pyrite_leggings": "Pyrite Leggings",
+  "item.mofmc.pyrite_boots": "Pyrite Boots",
+
+  "block.mofmc.ruby_ore": "Ruby Ore",
+  "block.mofmc.ruby_block": "Block of Ruby",
+
+  "block.mofmc.pyrite_ore": "Pyrite Ore",
+  "block.mofmc.pyrite_block": "Block of Pyrite",
+
+  "itemGroup.mofmcTab": "MOFMC"
+}

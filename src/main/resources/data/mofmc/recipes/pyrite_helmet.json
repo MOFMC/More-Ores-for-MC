@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "mofmc:pyrite_ingot"
+    }
+  },
+  "result": {
+    "item": "mofmc:pyrite_helmet"
+  }
+}

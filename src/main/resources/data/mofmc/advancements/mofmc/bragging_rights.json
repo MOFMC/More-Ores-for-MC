@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:pyrite_block"
+    },
+    "title": "Bragging Rights?",
+    "description": "Obtain a Block of Pyrite",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mofmc:mofmc/am_i_rich",
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:pyrite_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory"
+    ]
+  ]
+}

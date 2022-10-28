@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:ruby"
+    },
+    "title": "MOFMC",
+    "description": "",
+    "background": "mofmc:textures/block/ruby_ore.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ruby_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:ruby_ore"
+          }
+        ]
+      }
+    },
+    "pyrite_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:pyrite_ore"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ruby_ore",
+      "pyrite_ore"
+    ]
+  ]
+}
