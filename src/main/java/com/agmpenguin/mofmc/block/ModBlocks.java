@@ -28,6 +28,10 @@ public class ModBlocks {
             "ruby_ore", () -> new Block(AbstractBlock.Properties.create(
                     Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(3.0F, 3.0F)));
 
+    public static final RegistryObject<Block> NETHER_RUBY_ORE = registerBlock(
+            "nether_ruby_ore", () -> new Block(AbstractBlock.Properties.create(
+                    Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(3.0F, 3.0F)));
+
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock(
             "ruby_block", () -> new Block(AbstractBlock.Properties.create(
                     Material.IRON).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5.0F, 6.0F)));

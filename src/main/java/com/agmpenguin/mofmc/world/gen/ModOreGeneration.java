@@ -19,6 +19,7 @@ import java.util.Arrays;
 public class ModOreGeneration {
     public static void generateOres(final BiomeLoadingEvent event) {
         spawnOreInAllBiomes(OreType.RUBY, event, Dimension.OVERWORLD.toString());
+        spawnOreInAllBiomes(OreType.NETHER_RUBY, event, Dimension.THE_NETHER.toString());
         spawnOreInAllBiomes(OreType.PYRITE, event, Dimension.OVERWORLD.toString());
     }
 
