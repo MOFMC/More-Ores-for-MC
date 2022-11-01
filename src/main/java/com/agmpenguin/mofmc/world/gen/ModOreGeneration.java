@@ -28,11 +28,17 @@ public class ModOreGeneration {
                 .getDefaultState(), ore.getMaxVeinSize());
     }
 
+    private static OreFeatureConfig getNetherfeatureConfig( OreType ore) {
+        return new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK, ore.getBlock().get()
+                .getDefaultState(), ore.getMaxVeinSize());
+    }
     private static ConfiguredFeature<?, ?> makeOreFeature(OreType ore, String dimensionToSpawnIn) {
         OreFeatureConfig oreFeatureConfig = null;
 
         if(dimensionToSpawnIn.equals(Dimension.OVERWORLD.toString())) {
             oreFeatureConfig = getOverworldfeatureConfig(ore);
+        } else if(dimensionToSpawnIn.equals(Dimension.THE_NETHER.toString())) {
+            oreFeatureConfig = getNetherfeatureConfig(ore);
         }
 
         ConfiguredPlacement<TopSolidRangeConfig> configuredPlacement = Placement.RANGE.configure(new
