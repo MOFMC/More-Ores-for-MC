@@ -7,7 +7,7 @@ import net.minecraftforge.common.util.Lazy;
 public enum OreType {
 
     RUBY(Lazy.of(ModBlocks.RUBY_ORE), 5, 1, 15, 1),
-    NETHER_RUBY(Lazy.of(ModBlocks.NETHER_RUBY_ORE), 2, 1, 128, 1),
+    NETHER_RUBY(Lazy.of(ModBlocks.NETHER_RUBY_ORE), 5, 1, 255, 3),
     PYRITE(Lazy.of(ModBlocks.PYRITE_ORE), 9, 1, 56, 5);
 
     private final Lazy<Block> block;
