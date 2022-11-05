@@ -7,19 +7,9 @@ import net.minecraftforge.common.util.Lazy;
 public enum OreType {
 
     RUBY(Lazy.of(ModBlocks.RUBY_ORE), 5, 1, 15, 1),
-    NETHER_RUBY(Lazy.of(ModBlocks.NETHER_RUBY_ORE), 5, 1, 128, 5),
+    NETHER_RUBY(Lazy.of(ModBlocks.NETHER_RUBY_ORE), 5, 1, 128, 3),
     PYRITE(Lazy.of(ModBlocks.PYRITE_ORE), 9, 1, 56, 5),
-    NETHER_PYRITE(Lazy.of(ModBlocks.NETHER_PYRITE_ORE), 5, 1, 128, 5);
-
-//    NETHER_GOLD_ORE
-//    public static final ConfiguredFeature<?, ?> ORE_GOLD_NETHER = register("ore_gold_nether", Feature.ORE.withConfiguration(new OreFeatureConfig(OreFeatureConfig
-//    .FillerBlockType.NETHERRACK, Features.States.NETHER_GOLD_ORE, 10)).withPlacement(Features.Placements.NETHER_SPRING_ORE_PLACEMENT).square().count(10));
-//
-//    public static final ConfiguredFeature<?, ?> ORE_GOLD = register("ore_gold", Feature.ORE.withConfiguration(
-//    new OreFeatureConfig(OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, Features.States.GOLD_ORE, 9)).range(32).square().count(2));
-//
-//    Normal 32
-//    Nether 128
+    NETHER_PYRITE(Lazy.of(ModBlocks.NETHER_PYRITE_ORE), 7, 1, 128, 5);
 
     private final Lazy<Block> block;
     private final int maxVeinSize;

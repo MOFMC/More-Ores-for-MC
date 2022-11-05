@@ -51,7 +51,6 @@ public class ModBlocks {
             "pyrite_block", () -> new Block(AbstractBlock.Properties.create(
                     Material.IRON).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5.0F, 6.0F)));
 
-    // ItemStack
 
     private static <T extends Block>RegistryObject<T> registerBlock(
             String name, Supplier<T> block) {
