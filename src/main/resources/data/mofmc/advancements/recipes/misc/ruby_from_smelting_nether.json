@@ -14,7 +14,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "mofmc:ruby_from_smelting_nether"
+        "recipe": "mofmc:ruby_from_smelting"
       }
     }
   },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "mofmc:ruby_from_smelting_nether"
+      "mofmc:ruby_from_smelting"
     ]
   }
 }

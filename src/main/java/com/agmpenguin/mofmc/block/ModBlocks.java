@@ -43,10 +43,15 @@ public class ModBlocks {
             "pyrite_ore", () -> new Block(AbstractBlock.Properties.create(
                     Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(3.0F, 3.0F)));
 
+    public static final RegistryObject<Block> NETHER_PYRITE_ORE = registerBlock(
+            "nether_pyrite_ore", () -> new Block(AbstractBlock.Properties.create(
+                    Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(3.0F, 3.0F)));
+
     public static final RegistryObject<Block> PYRITE_BLOCK = registerBlock(
             "pyrite_block", () -> new Block(AbstractBlock.Properties.create(
                     Material.IRON).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5.0F, 6.0F)));
 
+    // ItemStack
 
     private static <T extends Block>RegistryObject<T> registerBlock(
             String name, Supplier<T> block) {

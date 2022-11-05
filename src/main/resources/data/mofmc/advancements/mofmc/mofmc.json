@@ -40,12 +40,23 @@
           }
         ]
       }
+    },
+    "nether_pyrite_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:nether_pyrite_ore"
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
       "ruby_ore",
       "nether_ruby_ore",
+      "nether_pyrite_ore",
       "pyrite_ore"
     ]
   ]

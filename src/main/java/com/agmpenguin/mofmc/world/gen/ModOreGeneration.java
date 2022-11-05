@@ -21,6 +21,7 @@ public class ModOreGeneration {
         spawnOreInAllBiomes(OreType.RUBY, event, Dimension.OVERWORLD.toString());
         spawnOreInAllBiomes(OreType.NETHER_RUBY, event, Dimension.THE_NETHER.toString());
         spawnOreInAllBiomes(OreType.PYRITE, event, Dimension.OVERWORLD.toString());
+        spawnOreInAllBiomes(OreType.NETHER_PYRITE, event, Dimension.THE_NETHER.toString());
     }
 
     private static OreFeatureConfig getOverworldfeatureConfig(OreType ore) {

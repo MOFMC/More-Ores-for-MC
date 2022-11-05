@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "mofmc:ruby_ore"
+    "tag": "forge:ores/ruby"
   },
   "result": "mofmc:ruby",
   "experience": 1.0,

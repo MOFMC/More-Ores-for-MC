@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "mofmc:nether_ruby_ore"
-  },
-  "result": "mofmc:ruby",
-  "experience": 1.0,
-  "cookingtime": 100
-}

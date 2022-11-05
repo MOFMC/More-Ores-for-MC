@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "mofmc:pyrite_ore"
+    "tag": "forge:ores/pyrite"
   },
   "result": "mofmc:pyrite_ingot",
   "experience": 1.0,
