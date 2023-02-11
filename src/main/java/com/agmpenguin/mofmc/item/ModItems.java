@@ -13,10 +13,10 @@ public class ModItems {
             .ITEMS, mofmc.MOD_ID);
 
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
-            () -> new Item(new Item.Properties().tab(ModItemGroup.MOFMC_TAB)));
+            () -> new Item(new Item.Properties().tab(ModTab.MOFMC_TAB)));
 
     public static final RegistryObject<Item> PYRITE_INGOT = ITEMS.register("pyrite_ingot",
-            () -> new Item(new Item.Properties().tab(ModItemGroup.MOFMC_TAB)));
+            () -> new Item(new Item.Properties().tab(ModTab.MOFMC_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

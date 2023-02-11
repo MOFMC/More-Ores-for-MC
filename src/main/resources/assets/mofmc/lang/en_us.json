@@ -2,5 +2,10 @@
   "item.mofmc.ruby": "Ruby",
   "item.mofmc.pyrite_ingot": "Pyrite Ingot",
 
+  "block.mofmc.ruby_ore": "Ruby Ore",
+  "block.mofmc.pyrite_ore": "Pyrite Ore",
+
+  "block.mofmc.ruby_block": "Block of Ruby",
+
   "itemGroup.mofmctab": "MOFMC"
 }

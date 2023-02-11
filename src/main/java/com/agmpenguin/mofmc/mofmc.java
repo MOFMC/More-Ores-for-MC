@@ -1,5 +1,6 @@
 package com.agmpenguin.mofmc;
 
+import com.agmpenguin.mofmc.block.ModBlocks;
 import com.agmpenguin.mofmc.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -21,6 +22,7 @@ public class mofmc {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
