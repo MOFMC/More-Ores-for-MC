@@ -27,6 +27,14 @@ public class ModBlocks {
             (BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModTab.MOFMC_TAB);
 
+    public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore", () -> new
+            DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f)
+            .requiresCorrectToolForDrops(), UniformInt.of(3,7)), ModTab.MOFMC_TAB);
+
+    public static final RegistryObject<Block> NETHER_RUBY_ORE = registerBlock("nether_ruby_ore", () -> new
+            DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f)
+            .requiresCorrectToolForDrops(), UniformInt.of(3,7)), ModTab.MOFMC_TAB);
+
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block", () -> new Block
             (BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModTab
             .MOFMC_TAB);
@@ -35,6 +43,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> PYRITE_ORE = registerBlock("pyrite_ore", () -> new
              DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f)
              .requiresCorrectToolForDrops(), UniformInt.of(3,7)), ModTab.MOFMC_TAB);
+
+    public static final RegistryObject<Block> DEEPSLATE_PYRITE_ORE = registerBlock("deepslate_pyrite_ore", () -> new
+            DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f)
+            .requiresCorrectToolForDrops(), UniformInt.of(3,7)), ModTab.MOFMC_TAB);
+
+    public static final RegistryObject<Block> NETHER_PYRITE_ORE = registerBlock("nether_pyrite_ore", () -> new
+            DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f)
+            .requiresCorrectToolForDrops(), UniformInt.of(3,7)), ModTab.MOFMC_TAB);
 
     public static final RegistryObject<Block> PYRITE_BLOCK = registerBlock("pyrite_block", () -> new Block
             (BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModTab

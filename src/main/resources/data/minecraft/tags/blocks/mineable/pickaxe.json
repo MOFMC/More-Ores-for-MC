@@ -1,8 +1,12 @@
 {
   "values": [
     "mofmc:ruby_ore",
+    "mofmc:deepslate_ruby_ore",
+    "mofmc:nether_ruby_ore",
     "mofmc:ruby_block",
     "mofmc:pyrite_ore",
+    "mofmc:deepslate_pyrite_ore",
+    "mofmc:nether_pyrite_ore",
     "mofmc:pyrite_block"
   ]
 }

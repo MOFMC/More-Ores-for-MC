@@ -2,6 +2,8 @@ package com.agmpenguin.mofmc;
 
 import com.agmpenguin.mofmc.block.ModBlocks;
 import com.agmpenguin.mofmc.item.ModItems;
+import com.agmpenguin.mofmc.world.feature.ModConfiguredFeatures;
+import com.agmpenguin.mofmc.world.feature.ModPlacedFeatures;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +25,9 @@ public class mofmc {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
