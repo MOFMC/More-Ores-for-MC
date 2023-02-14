@@ -7,6 +7,8 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraftforge.registries.IForgeRegistry;
+import net.minecraftforge.registries.tags.ITagManager;
 
 public class mofmcTags {
 
@@ -25,7 +27,8 @@ public class mofmcTags {
 
     public static class Items {
 
-        public static final TagKey<Item> MATERIAL_1 = createTag("one");
+        public static final TagKey<Item> RUBY_ORES = createForgeTag("ores/ruby");
+//        public static final TagKey<Item> MATERIAL_1 = createTag("one");
         private static TagKey<Item> createTag(String location) {
             return ItemTags.create(new ResourceLocation(mofmc.MOD_ID, location));
         }

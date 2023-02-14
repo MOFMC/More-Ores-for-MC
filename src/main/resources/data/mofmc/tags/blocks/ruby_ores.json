@@ -1,0 +1,8 @@
+{
+  "replace": "false",
+  "values": [
+    "mofmc:ruby_ore",
+    "mofmc:deepslate_ruby_ore",
+    "mofmc:nether_ruby_ore"
+  ]
+}
