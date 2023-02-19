@@ -53,11 +53,4 @@ public class ModConfiguredFeatures {
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_PYRITE_ORE = CONFIGURED_FEATURES.register(
             "nether_pyrite_ore", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_PYRITE_ORES
                     .get(), 7)));
-
-    // public static final RegistryObject<ConfiguredFeature<?, ?>> ORE_NAME = CONFIGURED_FEATURES.register(
-    // "name", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(ORE_LIST.get(), veinSize);
-
-    // ORE_NAME(Lazy.of(ModBlocks.ORE), veinSize, minHeight, maxHeight, veinsPerChunk)
-
-    //    RUBY(Lazy.of(ModBlocks.RUBY_ORE), 5, 1, 15, 1),
 }
