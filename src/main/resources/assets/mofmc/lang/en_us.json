@@ -1,6 +1,8 @@
 {
   "item.mofmc.ruby": "Ruby",
+  "item.mofmc.raw_ruby": "Raw Ruby",
   "item.mofmc.pyrite_ingot": "Pyrite Ingot",
+  "item.mofmc.raw_pyrite": "Raw Pyrite",
 
   "block.mofmc.ruby_ore": "Ruby Ore",
   "block.mofmc.deepslate_ruby_ore": "Deepslate Ruby Ore",

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mofmc:ruby_ore"
+          "name": "mofmc:raw_ruby"
         }
       ]
     }

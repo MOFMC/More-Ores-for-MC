@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mofmc:pyrite_ore"
+          "name": "mofmc:raw_pyrite"
         }
       ]
     }

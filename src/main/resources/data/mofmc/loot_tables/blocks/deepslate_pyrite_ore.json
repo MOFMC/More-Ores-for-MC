@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mofmc:deepslate_pyrite_ore"
+          "name": "mofmc:raw_pyrite"
         }
       ]
     }

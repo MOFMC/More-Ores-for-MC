@@ -40,15 +40,15 @@ public class ModConfiguredFeatures {
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> RUBY_ORE = CONFIGURED_FEATURES.register(
             "ruby_ore", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES
-                    .get(), 7)));
+                    .get(), 5)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_RUBY_ORE = CONFIGURED_FEATURES.register(
             "nether_ruby_ore", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_RUBY_ORES
-                    .get(), 7)));
+                    .get(), 5)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> PYRITE_ORE = CONFIGURED_FEATURES.register(
             "pyrite_ore", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_PYRITE_ORES
-                    .get(), 7)));
+                    .get(), 9)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_PYRITE_ORE = CONFIGURED_FEATURES.register(
             "nether_pyrite_ore", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_PYRITE_ORES
