@@ -1,7 +1,10 @@
 package com.agmpenguin.mofmc.world.feature;
 
 import com.agmpenguin.mofmc.mofmc;
+import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
+import net.minecraft.data.worldgen.features.OreFeatures;
+import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.placement.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,6 +23,9 @@ public class ModPlacedFeatures {
                     commonOrePlacement(7,
                         HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80),
                                 VerticalAnchor.aboveBottom(80)))));
+
+    public static final Holder<PlacedFeature> ORE_GOLD = PlacementUtils.register("ore_gold", OreFeatures.ORE_GOLD_BURIED, commonOrePlacement(4, HeightRangePlacement.triangle(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(32))));
+
 
     public static final RegistryObject<PlacedFeature> NETHER_RUBY_ORE_PLACED = PLACED_FEATURES.register("nether_ruby_ore_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.NETHER_RUBY_ORE.getHolder().get(),
