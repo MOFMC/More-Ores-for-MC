@@ -23,56 +23,32 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, mofmc.MOD_ID);
 
     // RUBY
-    /*
-     public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore", () -> new DropExperienceBlock
-            (BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),
-                    UniformInt.of(3,7)), ModTab.MOFMC_TAB);
-     */
 
     public static final RegistryObject<Block> RUBY_ORE = registerOre("ruby_ore", 6f, 3,7);
 
-    public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore", () -> new
-            DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f)
-            .requiresCorrectToolForDrops(), UniformInt.of(3,7)), ModTab.MOFMC_TAB);
+    public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerOre("deepslate_ruby_ore", 6f,
+            3, 7);
 
-    public static final RegistryObject<Block> NETHER_RUBY_ORE = registerBlock("nether_ruby_ore", () -> new
-            DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f)
-            .requiresCorrectToolForDrops(), UniformInt.of(3,7)), ModTab.MOFMC_TAB);
+    public static final RegistryObject<Block> NETHER_RUBY_ORE = registerOre("nether_ruby_ore", 6f,
+            3, 7);
 
-    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block", () -> new Block
-            (BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModTab
-            .MOFMC_TAB);
+    public static final RegistryObject<Block> RUBY_BLOCK = rB("ruby_block", 6f);
 
      // PYRITE ORE
-    public static final RegistryObject<Block> PYRITE_ORE = registerBlock("pyrite_ore", () -> new
-             DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f)
-             .requiresCorrectToolForDrops(), UniformInt.of(3,7)), ModTab.MOFMC_TAB);
+     public static final RegistryObject<Block> PYRITE_ORE = registerOre("pyrite_ore", 6f, 3,7);
 
-    public static final RegistryObject<Block> DEEPSLATE_PYRITE_ORE = registerBlock("deepslate_pyrite_ore", () -> new
-            DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f)
-            .requiresCorrectToolForDrops(), UniformInt.of(3,7)), ModTab.MOFMC_TAB);
+    public static final RegistryObject<Block> DEEPSLATE_PYRITE_ORE = registerOre("deepslate_pyrite_ore", 6f,
+            3, 7);
 
-    public static final RegistryObject<Block> NETHER_PYRITE_ORE = registerBlock("nether_pyrite_ore", () -> new
-            DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f)
-            .requiresCorrectToolForDrops(), UniformInt.of(3,7)), ModTab.MOFMC_TAB);
+    public static final RegistryObject<Block> NETHER_PYRITE_ORE = registerOre("nether_pyrite_ore", 6f,
+            3, 7);
 
-    public static final RegistryObject<Block> PYRITE_BLOCK = registerBlock("pyrite_block", () -> new Block
-            (BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModTab
-            .MOFMC_TAB);
+    public static final RegistryObject<Block> PYRITE_BLOCK = registerBlock("pyrite_block", 6f);
 
-/*
-    private static <T extends Block>RegistryObject<T> registerBlock(
-            String name, Supplier<T> block, CreativeModeTab tab) {
-        RegistryObject<T> toReturn = BLOCKS.register(name, block);
-         registerBlockItem(name, toReturn, tab);
-        return toReturn;
-    }
- */
-
-    private static <T extends Block>RegistryObject<T> registerBlock(
-            String name, Supplier<T> block, CreativeModeTab tab) {
-        RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        registerBlockItem(name, toReturn, tab);
+    private static RegistryObject<Block> registerBlock(String name, float strength) {
+        RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new Block(BlockBehaviour.Properties.of(Material
+                        .STONE).strength(strength).requiresCorrectToolForDrops()));
+        registerBlockItem(name, toReturn, ModTab.MOFMC_TAB);
         return toReturn;
     }
 
