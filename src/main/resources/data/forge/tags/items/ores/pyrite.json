@@ -1,0 +1,9 @@
+{
+  "replace": "false",
+  "values": [
+    "mofmc:pyrite_ore",
+    "mofmc:deepslate_pyrite_ore",
+    "mofmc:nether_pyrite_ore",
+    "mofmc:raw_pyrite"
+  ]
+}

@@ -4,7 +4,7 @@
   "experience": 0.7,
   "group": "pyrite_ingot",
   "ingredient": {
-    "item": "mofmc:pyrite_ore"
+    "tag": "forge:ores/pyrite"
   },
   "result": "mofmc:pyrite_ingot"
 }

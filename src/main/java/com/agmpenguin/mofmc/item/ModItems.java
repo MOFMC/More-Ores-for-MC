@@ -13,21 +13,13 @@ public class ModItems {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries
                 .ITEMS, mofmc.MOD_ID);
 
-        /*
-        public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
-                () -> new Item(new Item.Properties().tab(ModTab.MOFMC_TAB)));
-        */
-
         public static final RegistryObject<Item> RUBY = createModItem("ruby");
 
-        public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby",
-                () -> new Item(new Item.Properties().tab(ModTab.MOFMC_TAB)));
+        public static final RegistryObject<Item> RAW_RUBY = createModItem("raw_ruby");
 
-        public static final RegistryObject<Item> PYRITE_INGOT = ITEMS.register("pyrite_ingot",
-                () -> new Item(new Item.Properties().tab(ModTab.MOFMC_TAB)));
+        public static final RegistryObject<Item> PYRITE_INGOT = createModItem("pyrite_ingot");
 
-        public static final RegistryObject<Item> RAW_PYRITE = ITEMS.register("raw_pyrite",
-                () -> new Item(new Item.Properties().tab(ModTab.MOFMC_TAB)));
+        public static final RegistryObject<Item> RAW_PYRITE = createModItem("raw_pyrite");
 
         private static RegistryObject<Item> createModItem(String name) {
             return ITEMS.register(name, () -> new Item(new Item.Properties().tab(ModTab.MOFMC_TAB)));

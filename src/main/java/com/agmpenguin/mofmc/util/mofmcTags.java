@@ -28,7 +28,8 @@ public class mofmcTags {
     public static class Items {
 
         public static final TagKey<Item> RUBY_ORES = createForgeTag("ores/ruby");
-//        public static final TagKey<Item> MATERIAL_1 = createTag("one");
+        public static final TagKey<Item> PYRITE_ORES = createForgeTag("ores/pyrite");
+        //        public static final TagKey<Item> MATERIAL_1 = createTag("one");
         private static TagKey<Item> createTag(String location) {
             return ItemTags.create(new ResourceLocation(mofmc.MOD_ID, location));
         }

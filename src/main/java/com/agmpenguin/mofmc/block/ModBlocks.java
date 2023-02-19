@@ -23,9 +23,13 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, mofmc.MOD_ID);
 
     // RUBY
+    /*
      public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore", () -> new DropExperienceBlock
             (BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModTab.MOFMC_TAB);
+     */
+
+    public static final RegistryObject<Block> RUBY_ORE = registerOre("ruby_ore", 6f, 3,7);
 
     public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore", () -> new
             DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f)
@@ -56,10 +60,30 @@ public class ModBlocks {
             (BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModTab
             .MOFMC_TAB);
 
+/*
     private static <T extends Block>RegistryObject<T> registerBlock(
             String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
          registerBlockItem(name, toReturn, tab);
+        return toReturn;
+    }
+ */
+
+    private static <T extends Block>RegistryObject<T> registerBlock(
+            String name, Supplier<T> block, CreativeModeTab tab) {
+        RegistryObject<T> toReturn = BLOCKS.register(name, block);
+        registerBlockItem(name, toReturn, tab);
+        return toReturn;
+    }
+
+    private static RegistryObject<Block> registerOre(String name, float strength, int minExp, int maxExp) {
+        RegistryObject<Block> toReturn = BLOCKS.register(name,
+                () -> new DropExperienceBlock(
+                        BlockBehaviour.Properties.of(Material.STONE).strength(strength).requiresCorrectToolForDrops(),
+                        UniformInt.of(minExp, maxExp)
+                )
+        );
+        registerBlockItem(name, toReturn, ModTab.MOFMC_TAB);
         return toReturn;
     }
 
