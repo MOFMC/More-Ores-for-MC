@@ -32,7 +32,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> NETHER_RUBY_ORE = registerOre("nether_ruby_ore", 6f,
             3, 7);
 
-    public static final RegistryObject<Block> RUBY_BLOCK = rB("ruby_block", 6f);
+    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block", 6f);
 
      // PYRITE ORE
      public static final RegistryObject<Block> PYRITE_ORE = registerOre("pyrite_ore", 6f, 3,7);
