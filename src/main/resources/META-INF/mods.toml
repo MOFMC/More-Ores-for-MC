@@ -45,6 +45,15 @@ description='''
 Created by AGMPenguin
 Programmed by AGMPenguin
 Textures by AGMPenguin and CDMTurtle
+
+This is a beta version of the mod. The features it currently lacks could include any of the following, any may include features not listed here:
+- Additional Block(s)
+- Texture Changes
+- Ore Generation Changes
+- Different Advancements (both main advancements and recipe advancements)
+- Tool Changes
+- Armor Changes
+- Weapon Changes
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mofmc]] #optional
