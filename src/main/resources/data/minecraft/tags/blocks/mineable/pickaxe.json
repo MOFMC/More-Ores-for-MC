@@ -10,6 +10,7 @@
     "mofmc:pyrite_block",
     "mofmc:titanium_ore",
     "mofmc:deepslate_titanium_ore",
-    "mofmc:nether_titanium_ore"
+    "mofmc:nether_titanium_ore",
+    "mofmc:titanium_block"
   ]
 }

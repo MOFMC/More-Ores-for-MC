@@ -40,36 +40,30 @@ public class ModConfiguredFeatures {
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_PYRITE_ORES = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_PYRITE_ORE.get().defaultBlockState())));
 
-    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_TITANIUM_ORES = Suppliers.memoize(() -> List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TITANIUM_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_TITANIUM_ORE.get().defaultBlockState())));
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_TITANIUM_ORES = createOverworldOreList(ModBlocks.TITANIUM_ORE, ModBlocks.DEEPSLATE_TITANIUM_ORE);
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_TITANIUM_ORES = createNetherOreList(ModBlocks.NETHER_TITANIUM_ORE);
 
-    public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_TITANIUM_ORES = Suppliers.memoize(() -> List.of(
-            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_TITANIUM_ORE.get().defaultBlockState())));
-
-    public static final RegistryObject<ConfiguredFeature<?, ?>> RUBY_ORE = CONFIGURED_FEATURES.register(
-            "ruby_ore", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES
-                    .get(), 5)));
-
-    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_RUBY_ORE = CONFIGURED_FEATURES.register(
-            "nether_ruby_ore", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_RUBY_ORES
-                    .get(), 5)));
-
-    public static final RegistryObject<ConfiguredFeature<?, ?>> PYRITE_ORE = CONFIGURED_FEATURES.register(
-            "pyrite_ore", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_PYRITE_ORES
-                    .get(), 9)));
-
-    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_PYRITE_ORE = CONFIGURED_FEATURES.register(
-            "nether_pyrite_ore", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_PYRITE_ORES
-                    .get(), 7)));
+    public static final RegistryObject<ConfiguredFeature<?, ?>> RUBY_ORE = createOre("ruby_ore", OVERWORLD_RUBY_ORES, 5);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_RUBY_ORE = createOre("nether_ruby_ore", NETHER_RUBY_ORES, 5);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> PYRITE_ORE = createOre("pyrite_ore", OVERWORLD_PYRITE_ORES, 9);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_PYRITE_ORE = createOre("nether_pyrite_ore", NETHER_PYRITE_ORES, 7);
 
     // NEEDS EDITING
-    public static final RegistryObject<ConfiguredFeature<?, ?>> TITANIUM_ORE = createOre("titanium_ore", OVERWORLD_TITANIUM_ORES.get(), 7);
-    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_TITANIUM_ORE = createOre("nether_titanium_ore", NETHER_TITANIUM_ORES.get(), 7);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> TITANIUM_ORE = createOre("titanium_ore", OVERWORLD_TITANIUM_ORES, 7);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_TITANIUM_ORE = createOre("nether_titanium_ore", NETHER_TITANIUM_ORES, 7);
 
-    private static RegistryObject<ConfiguredFeature<?, ?>> createOre(String name, List<OreConfiguration.TargetBlockState> oreList, int maxVeinSize) {
+    private static RegistryObject<ConfiguredFeature<?, ?>> createOre(String name, Supplier<List<OreConfiguration.TargetBlockState>> oreList, int maxVeinSize) {
         return CONFIGURED_FEATURES.register(
-                name, () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreList, maxVeinSize)));
+                name, () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreList.get(), maxVeinSize)));
+    }
+
+    private static Supplier<List<OreConfiguration.TargetBlockState>> createOverworldOreList(RegistryObject<Block> block1, RegistryObject<Block> block2) {
+        return Suppliers.memoize(() -> List.of(OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, block1.get().defaultBlockState()),
+                OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, block2.get().defaultBlockState())));
+    }
+
+    private static Supplier<List<OreConfiguration.TargetBlockState>> createNetherOreList(RegistryObject<Block> block1) {
+        return Suppliers.memoize(() -> List.of(OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, block1.get().defaultBlockState())));
     }
 
 }

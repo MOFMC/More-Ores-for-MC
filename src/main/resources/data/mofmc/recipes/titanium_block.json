@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mofmc:titanium_rod"
+    }
+  },
+  "result": {
+    "item": "mofmc:titanium_block"
+  }
+}

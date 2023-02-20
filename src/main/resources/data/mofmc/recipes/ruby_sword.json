@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting/shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " T "
+  ],
+  "key": {
+    "#": {
+      "item": "mofmc:ruby"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mofmc:ruby_sword",
+    "count": 1
+  }
+}
