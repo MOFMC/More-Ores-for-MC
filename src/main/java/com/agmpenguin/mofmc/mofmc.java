@@ -15,7 +15,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(mofmc.MOD_ID)
 public class mofmc {
     public static final String MOD_ID = "mofmc";
@@ -38,7 +37,6 @@ public class mofmc {
 
     }
 
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
@@ -47,3 +45,16 @@ public class mofmc {
         }
     }
 }
+
+/*
+To simulate 1.16.5's spawn rates, do the following:
+In ModConfiguredFeatures, replace p_161014_ with maxVeinSize
+In ModPlacedFeatures, replace p_195344 with veinsPerChunk
+In ModPlacedFeatures, replace first p_158923_ with minHeight
+In ModPlacedFeatures, replace second p_158923_ with maxHeight
+In ModPlacedFeatures, replace p_158931_ with the height above the bottom of the world (for Nether)
+In ModPlacedFeatures, replace p_158936_ with the height below the top of the world (for Nether)
+
+alt+f7
+shift shift
+*/

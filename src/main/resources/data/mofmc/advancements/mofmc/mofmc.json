@@ -1,0 +1,115 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:ruby"
+    },
+    "title": "MOFMC",
+    "description": "",
+    "background": "mofmc:textures/block/ruby_ore.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ruby_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:ruby_ore"
+          }
+        ]
+      }
+    },
+    "deepslate_ruby_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:deepslate_ruby_ore"
+          }
+        ]
+      }
+    },
+    "nether_ruby_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:nether_ruby_ore"
+          }
+        ]
+      }
+    },
+    "pyrite_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:pyrite_ore"
+          }
+        ]
+      }
+    },
+    "deepslate_pyrite_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:deepslate_pyrite_ore"
+          }
+        ]
+      }
+    },
+    "nether_pyrite_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:nether_pyrite_ore"
+          }
+        ]
+      }
+    },
+    "titanium_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:titanium_ore"
+          }
+        ]
+      }
+    },
+    "deepslate_titanium_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:deepslate_titanium_ore"
+          }
+        ]
+      }
+    },
+    "nether_titanium_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mofmc:nether_titanium_ore"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ruby_ore",
+      "nether_ruby_ore",
+      "nether_pyrite_ore",
+      "pyrite_ore",
+      "titanium_ore",
+      "nether_titanium_ore"
+    ]
+  ]
+}

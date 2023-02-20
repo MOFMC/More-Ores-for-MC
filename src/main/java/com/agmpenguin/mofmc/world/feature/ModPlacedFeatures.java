@@ -60,27 +60,10 @@ public class ModPlacedFeatures {
         PLACED_FEATURES.register(eventBus);
     }
 
-    // To simulate 1.16.5's spawn rates, do the following:
-    // In ModConfiguredFeatures, replace p_161014_ with maxVeinSize
-    // In ModPlacedFeatures, replace p_195344 with veinsPerChunk
-    // In ModPlacedFeatures, replace first p_158923_ with minHeight
-    // In ModPlacedFeatures, replace second p_158923_ with maxHeight
-    // In ModPlacedFeatures, replace p_158931_ with the height above the bottom of the world (for Nether)
-    // In ModPlacedFeatures, replace p_158936_ with the height below the top of the world (for Nether)
-
-    // veinsPerChunk for RUBY_ORE_PLACED should be between 1 and 7. The 1 is from 1.16.5 version, meaning that it does
-    // not factor for modern world limits. The 7 is from diamond's veinsPerChunk rate.
-
     /*
-    Ore Generation Parameters:
-        Name, maxVeinSize, minHeight, maxHeight, veinsPerChunk;
-        Overworld Ruby Ore, 7, -64, 16, 4;
-        Nether Ruby Ore, 7, AB10, BT10, 6;
-        Overworld Pyrite Ore, 7, -64, 57, 9;
-        Nether Pyrite Ore, 7, AB10, BT10, 7;
-     */
+    veinsPerChunk for RUBY_ORE_PLACED should be between 1 and 7. The 1 is from 1.16.5 version, meaning that it does
+    not factor for modern world limits. The 7 is from diamond's veinsPerChunk rate.
 
-    /*
     1.19.2-43.2.0_mapped_official_1.19.2\forge-1.19.2-43.2.0_mapped_official_1.19.2-sources.jar!\net\minecraft\data\
     worldgen\placement\OrePlacements.java
     */

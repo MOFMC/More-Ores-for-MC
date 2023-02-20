@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting/shaped",
+  "pattern": [
+    "###",
+    " T ",
+    " T "
+  ],
+  "key": {
+    "#": {
+      "item": "mofmc:ruby"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mofmc:ruby_pickaxe",
+    "count": 1
+  }
+}

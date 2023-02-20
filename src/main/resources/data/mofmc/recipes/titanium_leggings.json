@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting/shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "mofmc:titanium_rod"
+    }
+  },
+  "result": {
+    "item": "mofmc:titanium_leggings",
+    "count": 1
+  }
+}

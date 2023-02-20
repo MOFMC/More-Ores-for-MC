@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting/shaped",
+  "pattern": [
+    " # ",
+    " T ",
+    " T "
+  ],
+  "key": {
+    "#": {
+      "item": "mofmc:titanium_rod"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mofmc:titanium_shovel",
+    "count": 1
+  }
+}

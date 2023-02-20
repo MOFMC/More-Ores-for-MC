@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting/shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "mofmc:ruby"
+    }
+  },
+  "result": {
+    "item": "mofmc:ruby_boots",
+    "count": 1
+  }
+}

@@ -8,6 +8,38 @@
 
   "item.mofmc.ruby_sword": "Ruby Sword",
   "item.mofmc.pyrite_sword": "Pyrite Sword",
+  "item.mofmc.titanium_sword": "Titanium Sword",
+
+  "item.mofmc.ruby_pickaxe": "Ruby Pickaxe",
+  "item.mofmc.pyrite_pickaxe": "Pyrite Pickaxe",
+  "item.mofmc.titanium_pickaxe": "Titanium Pickaxe",
+
+  "item.mofmc.ruby_shovel": "Ruby Shovel",
+  "item.mofmc.pyrite_shovel": "Pyrite Shovel",
+  "item.mofmc.titanium_shovel": "Titanium Shovel",
+
+  "item.mofmc.ruby_axe": "Ruby Axe",
+  "item.mofmc.pyrite_axe": "Pyrite Axe",
+  "item.mofmc.titanium_axe": "Titanium Axe",
+
+  "item.mofmc.ruby_hoe": "Ruby Hoe",
+  "item.mofmc.pyrite_hoe": "Pyrite Hoe",
+  "item.mofmc.titanium_hoe": "Titanium Hoe",
+
+  "item.mofmc.ruby_helmet": "Ruby Helmet",
+  "item.mofmc.ruby_chestplate": "Ruby Chestplate",
+  "item.mofmc.ruby_leggings": "Ruby Leggings",
+  "item.mofmc.ruby_boots": "Ruby Boots",
+
+  "item.mofmc.pyrite_helmet": "Pyrite Helmet",
+  "item.mofmc.pyrite_chestplate": "Pyrite Chestplate",
+  "item.mofmc.pyrite_leggings": "Pyrite Leggings",
+  "item.mofmc.pyrite_boots": "Pyrite Boots",
+
+  "item.mofmc.titanium_helmet": "Titanium Helmet",
+  "item.mofmc.titanium_chestplate": "Titanium Chestplate",
+  "item.mofmc.titanium_leggings": "Titanium Leggings",
+  "item.mofmc.titanium_boots": "Titanium Boots",
 
   "block.mofmc.ruby_ore": "Ruby Ore",
   "block.mofmc.deepslate_ruby_ore": "Deepslate Ruby Ore",

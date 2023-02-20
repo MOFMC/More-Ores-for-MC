@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting/shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mofmc:pyrite_ingot"
+    }
+  },
+  "result": {
+    "item": "mofmc:pyrite_chestplate",
+    "count": 1
+  }
+}
