@@ -10,6 +10,9 @@
   "block.mofmc.pyrite_ore": "Pyrite Ore",
   "block.mofmc.deepslate_pyrite_ore": "Deepslate Pyrite Ore",
   "block.mofmc.nether_pyrite_ore": "Nether Pyrite Ore",
+  "block.mofmc.titanium_ore": "Titanium Ore",
+  "block.mofmc.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  "block.mofmc.nether_titanium_ore": "Nether Titanium Ore",
 
   "block.mofmc.ruby_block": "Block of Ruby",
   "block.mofmc.pyrite_block": "Block of Pyrite",

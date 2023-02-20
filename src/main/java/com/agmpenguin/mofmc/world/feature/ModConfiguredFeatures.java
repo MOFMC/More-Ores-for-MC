@@ -5,9 +5,11 @@ import com.agmpenguin.mofmc.mofmc;
 import com.google.common.base.Suppliers;
 import net.minecraft.core.Registry;
 import net.minecraft.data.worldgen.features.OreFeatures;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
+import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -38,6 +40,13 @@ public class ModConfiguredFeatures {
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_PYRITE_ORES = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_PYRITE_ORE.get().defaultBlockState())));
 
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_TITANIUM_ORES = Suppliers.memoize(() -> List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TITANIUM_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_TITANIUM_ORE.get().defaultBlockState())));
+
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_TITANIUM_ORES = Suppliers.memoize(() -> List.of(
+            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_TITANIUM_ORE.get().defaultBlockState())));
+
     public static final RegistryObject<ConfiguredFeature<?, ?>> RUBY_ORE = CONFIGURED_FEATURES.register(
             "ruby_ore", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES
                     .get(), 5)));
@@ -53,4 +62,14 @@ public class ModConfiguredFeatures {
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_PYRITE_ORE = CONFIGURED_FEATURES.register(
             "nether_pyrite_ore", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_PYRITE_ORES
                     .get(), 7)));
+
+    // NEEDS EDITING
+    public static final RegistryObject<ConfiguredFeature<?, ?>> TITANIUM_ORE = createOre("titanium_ore", OVERWORLD_TITANIUM_ORES.get(), 7);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_TITANIUM_ORE = createOre("nether_titanium_ore", NETHER_TITANIUM_ORES.get(), 7);
+
+    private static RegistryObject<ConfiguredFeature<?, ?>> createOre(String name, List<OreConfiguration.TargetBlockState> oreList, int maxVeinSize) {
+        return CONFIGURED_FEATURES.register(
+                name, () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(oreList, maxVeinSize)));
+    }
+
 }
