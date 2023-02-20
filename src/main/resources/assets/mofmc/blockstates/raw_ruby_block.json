@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "mofmc:block/raw_ruby_block" }
+  }
+}

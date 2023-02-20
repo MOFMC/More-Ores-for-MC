@@ -23,11 +23,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerOre("deepslate_ruby_ore", 6f,3, 7);
     public static final RegistryObject<Block> NETHER_RUBY_ORE = registerOre("nether_ruby_ore", 6f,3, 7);
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block", 6f);
+    public static final RegistryObject<Block> RAW_RUBY_BLOCK = registerBlock("raw_ruby_block", 6f);
      // PYRITE ORE
     public static final RegistryObject<Block> PYRITE_ORE = registerOre("pyrite_ore", 6f, 3,7);
     public static final RegistryObject<Block> DEEPSLATE_PYRITE_ORE = registerOre("deepslate_pyrite_ore", 6f,3, 7);
     public static final RegistryObject<Block> NETHER_PYRITE_ORE = registerOre("nether_pyrite_ore", 6f,3, 7);
     public static final RegistryObject<Block> PYRITE_BLOCK = registerBlock("pyrite_block", 6f);
+    public static final RegistryObject<Block> RAW_PYRITE_BLOCK = registerBlock("raw_pyrite_block", 6f);
     // TITANIUM ORE
     public static final RegistryObject<Block> TITANIUM_ORE = registerOre("titanium_ore", 6f, 3, 7);
     public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerOre("deepslate_titanium_ore", 6f, 3, 7);
@@ -56,7 +58,7 @@ public class ModBlocks {
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(
             String name, RegistryObject<T> block) {
-        return ModItems.Items.ITEMS.register(name, () -> new BlockItem(block.get(), new Item
+        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item
                 .Properties().tab(ModTab.MOFMC_TAB)));
     }
 

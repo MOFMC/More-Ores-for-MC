@@ -7,6 +7,7 @@
   "item.mofmc.titanium_dust": "Titanium Dust",
 
   "item.mofmc.ruby_sword": "Ruby Sword",
+  "item.mofmc.pyrite_sword": "Pyrite Sword",
 
   "block.mofmc.ruby_ore": "Ruby Ore",
   "block.mofmc.deepslate_ruby_ore": "Deepslate Ruby Ore",
@@ -19,7 +20,9 @@
   "block.mofmc.nether_titanium_ore": "Nether Titanium Ore",
 
   "block.mofmc.ruby_block": "Block of Ruby",
+  "block.mofmc.raw_ruby_block": "Block of Raw Ruby",
   "block.mofmc.pyrite_block": "Block of Pyrite",
+  "block.mofmc.raw_pyrite_block": "Block of Raw Pyrite",
   "block.mofmc.titanium_block": "Block of Titanium",
 
   "itemGroup.mofmctab": "MOFMC"

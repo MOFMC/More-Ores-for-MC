@@ -23,7 +23,7 @@ public class mofmc {
     public mofmc() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.Items.register(modEventBus);
+        ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
         ModConfiguredFeatures.register(modEventBus);

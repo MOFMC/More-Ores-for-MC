@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mofmc:raw_pyrite_block"
+    }
+  ],
+  "result": {
+    "item": "mofmc:raw_pyrite",
+    "count": 9
+  }
+}

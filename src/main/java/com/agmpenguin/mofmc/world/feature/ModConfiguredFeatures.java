@@ -26,20 +26,10 @@ public class ModConfiguredFeatures {
         CONFIGURED_FEATURES.register(eventBus);
     }
 
-    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_RUBY_ORES = Suppliers.memoize(() -> List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.RUBY_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_RUBY_ORE.get().defaultBlockState())));
-
-    public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_RUBY_ORES = Suppliers.memoize(() -> List.of(
-            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_RUBY_ORE.get().defaultBlockState())));
-
-    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_PYRITE_ORES = Suppliers.memoize(() -> List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.PYRITE_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_PYRITE_ORE.get().defaultBlockState())));
-
-    public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_PYRITE_ORES = Suppliers.memoize(() -> List.of(
-            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_PYRITE_ORE.get().defaultBlockState())));
-
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_RUBY_ORES = createOverworldOreList(ModBlocks.RUBY_ORE, ModBlocks.DEEPSLATE_RUBY_ORE);
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_RUBY_ORES = createNetherOreList(ModBlocks.NETHER_RUBY_ORE);
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_PYRITE_ORES = createOverworldOreList(ModBlocks.PYRITE_ORE, ModBlocks.DEEPSLATE_PYRITE_ORE);
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_PYRITE_ORES = createNetherOreList(ModBlocks.NETHER_PYRITE_ORE);
     public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_TITANIUM_ORES = createOverworldOreList(ModBlocks.TITANIUM_ORE, ModBlocks.DEEPSLATE_TITANIUM_ORE);
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_TITANIUM_ORES = createNetherOreList(ModBlocks.NETHER_TITANIUM_ORE);
 
@@ -47,7 +37,6 @@ public class ModConfiguredFeatures {
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_RUBY_ORE = createOre("nether_ruby_ore", NETHER_RUBY_ORES, 5);
     public static final RegistryObject<ConfiguredFeature<?, ?>> PYRITE_ORE = createOre("pyrite_ore", OVERWORLD_PYRITE_ORES, 9);
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_PYRITE_ORE = createOre("nether_pyrite_ore", NETHER_PYRITE_ORES, 7);
-
     // NEEDS EDITING
     public static final RegistryObject<ConfiguredFeature<?, ?>> TITANIUM_ORE = createOre("titanium_ore", OVERWORLD_TITANIUM_ORES, 7);
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_TITANIUM_ORE = createOre("nether_titanium_ore", NETHER_TITANIUM_ORES, 7);

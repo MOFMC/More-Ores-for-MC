@@ -32,7 +32,7 @@ public class ModPlacedFeatures {
             ModConfiguredFeatures.TITANIUM_ORE, 9, -64, 57);
     // NEEDS EDITING
     public static final RegistryObject<PlacedFeature> NETHER_TITANIUM_ORE_PLACED = createNetherOre("nether_titanium_ore_placed",
-            ModConfiguredFeatures.TITANIUM_ORE, 7, 10, 10);
+            ModConfiguredFeatures.NETHER_TITANIUM_ORE, 7, 10, 10);
 
 
     private static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {
