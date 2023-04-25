@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "purple_sapphire",
+  "ingredient": {
+    "tag": "forge:ores/purple_sapphire"
+  },
+  "result": "mofmc:purple_sapphire"
+}

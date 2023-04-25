@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:purple_sapphire"
+    }
+  },
+  "result": {
+    "item": "mofmc:purple_sapphire_block",
+    "count": 1
+  }
+}

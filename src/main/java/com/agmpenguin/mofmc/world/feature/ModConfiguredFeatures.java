@@ -32,6 +32,8 @@ public class ModConfiguredFeatures {
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_PYRITE_ORES = createNetherOreList(ModBlocks.NETHER_PYRITE_ORE);
     public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_TITANIUM_ORES = createOverworldOreList(ModBlocks.TITANIUM_ORE, ModBlocks.DEEPSLATE_TITANIUM_ORE);
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_TITANIUM_ORES = createNetherOreList(ModBlocks.NETHER_TITANIUM_ORE);
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_PURPLE_SAPPHIRE_ORES = createOverworldOreList(ModBlocks.PURPLE_SAPPHIRE_ORE, ModBlocks.DEEPSLATE_PURPLE_SAPPHIRE_ORE);
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_PURPLE_SAPPHIRE_ORES = createNetherOreList(ModBlocks.NETHER_PURPLE_SAPPHIRE_ORE);
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> RUBY_ORE = createOre("ruby_ore", OVERWORLD_RUBY_ORES, 5);
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_RUBY_ORE = createOre("nether_ruby_ore", NETHER_RUBY_ORES, 5);
@@ -40,6 +42,8 @@ public class ModConfiguredFeatures {
     // NEEDS EDITING
     public static final RegistryObject<ConfiguredFeature<?, ?>> TITANIUM_ORE = createOre("titanium_ore", OVERWORLD_TITANIUM_ORES, 7);
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_TITANIUM_ORE = createOre("nether_titanium_ore", NETHER_TITANIUM_ORES, 7);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> PURPLE_SAPPHIRE_ORE = createOre("purple_sapphire_ore", OVERWORLD_PURPLE_SAPPHIRE_ORES, 7);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_PURPLE_SAPPHIRE_ORE = createOre("nether_purple_sapphire_ore", NETHER_PURPLE_SAPPHIRE_ORES, 7);
 
     private static RegistryObject<ConfiguredFeature<?, ?>> createOre(String name, Supplier<List<OreConfiguration.TargetBlockState>> oreList, int maxVeinSize) {
         return CONFIGURED_FEATURES.register(

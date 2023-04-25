@@ -35,6 +35,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerOre("deepslate_titanium_ore", 6f, 3, 7);
     public static final RegistryObject<Block> NETHER_TITANIUM_ORE = registerOre("nether_titanium_ore", 6f, 3, 7);
     public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block", 6f);
+    // PURPLE SAPPHIRE ORE
+    public static final RegistryObject<Block> PURPLE_SAPPHIRE_ORE = registerOre("purple_sapphire_ore", 6f, 3, 7);
+    public static final RegistryObject<Block> DEEPSLATE_PURPLE_SAPPHIRE_ORE = registerOre("deepslate_purple_sapphire_ore", 6f, 3, 7);
+    public static final RegistryObject<Block> NETHER_PURPLE_SAPPHIRE_ORE = registerOre("nether_purple_sapphire_ore", 6f, 3, 7);
+    public static final RegistryObject<Block> PURPLE_SAPPHIRE_BLOCK = registerBlock("purple_sapphire_block", 6f);
+    public static final RegistryObject<Block> RAW_PURPLE_SAPPHIRE_BLOCK = registerBlock("raw_purple_sapphire_block", 6f);
     private static RegistryObject<Block> registerBlock(String name, float strength) {
         RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new Block(BlockBehaviour.Properties
                 .of(Material.STONE)

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM ",
+    "MO ",
+    " O "
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:purple_sapphire"
+    },
+    "O": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mofmc:purple_sapphire_axe",
+    "count": 1
+  }
+}

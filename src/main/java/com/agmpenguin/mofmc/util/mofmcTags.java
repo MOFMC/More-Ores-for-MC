@@ -30,6 +30,7 @@ public class mofmcTags {
         public static final TagKey<Item> RUBY_ORES = createForgeTag("ores/ruby");
         public static final TagKey<Item> PYRITE_ORES = createForgeTag("ores/pyrite");
         public static final TagKey<Item> TITANIUM_ORE = createForgeTag("ores/titanium");
+        public static final TagKey<Item> PURPLE_SAPPHIRE_ORE = createForgeTag("ores/purple_sapphire");
         private static TagKey<Item> createTag(String location) {
             return ItemTags.create(new ResourceLocation(mofmc.MOD_ID, location));
         }

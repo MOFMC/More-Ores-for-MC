@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:purple_sapphire"
+    }
+  },
+  "result": {
+    "item": "mofmc:purple_sapphire_leggings",
+    "count": 1
+  }
+}

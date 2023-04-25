@@ -1,0 +1,9 @@
+{
+  "replace": "false",
+  "values": [
+    "mofmc:purple_sapphire_ore",
+    "mofmc:deepslate_purple_sapphire_ore",
+    "mofmc:nether_purple_sapphire_ore",
+    "mofmc:raw_purple_sapphire"
+  ]
+}
