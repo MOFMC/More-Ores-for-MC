@@ -60,6 +60,9 @@ public class ModItems {
     public static final RegistryObject<Item> PURPLE_SAPPHIRE_LEGGINGS = createModArmor("purple_sapphire_leggings", "PURPLE_SAPPHIRE", EquipmentSlot.LEGS);
     public static final RegistryObject<Item> PURPLE_SAPPHIRE_BOOTS = createModArmor("purple_sapphire_boots", "PURPLE_SAPPHIRE", EquipmentSlot.FEET);
 
+    // public static final RegistryObject<Item> TIN = createModItem("tin");
+    // public static final RegistryObject<Item> RAW_TIN = createModItem("raw_tin");
+
     private static RegistryObject<Item> createModItem(String name) {
         return ITEMS.register(name, () -> new Item(new Item.Properties().tab(ModTab.MOFMC_TAB)));
     }
@@ -93,6 +96,8 @@ public class ModItems {
             return ITEMS.register(name, () -> new ArmorItem(ModArmorMaterialTitanium.TITANIUM, slot, new Item.Properties().tab(ModTab.MOFMC_TAB)));
         } else if (modArmorMaterial.equals("PURPLE_SAPPHIRE")) {
             return ITEMS.register(name, () -> new ArmorItem(ModArmorMaterialPurpleSapphire.PURPLE_SAPPHIRE, slot, new Item.Properties().tab(ModTab.MOFMC_TAB)));
+        } else if (modArmorMaterial.equals("TIN")) {
+            return null;
         } else {
             return null;
         }

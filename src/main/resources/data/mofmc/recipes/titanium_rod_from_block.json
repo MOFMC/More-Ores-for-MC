@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "mofmc:titanium_block"
@@ -7,6 +7,6 @@
   ],
   "result": {
     "item": "mofmc:titanium_rod",
-    "count": 1
+    "count": 9
   }
 }
