@@ -39,11 +39,10 @@ public class ModConfiguredFeatures {
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_RUBY_ORE = createOre("nether_ruby_ore", NETHER_RUBY_ORES, 5);
     public static final RegistryObject<ConfiguredFeature<?, ?>> PYRITE_ORE = createOre("pyrite_ore", OVERWORLD_PYRITE_ORES, 9);
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_PYRITE_ORE = createOre("nether_pyrite_ore", NETHER_PYRITE_ORES, 7);
-    // NEEDS EDITING
-    public static final RegistryObject<ConfiguredFeature<?, ?>> TITANIUM_ORE = createOre("titanium_ore", OVERWORLD_TITANIUM_ORES, 7);
-    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_TITANIUM_ORE = createOre("nether_titanium_ore", NETHER_TITANIUM_ORES, 7);
-    public static final RegistryObject<ConfiguredFeature<?, ?>> PURPLE_SAPPHIRE_ORE = createOre("purple_sapphire_ore", OVERWORLD_PURPLE_SAPPHIRE_ORES, 7);
-    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_PURPLE_SAPPHIRE_ORE = createOre("nether_purple_sapphire_ore", NETHER_PURPLE_SAPPHIRE_ORES, 7);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> TITANIUM_ORE = createOre("titanium_ore", OVERWORLD_TITANIUM_ORES, 6);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_TITANIUM_ORE = createOre("nether_titanium_ore", NETHER_TITANIUM_ORES, 5);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> PURPLE_SAPPHIRE_ORE = createOre("purple_sapphire_ore", OVERWORLD_PURPLE_SAPPHIRE_ORES, 5);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_PURPLE_SAPPHIRE_ORE = createOre("nether_purple_sapphire_ore", NETHER_PURPLE_SAPPHIRE_ORES, 6);
 
     private static RegistryObject<ConfiguredFeature<?, ?>> createOre(String name, Supplier<List<OreConfiguration.TargetBlockState>> oreList, int maxVeinSize) {
         return CONFIGURED_FEATURES.register(

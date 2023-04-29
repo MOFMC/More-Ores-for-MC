@@ -1,22 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "mofmc:ruby_block"
+      "item": "mofmc:titanium_block"
     },
-    "title": "I'm Rich!",
-    "description": "Obtain a Block of Ruby",
+    "title": "This Feels Sturdy",
+    "description": "Obtain a Block of Titanium.",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mofmc:mofmc/rubies",
+  "parent": "mofmc:mofmc/strength_is_everything",
   "criteria": {
     "inventory": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mofmc:ruby_block"
+            "items": [
+              "mofmc:titanium_block"
+            ]
           }
         ]
       }

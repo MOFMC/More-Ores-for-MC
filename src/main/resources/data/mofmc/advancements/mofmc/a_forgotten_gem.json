@@ -3,8 +3,8 @@
     "icon": {
       "item": "mofmc:ruby"
     },
-    "title": "Rubies!",
-    "description": "Obtain a Ruby",
+    "title": "A Forgotten Gem",
+    "description": "Obtain a Ruby.",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -16,7 +16,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mofmc:ruby"
+            "items": [
+              "mofmc:ruby"
+            ]
           }
         ]
       }

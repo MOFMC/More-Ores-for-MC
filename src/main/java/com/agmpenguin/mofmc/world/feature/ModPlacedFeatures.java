@@ -27,15 +27,14 @@ public class ModPlacedFeatures {
     public static final RegistryObject<PlacedFeature> NETHER_PYRITE_ORE_PLACED = createNetherOre("nether_pyrite_ore_placed",
             ModConfiguredFeatures.NETHER_PYRITE_ORE, 7, 10, 10);
 
-    // NEEDS EDITING
     public static final RegistryObject<PlacedFeature> TITANIUM_ORE_PLACED = createOverworldOre("titanium_ore_placed",
-            ModConfiguredFeatures.TITANIUM_ORE, 9, -64, 57);
+            ModConfiguredFeatures.TITANIUM_ORE, 5, -64, 32);
     public static final RegistryObject<PlacedFeature> NETHER_TITANIUM_ORE_PLACED = createNetherOre("nether_titanium_ore_placed",
-            ModConfiguredFeatures.NETHER_TITANIUM_ORE, 7, 10, 10);
+            ModConfiguredFeatures.NETHER_TITANIUM_ORE, 5, 10, 10);
     public static final RegistryObject<PlacedFeature> PURPLE_SAPPHIRE_ORE = createOverworldOre("purple_sapphire_ore_placed",
-            ModConfiguredFeatures.PURPLE_SAPPHIRE_ORE, 9, -64, 57);
+            ModConfiguredFeatures.PURPLE_SAPPHIRE_ORE, 5, -64, 25);
     public static final RegistryObject<PlacedFeature> NETHER_PURPLE_SAPPHIRE_ORE = createNetherOre("nether_purple_sapphire_ore_placed",
-            ModConfiguredFeatures.NETHER_PURPLE_SAPPHIRE_ORE, 7, 10, 10);
+            ModConfiguredFeatures.NETHER_PURPLE_SAPPHIRE_ORE, 6, 10, 10);
 
 
     private static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {

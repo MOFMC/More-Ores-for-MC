@@ -10,7 +10,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterialTitanium implements ArmorMaterial {
-    TITANIUM("titanium", 28, new int[]{3, 6, 8, 3}, 19, SoundEvents.ARMOR_EQUIP_IRON,
+    TITANIUM("titanium", 28, new int[]{3, 4, 6, 3}, 16, SoundEvents.ARMOR_EQUIP_IRON,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.TITANIUM_ROD.get()));
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;

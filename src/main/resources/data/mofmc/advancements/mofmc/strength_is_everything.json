@@ -1,22 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "mofmc:ruby"
+      "item": "mofmc:titanium_rod"
     },
-    "title": "MOFMC",
-    "description": "",
-    "background": "mofmc:textures/block/ruby_ore.png",
+    "title": "Strength is Everything",
+    "description": "Obtain a Titanium Rod.",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
+  "parent": "mofmc:mofmc/mofmc",
   "criteria": {
     "inventory": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "forge:mofmc/all"
+            "items": [
+              "mofmc:titanium_block"
+            ]
           }
         ]
       }

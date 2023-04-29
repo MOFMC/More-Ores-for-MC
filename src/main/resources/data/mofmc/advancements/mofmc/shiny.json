@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "mofmc:pyrite_ingot"
+      "item": "mofmc:purple_sapphire"
     },
-    "title": "Am I Rich?",
-    "description": "Obtain a Pyrite Ingot",
+    "title": "Shiny",
+    "description": "Obtain a Purple Sapphire.",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -16,7 +16,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mofmc:pyrite_ingot"
+            "items": [
+              "mofmc:purple_sapphire"
+            ]
           }
         ]
       }

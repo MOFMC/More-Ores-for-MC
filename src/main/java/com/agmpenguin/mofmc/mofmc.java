@@ -55,6 +55,8 @@ In ModPlacedFeatures, replace second p_158923_ with maxHeight
 In ModPlacedFeatures, replace p_158931_ with the height above the bottom of the world (for Nether)
 In ModPlacedFeatures, replace p_158936_ with the height below the top of the world (for Nether)
 
+Use Iron Armor as template
+
 alt+f7
 shift shift
 */

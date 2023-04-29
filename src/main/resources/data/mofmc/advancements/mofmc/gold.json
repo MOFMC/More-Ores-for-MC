@@ -1,22 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "mofmc:pyrite_block"
+      "item": "mofmc:pyrite_ingot"
     },
-    "title": "Bragging Rights?",
-    "description": "Obtain a Block of Pyrite",
+    "title": "Gold?",
+    "description": "Obtain a Pyrite Ingot.",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mofmc:mofmc/am_i_rich",
+  "parent": "mofmc:mofmc/mofmc",
   "criteria": {
     "inventory": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mofmc:pyrite_block"
+            "items": [
+              "mofmc:pyrite_ingot"
+            ]
           }
         ]
       }

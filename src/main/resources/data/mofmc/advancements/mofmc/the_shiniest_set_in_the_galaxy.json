@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:purple_sapphire_chestplate"
+    },
+    "title": "The Shiniest Set in the Galaxy",
+    "description": "Equip a Set of Purple Sapphire.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mofmc:mofmc/shiny",
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:purple_sapphire_helmet",
+              "mofmc:purple_sapphire_chestplate",
+              "mofmc:purple_sapphire_leggings",
+              "mofmc:purple_sapphire_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory"
+    ]
+  ]
+}

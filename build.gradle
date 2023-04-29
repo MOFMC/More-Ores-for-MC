@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.19.2-1.2.4-beta.2'
+version = '1.19.2-1.2.4-beta.3'
 group = 'com.agmpenguin.mofmc' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'mofmc'
 

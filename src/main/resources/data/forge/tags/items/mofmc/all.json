@@ -1,0 +1,25 @@
+{
+  "replace": "false",
+  "values": [
+    "mofmc:purple_sapphire_ore",
+    "mofmc:deepslate_purple_sapphire_ore",
+    "mofmc:nether_purple_sapphire_ore",
+    "mofmc:raw_purple_sapphire",
+    "mofmc:purple_sapphire",
+    "mofmc:pyrite_ore",
+    "mofmc:deepslate_pyrite_ore",
+    "mofmc:nether_pyrite_ore",
+    "mofmc:raw_pyrite",
+    "mofmc:pyrite_ingot",
+    "mofmc:ruby_ore",
+    "mofmc:deepslate_ruby_ore",
+    "mofmc:nether_ruby_ore",
+    "mofmc:raw_ruby",
+    "mofmc:ruby",
+    "mofmc:titanium_ore",
+    "mofmc:deepslate_titanium_ore",
+    "mofmc:nether_titanium_ore",
+    "mofmc:titanium_rod",
+    "mofmc:titanium_dust"
+  ]
+}

@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterialPurpleSapphire implements ArmorMaterial {
-    PURPLE_SAPPHIRE("purple_sapphire", 28, new int[]{3, 6, 8, 3}, 19, SoundEvents.ARMOR_EQUIP_DIAMOND,
+    PURPLE_SAPPHIRE("purple_sapphire", 28, new int[]{2, 4, 6, 2}, 19, SoundEvents.ARMOR_EQUIP_DIAMOND,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.PURPLE_SAPPHIRE.get()));
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;

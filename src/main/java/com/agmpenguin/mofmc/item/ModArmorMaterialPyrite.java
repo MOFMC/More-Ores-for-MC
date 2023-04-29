@@ -10,7 +10,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterialPyrite implements ArmorMaterial {
-    PYRITE("pyrite", 7, new int[]{1, 3, 5, 2}, 19, SoundEvents.ARMOR_EQUIP_GOLD,
+    PYRITE("pyrite", 7, new int[]{1, 3, 5, 2}, 12, SoundEvents.ARMOR_EQUIP_GOLD,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.PYRITE_INGOT.get()));
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;
