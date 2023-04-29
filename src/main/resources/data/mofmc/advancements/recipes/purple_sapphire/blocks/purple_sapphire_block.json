@@ -1,0 +1,34 @@
+{
+  "parent": "mofmc:recipes/root",
+  "criteria": {
+    "has_purple_sapphire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:purple_sapphire"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mofmc:purple_sapphire_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_purple_sapphire",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mofmc:purple_sapphire_block"
+    ]
+  }
+}
