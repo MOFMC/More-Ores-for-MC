@@ -1,14 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "##"
-  ],
-  "key": {
-    "#": {
-      "item": "mofmc:titanium_dust"
+  "ingredients": [
+    {
+      "item": "mofmc:titanium_block"
     }
-  },
+  ],
   "result": {
     "item": "mofmc:titanium_rod",
     "count": 1

@@ -1,13 +1,13 @@
 {
   "parent": "mofmc:recipes/root",
   "criteria": {
-    "has_block_of_raw_ruby": {
+    "has_raw_ruby_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "mofmc:block_of_raw_ruby"
+              "mofmc:raw_ruby_block"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_block_of_raw_ruby",
+      "has_raw_ruby_block",
       "has_the_recipe"
     ]
   ],
