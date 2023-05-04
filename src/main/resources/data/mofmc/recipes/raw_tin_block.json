@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "#": {
+      "item": "mofmc:raw_tin"
+    }
+  },
+  "result": {
+    "item": "mofmc:raw_tin_block",
+    "count": 1
+  }
+}

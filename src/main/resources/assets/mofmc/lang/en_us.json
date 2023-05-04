@@ -66,5 +66,22 @@
   "item.mofmc.purple_sapphire_leggings": "Purple Sapphire Leggings",
   "item.mofmc.purple_sapphire_boots": "Purple Sapphire Boots",
 
+  "item.mofmc.tin_ingot": "Tin Ingot",
+  "item.mofmc.raw_tin": "Raw Tin",
+  "block.mofmc.tin_ore": "Tin Ore",
+  "block.mofmc.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.mofmc.nether_tin_ore": "Nether Tin Ore",
+  "block.mofmc.tin_block": "Block of Tin",
+  "block.mofmc.raw_tin_block": "Block of Raw Tin",
+  "item.mofmc.tin_sword": "Tin Sword",
+  "item.mofmc.tin_pickaxe": "Tin Pickaxe",
+  "item.mofmc.tin_shovel": "Tin Shovel",
+  "item.mofmc.tin_axe": "Tin Axe",
+  "item.mofmc.tin_hoe": "Tin Hoe",
+  "item.mofmc.tin_helmet": "Tin Helmet",
+  "item.mofmc.tin_chestplate": "Tin Chestplate",
+  "item.mofmc.tin_leggings": "Tin Leggings",
+  "item.mofmc.tin_boots": "Tin Boots",
+
   "itemGroup.mofmctab": "MOFMC"
 }

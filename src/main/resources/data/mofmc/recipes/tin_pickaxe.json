@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    " O ",
+    " O "
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:tin_ingot"
+    },
+    "O": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mofmc:tin_pickaxe",
+    "count": 1
+  }
+}

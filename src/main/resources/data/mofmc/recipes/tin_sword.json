@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    " M ",
+    " O "
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:tin_ingot"
+    },
+    "O": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mofmc:tin_sword",
+    "count": 1
+  }
+}

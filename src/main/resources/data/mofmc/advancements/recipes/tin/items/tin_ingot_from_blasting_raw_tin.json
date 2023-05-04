@@ -1,0 +1,34 @@
+{
+  "parent": "mofmc:recipes/root",
+  "criteria": {
+    "has_raw_tin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:raw_tin"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mofmc:tin_ingot_from_blasting_raw_tin"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_tin",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mofmc:tin_ingot_from_blasting_raw_tin"
+    ]
+  }
+}

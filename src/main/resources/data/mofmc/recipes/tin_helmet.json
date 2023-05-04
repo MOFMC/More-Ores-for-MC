@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " # ",
-    "# #",
-    " # "
+    "MMM",
+    "M M"
   ],
   "key": {
     "#": {
-      "tag": "forge:ores/ruby"
+      "item": "mofmc:tin_ingot"
     }
   },
   "result": {
-    "item": "minecraft:stone",
+    "item": "mofmc:tin_helmet",
     "count": 1
   }
 }

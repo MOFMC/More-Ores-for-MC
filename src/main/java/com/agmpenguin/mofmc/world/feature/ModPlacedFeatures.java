@@ -1,7 +1,6 @@
 package com.agmpenguin.mofmc.world.feature;
 
 import com.agmpenguin.mofmc.mofmc;
-import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
@@ -19,23 +18,27 @@ public class ModPlacedFeatures {
     public static final RegistryObject<PlacedFeature> RUBY_ORE_PLACED = createOverworldOre("ruby_ore_placed",
             ModConfiguredFeatures.RUBY_ORE, 4, -64, 16);
     public static final RegistryObject<PlacedFeature> NETHER_RUBY_ORE_PLACED = createNetherOre("nether_ruby_ore_placed",
-            ModConfiguredFeatures.NETHER_RUBY_ORE, 5, 10, 10);
+            ModConfiguredFeatures.NETHER_RUBY_ORE, 3, 10, 10);
 
     // might want to change 57 to 32.
     public static final RegistryObject<PlacedFeature> PYRITE_ORE_PLACED = createOverworldOre("pyrite_ore_placed",
-            ModConfiguredFeatures.PYRITE_ORE, 9, -64, 57);
+            ModConfiguredFeatures.PYRITE_ORE, 7, -64, 57);
     public static final RegistryObject<PlacedFeature> NETHER_PYRITE_ORE_PLACED = createNetherOre("nether_pyrite_ore_placed",
-            ModConfiguredFeatures.NETHER_PYRITE_ORE, 7, 10, 10);
+            ModConfiguredFeatures.NETHER_PYRITE_ORE, 5, 10, 10);
 
     public static final RegistryObject<PlacedFeature> TITANIUM_ORE_PLACED = createOverworldOre("titanium_ore_placed",
             ModConfiguredFeatures.TITANIUM_ORE, 5, -64, 32);
     public static final RegistryObject<PlacedFeature> NETHER_TITANIUM_ORE_PLACED = createNetherOre("nether_titanium_ore_placed",
-            ModConfiguredFeatures.NETHER_TITANIUM_ORE, 5, 10, 10);
+            ModConfiguredFeatures.NETHER_TITANIUM_ORE, 4, 10, 10);
     public static final RegistryObject<PlacedFeature> PURPLE_SAPPHIRE_ORE = createOverworldOre("purple_sapphire_ore_placed",
             ModConfiguredFeatures.PURPLE_SAPPHIRE_ORE, 5, -64, 25);
     public static final RegistryObject<PlacedFeature> NETHER_PURPLE_SAPPHIRE_ORE = createNetherOre("nether_purple_sapphire_ore_placed",
-            ModConfiguredFeatures.NETHER_PURPLE_SAPPHIRE_ORE, 6, 10, 10);
-
+            ModConfiguredFeatures.NETHER_PURPLE_SAPPHIRE_ORE, 4, 10, 10);
+    // Change
+    public static final RegistryObject<PlacedFeature> TIN_ORE_PLACED = createOverworldOre("tin_ore_placed",
+            ModConfiguredFeatures.TIN_ORE, 7, -64, 57);
+    public static final RegistryObject<PlacedFeature> NETHER_TIN_ORE_PLACED = createNetherOre("nether_tin_ore_placed",
+            ModConfiguredFeatures.NETHER_TIN_ORE, 6, 10, 10);
 
     private static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {
         return List.of(p_195347_, InSquarePlacement.spread(), p_195348_, BiomeFilter.biome());

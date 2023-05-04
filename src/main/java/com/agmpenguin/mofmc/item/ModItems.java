@@ -1,13 +1,19 @@
 package com.agmpenguin.mofmc.item;
 
 import com.agmpenguin.mofmc.mofmc;
+import com.google.common.collect.ImmutableList;
+import net.minecraft.client.RecipeBookCategories;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.inventory.RecipeBookType;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeTier;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.List;
+import java.util.Map;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, mofmc.MOD_ID);
@@ -46,7 +52,7 @@ public class ModItems {
     public static final RegistryObject<Item> TITANIUM_HELMET = createModArmor("titanium_helmet", "TITANIUM", EquipmentSlot.HEAD);
     public static final RegistryObject<Item> TITANIUM_CHESTPLATE = createModArmor("titanium_chestplate", "TITANIUM", EquipmentSlot.CHEST);
     public static final RegistryObject<Item> TITANIUM_LEGGINGS = createModArmor("titanium_leggings", "TITANIUM", EquipmentSlot.LEGS);
-    public static final RegistryObject<Item> TITANIUM_BOOTS  = createModArmor("titanium_boots", "TITANIUM", EquipmentSlot.FEET);
+    public static final RegistryObject<Item> TITANIUM_BOOTS = createModArmor("titanium_boots", "TITANIUM", EquipmentSlot.FEET);
 
     public static final RegistryObject<Item> PURPLE_SAPPHIRE = createModItem("purple_sapphire");
     public static final RegistryObject<Item> RAW_PURPLE_SAPPHIRE = createModItem("raw_purple_sapphire");
@@ -60,8 +66,17 @@ public class ModItems {
     public static final RegistryObject<Item> PURPLE_SAPPHIRE_LEGGINGS = createModArmor("purple_sapphire_leggings", "PURPLE_SAPPHIRE", EquipmentSlot.LEGS);
     public static final RegistryObject<Item> PURPLE_SAPPHIRE_BOOTS = createModArmor("purple_sapphire_boots", "PURPLE_SAPPHIRE", EquipmentSlot.FEET);
 
-    // public static final RegistryObject<Item> TIN = createModItem("tin");
-    // public static final RegistryObject<Item> RAW_TIN = createModItem("raw_tin");
+    public static final RegistryObject<Item> TIN_INGOT = createModItem("tin_ingot");
+    public static final RegistryObject<Item> RAW_TIN = createModItem("raw_tin");
+    public static final RegistryObject<Item> TIN_SWORD = createModSwordItem("tin_sword", ModTiers.TIN, 2, 3f);
+    public static final RegistryObject<Item> TIN_PICKAXE = createModPickaxeItem("tin_pickaxe", ModTiers.TIN, 1, 1f);
+    public static final RegistryObject<Item> TIN_SHOVEL = createModShovelItem("tin_shovel", ModTiers.TIN, 0, 1f);
+    public static final RegistryObject<Item> TIN_AXE = createModAxeItem("tin_axe", ModTiers.TIN, 4, 0f);
+    public static final RegistryObject<Item> TIN_HOE = createModHoeItem("tin_hoe", ModTiers.TIN, 0, 0f);
+    public static final RegistryObject<Item> TIN_HELMET = createModArmor("tin_helmet", "TIN", EquipmentSlot.HEAD);
+    public static final RegistryObject<Item> TIN_CHESTPLATE = createModArmor("tin_chestplate", "TIN", EquipmentSlot.CHEST);
+    public static final RegistryObject<Item> TIN_LEGGINGS = createModArmor("tin_leggings", "TIN", EquipmentSlot.LEGS);
+    public static final RegistryObject<Item> TIN_BOOTS = createModArmor("tin_boots", "TIN", EquipmentSlot.FEET);
 
     private static RegistryObject<Item> createModItem(String name) {
         return ITEMS.register(name, () -> new Item(new Item.Properties().tab(ModTab.MOFMC_TAB)));

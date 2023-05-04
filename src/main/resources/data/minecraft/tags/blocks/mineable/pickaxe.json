@@ -18,6 +18,11 @@
     "mofmc:deepslate_purple_sapphire_ore",
     "mofmc:nether_purple_sapphire_ore",
     "mofmc:purple_sapphire_block",
-    "mofmc:raw_purple_sapphire_block"
+    "mofmc:raw_purple_sapphire_block",
+    "mofmc:tin_ore",
+    "mofmc:deepslate_tin_ore",
+    "mofmc:nether_tin_ore",
+    "mofmc:tin_block",
+    "mofmc:raw_tin_block"
   ]
 }

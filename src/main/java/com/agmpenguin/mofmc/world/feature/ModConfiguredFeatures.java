@@ -9,7 +9,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
-import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -34,6 +33,8 @@ public class ModConfiguredFeatures {
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_TITANIUM_ORES = createNetherOreList(ModBlocks.NETHER_TITANIUM_ORE);
     public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_PURPLE_SAPPHIRE_ORES = createOverworldOreList(ModBlocks.PURPLE_SAPPHIRE_ORE, ModBlocks.DEEPSLATE_PURPLE_SAPPHIRE_ORE);
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_PURPLE_SAPPHIRE_ORES = createNetherOreList(ModBlocks.NETHER_PURPLE_SAPPHIRE_ORE);
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_TIN_ORES = createOverworldOreList(ModBlocks.TIN_ORE, ModBlocks.DEEPSLATE_TIN_ORE);
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_TIN_ORES = createNetherOreList(ModBlocks.NETHER_TIN_ORE);
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> RUBY_ORE = createOre("ruby_ore", OVERWORLD_RUBY_ORES, 5);
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_RUBY_ORE = createOre("nether_ruby_ore", NETHER_RUBY_ORES, 5);
@@ -43,6 +44,8 @@ public class ModConfiguredFeatures {
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_TITANIUM_ORE = createOre("nether_titanium_ore", NETHER_TITANIUM_ORES, 5);
     public static final RegistryObject<ConfiguredFeature<?, ?>> PURPLE_SAPPHIRE_ORE = createOre("purple_sapphire_ore", OVERWORLD_PURPLE_SAPPHIRE_ORES, 5);
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_PURPLE_SAPPHIRE_ORE = createOre("nether_purple_sapphire_ore", NETHER_PURPLE_SAPPHIRE_ORES, 6);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> TIN_ORE = createOre("tin_ore", OVERWORLD_TIN_ORES, 9);
+    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_TIN_ORE = createOre("nether_tin_ore", NETHER_TIN_ORES, 7);
 
     private static RegistryObject<ConfiguredFeature<?, ?>> createOre(String name, Supplier<List<OreConfiguration.TargetBlockState>> oreList, int maxVeinSize) {
         return CONFIGURED_FEATURES.register(

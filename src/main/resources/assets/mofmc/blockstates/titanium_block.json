@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "mofmc:block/titanium_ore" }
+    "": { "model": "mofmc:block/titanium_block" }
   }
 }

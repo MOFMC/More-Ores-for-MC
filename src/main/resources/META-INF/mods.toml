@@ -6,7 +6,7 @@
 # The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
 modLoader="javafml" #mandatory
 # A version range to match for said mod loader - for regular FML @Mod it will be the forge version
-loaderVersion="[43,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[41,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="MIT"
@@ -19,7 +19,7 @@ modId="mofmc" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="1.19.2-1.3.1" #mandatory
+version="1.19.x-1.4" #mandatory
  # A display name for the mod
 displayName="More Ores for MC" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
@@ -46,15 +46,17 @@ Created by AGMPenguin
 Programmed by AGMPenguin
 Textures by AGMPenguin and CDMTurtle
 
-This is a beta version of the mod. The features it currently lacks could include any of the following, any may include features not listed here:
-- Additional Block(s)
-- Texture Changes
-- Ore Generation Changes
-- Different Advancements (both main advancements and recipe advancements)
-- Tool Changes
-- Armor Changes
-- Weapon Changes
+This is More Ores For MC (MOFMC) for versions 1.19, 1.19.1, and 1.19.2. This is version 1.4 of MOFMC.
 '''
+# This is a beta version of the mod. The features it currently lacks could include any of the following, any may include features not listed here:
+# - Additional Block(s)
+# - Texture Changes
+# - Ore Generation Changes
+# - Different Advancements (both main advancements and recipe advancements)
+# - Tool Changes
+# - Armor Changes
+# - Weapon Changes
+# '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mofmc]] #optional
     # the modid of the dependency
@@ -62,7 +64,7 @@ This is a beta version of the mod. The features it currently lacks could include
     # Does this dependency have to exist - if not, ordering below must be specified
     mandatory=true #mandatory
     # The version range of the dependency
-    versionRange="[43,)" #mandatory
+    versionRange="[41,)" #mandatory
     # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
@@ -72,6 +74,6 @@ This is a beta version of the mod. The features it currently lacks could include
     modId="mofmc"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[1.19.2,1.20)"
+    versionRange="[1.19,1.20)"
     ordering="NONE"
     side="BOTH"

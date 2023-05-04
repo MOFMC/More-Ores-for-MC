@@ -20,6 +20,11 @@
     "mofmc:deepslate_titanium_ore",
     "mofmc:nether_titanium_ore",
     "mofmc:titanium_rod",
-    "mofmc:titanium_dust"
+    "mofmc:titanium_dust",
+    "mofmc:tin_ore",
+    "mofmc:deepslate_tin_ore",
+    "mofmc:nether_tin_ore",
+    "mofmc:raw_tin",
+    "mofmc:tin_ingot"
   ]
 }

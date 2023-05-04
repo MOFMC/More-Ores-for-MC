@@ -42,13 +42,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> PURPLE_SAPPHIRE_BLOCK = registerBlock("purple_sapphire_block", 6f);
     public static final RegistryObject<Block> RAW_PURPLE_SAPPHIRE_BLOCK = registerBlock("raw_purple_sapphire_block", 6f);
     // TIN ORE
-    /*
     public static final RegistryObject<Block> TIN_ORE = registerOre("tin_ore", 6f, 3, 7);
     public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = registerOre("deepslate_tin_ore", 6f, 3, 7);
     public static final RegistryObject<Block> NETHER_TIN_ORE = registerOre("nether_tin_ore", 6f, 3, 7);
     public static final RegistryObject<Block> TIN_BLOCK = registerOre("tin_block", 6f, 3, 7);
     public static final RegistryObject<Block> RAW_TIN_BLOCK = registerOre("raw_tin_block", 6f, 3, 7);
-     */
+
     private static RegistryObject<Block> registerBlock(String name, float strength) {
         RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new Block(BlockBehaviour.Properties
                 .of(Material.STONE)
