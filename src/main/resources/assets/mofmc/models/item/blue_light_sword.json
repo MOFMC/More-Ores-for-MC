@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mofmc:item/blue_light_sword"
+  }
+}

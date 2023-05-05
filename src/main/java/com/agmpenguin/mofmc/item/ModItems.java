@@ -78,6 +78,9 @@ public class ModItems {
     public static final RegistryObject<Item> TIN_LEGGINGS = createModArmor("tin_leggings", "TIN", EquipmentSlot.LEGS);
     public static final RegistryObject<Item> TIN_BOOTS = createModArmor("tin_boots", "TIN", EquipmentSlot.FEET);
 
+    public static final RegistryObject<Item> BLUE_LIGHT_CRYSTAL = createModItem("blue_light_crystal");
+    public static final RegistryObject<Item> BLUE_LIGHT_SWORD = createModSwordItem("blue_light_sword", ModTiers.BLUE_LIGHT_CRYSTAL, 4, 3f);
+
     private static RegistryObject<Item> createModItem(String name) {
         return ITEMS.register(name, () -> new Item(new Item.Properties().tab(ModTab.MOFMC_TAB)));
     }

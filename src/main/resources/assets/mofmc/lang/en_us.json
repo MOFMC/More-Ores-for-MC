@@ -83,5 +83,9 @@
   "item.mofmc.tin_leggings": "Tin Leggings",
   "item.mofmc.tin_boots": "Tin Boots",
 
+  "block.mofmc.blue_light_crystal_ore": "Blue Light Crystal Ore",
+  "item.mofmc.blue_light_crystal": "Blue Light Crystal",
+  "item.mofmc.blue_light_sword": "Blue Light Sword",
+
   "itemGroup.mofmctab": "MOFMC"
 }

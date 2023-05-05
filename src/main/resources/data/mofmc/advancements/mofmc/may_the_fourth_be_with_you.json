@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:blue_light_crystal"
+    },
+    "title": "May the 4th be With You",
+    "description": "Obtain a Powerful Crystal.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mofmc:mofmc/mofmc",
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:blue_light_crystal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory"
+    ]
+  ]
+}

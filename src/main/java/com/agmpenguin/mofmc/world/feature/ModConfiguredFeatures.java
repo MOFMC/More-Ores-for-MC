@@ -36,6 +36,8 @@ public class ModConfiguredFeatures {
     public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_TIN_ORES = createOverworldOreList(ModBlocks.TIN_ORE, ModBlocks.DEEPSLATE_TIN_ORE);
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_TIN_ORES = createNetherOreList(ModBlocks.NETHER_TIN_ORE);
 
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_BLUE_LIGHT_CRYSTAL_ORES = Suppliers.memoize(() -> List.of(OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.BLUE_LIGHT_CRYSTAL_ORE.get().defaultBlockState())));
+
     public static final RegistryObject<ConfiguredFeature<?, ?>> RUBY_ORE = createOre("ruby_ore", OVERWORLD_RUBY_ORES, 5);
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_RUBY_ORE = createOre("nether_ruby_ore", NETHER_RUBY_ORES, 5);
     public static final RegistryObject<ConfiguredFeature<?, ?>> PYRITE_ORE = createOre("pyrite_ore", OVERWORLD_PYRITE_ORES, 9);
@@ -46,6 +48,8 @@ public class ModConfiguredFeatures {
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_PURPLE_SAPPHIRE_ORE = createOre("nether_purple_sapphire_ore", NETHER_PURPLE_SAPPHIRE_ORES, 6);
     public static final RegistryObject<ConfiguredFeature<?, ?>> TIN_ORE = createOre("tin_ore", OVERWORLD_TIN_ORES, 9);
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_TIN_ORE = createOre("nether_tin_ore", NETHER_TIN_ORES, 7);
+
+    public static final RegistryObject<ConfiguredFeature<?, ?>> BLUE_LIGHT_CRYSTAL_ORE = createOre("blue_light_crystal_ore", OVERWORLD_BLUE_LIGHT_CRYSTAL_ORES, 3);
 
     private static RegistryObject<ConfiguredFeature<?, ?>> createOre(String name, Supplier<List<OreConfiguration.TargetBlockState>> oreList, int maxVeinSize) {
         return CONFIGURED_FEATURES.register(

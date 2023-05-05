@@ -48,6 +48,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> TIN_BLOCK = registerOre("tin_block", 6f, 3, 7);
     public static final RegistryObject<Block> RAW_TIN_BLOCK = registerOre("raw_tin_block", 6f, 3, 7);
 
+    public static final RegistryObject<Block> BLUE_LIGHT_CRYSTAL_ORE = registerOre("blue_light_crystal_ore", 6f, 3, 7);
+
     private static RegistryObject<Block> registerBlock(String name, float strength) {
         RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new Block(BlockBehaviour.Properties
                 .of(Material.STONE)

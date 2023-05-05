@@ -40,6 +40,9 @@ public class ModPlacedFeatures {
     public static final RegistryObject<PlacedFeature> NETHER_TIN_ORE_PLACED = createNetherOre("nether_tin_ore_placed",
             ModConfiguredFeatures.NETHER_TIN_ORE, 6, 10, 10);
 
+    public static final RegistryObject<PlacedFeature> BLUE_LIGHT_CRYSTAL_ORE_PLACED = createOverworldOre("blue_light_crystal_ore_placed",
+            ModConfiguredFeatures.BLUE_LIGHT_CRYSTAL_ORE, 2, 0, 57);
+
     private static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {
         return List.of(p_195347_, InSquarePlacement.spread(), p_195348_, BiomeFilter.biome());
     }

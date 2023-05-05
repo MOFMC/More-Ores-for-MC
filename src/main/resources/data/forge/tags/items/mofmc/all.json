@@ -25,6 +25,8 @@
     "mofmc:deepslate_tin_ore",
     "mofmc:nether_tin_ore",
     "mofmc:raw_tin",
-    "mofmc:tin_ingot"
+    "mofmc:tin_ingot",
+    "mofmc:blue_light_crystal_ore",
+    "mofmc:blue_light_crystal"
   ]
 }
