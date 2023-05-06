@@ -2,6 +2,7 @@ package com.agmpenguin.mofmc;
 
 import com.agmpenguin.mofmc.block.ModBlocks;
 import com.agmpenguin.mofmc.item.ModItems;
+import com.agmpenguin.mofmc.util.ModItemProperties;
 import com.agmpenguin.mofmc.world.feature.ModConfiguredFeatures;
 import com.agmpenguin.mofmc.world.feature.ModPlacedFeatures;
 import com.mojang.logging.LogUtils;
@@ -41,7 +42,7 @@ public class mofmc {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }

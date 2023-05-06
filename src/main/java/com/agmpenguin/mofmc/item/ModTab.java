@@ -10,4 +10,11 @@ public class ModTab {
             return new ItemStack(ModItems.RUBY.get());
         }
     };
+
+    public static final CreativeModeTab MOFMC_ADDITIONAL_TAB = new CreativeModeTab("mofmcadditionalcontenttab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.RAW_RUBY.get());
+        }
+    };
 }

@@ -1,19 +1,13 @@
 package com.agmpenguin.mofmc.item;
 
 import com.agmpenguin.mofmc.mofmc;
-import com.google.common.collect.ImmutableList;
-import net.minecraft.client.RecipeBookCategories;
 import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.inventory.RecipeBookType;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeTier;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
-import java.util.List;
-import java.util.Map;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, mofmc.MOD_ID);
@@ -79,7 +73,12 @@ public class ModItems {
     public static final RegistryObject<Item> TIN_BOOTS = createModArmor("tin_boots", "TIN", EquipmentSlot.FEET);
 
     public static final RegistryObject<Item> BLUE_LIGHT_CRYSTAL = createModItem("blue_light_crystal");
-    public static final RegistryObject<Item> BLUE_LIGHT_SWORD = createModSwordItem("blue_light_sword", ModTiers.BLUE_LIGHT_CRYSTAL, 4, 3f);
+    public static final RegistryObject<LightSwordItem> BLUE_LIGHT_SWORD = createLightSword("blue_light_sword", ModTiers.BLUE_LIGHT_CRYSTAL, 4, 3f, -1);
+
+    // public static final RegistryObject<Item> GREEN_LIGHT_CRYSTAL = createModItem("green_light_crystal");
+    // public static final RegistryObject<Item> GREEN_LIGHT_SWORD = createModSwordItem("green_light_sword", ModTiers.GREEN_LIGHT_CRYSTAL, 4, 3f);
+    // public static final RegistryObject<Item> PURPLE_LIGHT_CRYSTAL = createModItem("purple_light_crystal");
+    // public static final RegistryObject<Item> PURPLE_LIGHT_SWORD = createModSwordItem("purple_light_sword", ModTiers.PURPLE_LIGHT_CRYSTAL, 4, 3f);
 
     private static RegistryObject<Item> createModItem(String name) {
         return ITEMS.register(name, () -> new Item(new Item.Properties().tab(ModTab.MOFMC_TAB)));
@@ -119,6 +118,10 @@ public class ModItems {
         } else {
             return null;
         }
+    }
+
+    private static RegistryObject<LightSwordItem> createLightSword(String name, Tier tier, int attackDamage, float attackSpeed, int durability) {
+        return ITEMS.register(name, () -> new LightSwordItem(tier, attackDamage, attackSpeed, new Item.Properties().tab(ModTab.MOFMC_ADDITIONAL_TAB).durability(durability)));
     }
     public static void register(IEventBus eventBus) {
             ITEMS.register(eventBus);
