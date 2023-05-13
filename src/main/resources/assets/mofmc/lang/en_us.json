@@ -86,6 +86,10 @@
   "block.mofmc.blue_light_crystal_ore": "Blue Light Crystal Ore",
   "item.mofmc.blue_light_crystal": "Blue Light Crystal",
   "item.mofmc.blue_light_sword": "Blue Light Sword",
+  "item.mofmc.double_bladed_blue_light_sword": "Double Bladed Blue Light Sword",
 
-  "itemGroup.mofmctab": "MOFMC"
+  "block.mofmc.titanium_stairs": "Titanium Stairs",
+
+  "itemGroup.mofmctab": "MOFMC",
+  "itemGroup.mofmcadditionalcontenttab": "MOFMC Additional Content"
 }

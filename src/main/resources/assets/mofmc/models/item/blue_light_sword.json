@@ -4,11 +4,11 @@
     "layer0": "mofmc:item/blue_light_sword"
   },
   "overrides": [
-        {
-            "predicate": {
-                "blocking": 1
-            },
-            "model": "mofmc:item/blockingbls"
-        }
-    ]
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "mofmc:item/blue_light_sword_blocking"
+    }
+  ]
 }

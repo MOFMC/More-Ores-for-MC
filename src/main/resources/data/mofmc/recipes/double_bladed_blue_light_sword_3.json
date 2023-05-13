@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OMO"
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:blue_light_crystal"
+    },
+    "O": {
+      "item": "mofmc:titanium_rod"
+    }
+  },
+  "result": {
+    "item": "mofmc:double_bladed_blue_light_sword",
+    "count": 1
+  }
+}

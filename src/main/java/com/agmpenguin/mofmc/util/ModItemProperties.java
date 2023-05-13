@@ -7,10 +7,11 @@ import net.minecraft.world.item.Item;
 
 public class ModItemProperties extends ItemProperties {
     public static void addCustomItemProperties() {
-        makeReal(ModItems.BLUE_LIGHT_SWORD.get());
+        makeLightSword(ModItems.BLUE_LIGHT_SWORD.get());
+        makeLightSword(ModItems.DOUBLE_BLADED_BLUE_LIGHT_SWORD.get());
     }
 
-    private static void makeReal(Item item) {
+    private static void makeLightSword(Item item) {
         register(item, new ResourceLocation("blocking"), (p_174590_, p_174591_, p_174592_, p_174593_) -> {
             return p_174592_ != null && p_174592_.isUsingItem() && p_174592_.getUseItem() == p_174590_ ? 1.0F : 0.0F;
         });

@@ -72,47 +72,48 @@ public class ModItems {
     public static final RegistryObject<Item> TIN_LEGGINGS = createModArmor("tin_leggings", "TIN", EquipmentSlot.LEGS);
     public static final RegistryObject<Item> TIN_BOOTS = createModArmor("tin_boots", "TIN", EquipmentSlot.FEET);
 
-    public static final RegistryObject<Item> BLUE_LIGHT_CRYSTAL = createModItem("blue_light_crystal");
-    public static final RegistryObject<LightSwordItem> BLUE_LIGHT_SWORD = createLightSword("blue_light_sword", ModTiers.BLUE_LIGHT_CRYSTAL, 4, 3f, -1);
+    public static final RegistryObject<Item> BLUE_LIGHT_CRYSTAL = createModItem("blue_light_crystal", ModTabs.MOFMC_ADDITIONAL_TAB);
+    public static final RegistryObject<LightSwordItem> BLUE_LIGHT_SWORD = createLightSword("blue_light_sword", ModTiers.LIGHT_SWORD, 4, 3f, -1);
+    public static final RegistryObject<LightSwordItem> DOUBLE_BLADED_BLUE_LIGHT_SWORD = createLightSword("double_bladed_blue_light_sword", ModTiers.LIGHT_SWORD, 4, 3f, -1);
 
     // public static final RegistryObject<Item> GREEN_LIGHT_CRYSTAL = createModItem("green_light_crystal");
     // public static final RegistryObject<Item> GREEN_LIGHT_SWORD = createModSwordItem("green_light_sword", ModTiers.GREEN_LIGHT_CRYSTAL, 4, 3f);
     // public static final RegistryObject<Item> PURPLE_LIGHT_CRYSTAL = createModItem("purple_light_crystal");
     // public static final RegistryObject<Item> PURPLE_LIGHT_SWORD = createModSwordItem("purple_light_sword", ModTiers.PURPLE_LIGHT_CRYSTAL, 4, 3f);
 
-    private static RegistryObject<Item> createModItem(String name) {
-        return ITEMS.register(name, () -> new Item(new Item.Properties().tab(ModTab.MOFMC_TAB)));
+    private static RegistryObject<Item> createModItem(String name, CreativeModeTab... modTab) {
+        return ITEMS.register(name, () -> new Item(new Item.Properties().tab((modTab.length > 0) ? modTab[0] : ModTabs.MOFMC_TAB)));
     }
 
-    private static RegistryObject<Item> createModSwordItem(String name, ForgeTier tier, int attack, float speed) {
-        return ITEMS.register(name, () -> new SwordItem(tier, attack, speed, new Item.Properties().tab(ModTab.MOFMC_TAB)));
+    private static RegistryObject<Item> createModSwordItem(String name, ForgeTier tier, int attack, float speed) {      // Attack Damage Bonus, ? Speed Bonus ?
+        return ITEMS.register(name, () -> new SwordItem(tier, attack, speed, new Item.Properties().tab(ModTabs.MOFMC_TAB)));
     }
 
     private static RegistryObject<Item> createModPickaxeItem(String name, ForgeTier tier, int attack, float speed) {
-        return ITEMS.register(name, () -> new PickaxeItem(tier, attack, speed, new Item.Properties().tab(ModTab.MOFMC_TAB)));
+        return ITEMS.register(name, () -> new PickaxeItem(tier, attack, speed, new Item.Properties().tab(ModTabs.MOFMC_TAB)));
     }
 
     private static RegistryObject<Item> createModShovelItem(String name, ForgeTier tier, int attack, float speed) {
-        return ITEMS.register(name, () -> new ShovelItem(tier, attack, speed, new Item.Properties().tab(ModTab.MOFMC_TAB)));
+        return ITEMS.register(name, () -> new ShovelItem(tier, attack, speed, new Item.Properties().tab(ModTabs.MOFMC_TAB)));
     }
 
     private static RegistryObject<Item> createModAxeItem(String name, ForgeTier tier, int attack, float speed) {
-        return ITEMS.register(name, () -> new AxeItem(tier, attack, speed, new Item.Properties().tab(ModTab.MOFMC_TAB)));
+        return ITEMS.register(name, () -> new AxeItem(tier, attack, speed, new Item.Properties().tab(ModTabs.MOFMC_TAB)));
     }
 
     private static RegistryObject<Item> createModHoeItem(String name, ForgeTier tier, int attack, float speed) {
-        return ITEMS.register(name, () -> new HoeItem(tier, attack, speed, new Item.Properties().tab(ModTab.MOFMC_TAB)));
+        return ITEMS.register(name, () -> new HoeItem(tier, attack, speed, new Item.Properties().tab(ModTabs.MOFMC_TAB)));
     }
 
     private static RegistryObject<Item> createModArmor(String name, String modArmorMaterial, EquipmentSlot slot) {
         if (modArmorMaterial.equals("RUBY")) {
-            return ITEMS.register(name, () -> new ArmorItem(ModArmorMaterialRuby.RUBY, slot, new Item.Properties().tab(ModTab.MOFMC_TAB)));
+            return ITEMS.register(name, () -> new ArmorItem(ModArmorMaterialRuby.RUBY, slot, new Item.Properties().tab(ModTabs.MOFMC_TAB)));
         } else if (modArmorMaterial.equals("PYRITE")) {
-            return ITEMS.register(name, () -> new ArmorItem(ModArmorMaterialPyrite.PYRITE, slot, new Item.Properties().tab(ModTab.MOFMC_TAB)));
+            return ITEMS.register(name, () -> new ArmorItem(ModArmorMaterialPyrite.PYRITE, slot, new Item.Properties().tab(ModTabs.MOFMC_TAB)));
         } else if (modArmorMaterial.equals("TITANIUM")) {
-            return ITEMS.register(name, () -> new ArmorItem(ModArmorMaterialTitanium.TITANIUM, slot, new Item.Properties().tab(ModTab.MOFMC_TAB)));
+            return ITEMS.register(name, () -> new ArmorItem(ModArmorMaterialTitanium.TITANIUM, slot, new Item.Properties().tab(ModTabs.MOFMC_TAB)));
         } else if (modArmorMaterial.equals("PURPLE_SAPPHIRE")) {
-            return ITEMS.register(name, () -> new ArmorItem(ModArmorMaterialPurpleSapphire.PURPLE_SAPPHIRE, slot, new Item.Properties().tab(ModTab.MOFMC_TAB)));
+            return ITEMS.register(name, () -> new ArmorItem(ModArmorMaterialPurpleSapphire.PURPLE_SAPPHIRE, slot, new Item.Properties().tab(ModTabs.MOFMC_TAB)));
         } else if (modArmorMaterial.equals("TIN")) {
             return null;
         } else {
@@ -121,7 +122,7 @@ public class ModItems {
     }
 
     private static RegistryObject<LightSwordItem> createLightSword(String name, Tier tier, int attackDamage, float attackSpeed, int durability) {
-        return ITEMS.register(name, () -> new LightSwordItem(tier, attackDamage, attackSpeed, new Item.Properties().tab(ModTab.MOFMC_ADDITIONAL_TAB).durability(durability)));
+        return ITEMS.register(name, () -> new LightSwordItem(tier, attackDamage, attackSpeed, new Item.Properties().tab(ModTabs.MOFMC_ADDITIONAL_TAB).durability(durability)));
     }
     public static void register(IEventBus eventBus) {
             ITEMS.register(eventBus);

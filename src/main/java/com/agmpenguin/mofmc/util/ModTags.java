@@ -7,10 +7,8 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.registries.IForgeRegistry;
-import net.minecraftforge.registries.tags.ITagManager;
 
-public class mofmcTags {
+public class ModTags {
 
     public static class Blocks {
 
@@ -35,6 +33,7 @@ public class mofmcTags {
         public static final TagKey<Item> BLUE_LIGHT_CRYSTAL_ORE = createForgeTag("ores/blue_light_crystal");
         // public static final TagKey<Item> GREEN_LIGHT_CRYSTAL_ORE = createForgeTag("ores/green_light_crystal");
         // public static final TagKey<Item> PURPLE_LIGHT_CRYSTAL_ORE = createForgeTag("ores/purple_light_crystal");
+        public static final TagKey<Item> LIGHT_SWORDS = createTag("mofmc/light_swords");
         public static final TagKey<Item> ALL = createForgeTag("mofmc/all");
 
         private static TagKey<Item> createTag(String location) {
