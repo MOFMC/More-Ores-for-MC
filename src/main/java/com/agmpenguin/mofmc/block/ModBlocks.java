@@ -7,9 +7,7 @@ import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -40,6 +38,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerOre("deepslate_titanium_ore", 6f, 3, 7);
     public static final RegistryObject<Block> NETHER_TITANIUM_ORE = registerOre("nether_titanium_ore", 6f, 3, 7);
     public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block", 6f);
+    //
+
+    public static final RegistryObject<Block> TITANIUM_STAIRS = registerStairBlock("titanium_stairs", TITANIUM_BLOCK);
+    public static final RegistryObject<Block> TITANIUM_SLAB = registerSlabBlock("titanium_slab", TITANIUM_BLOCK);
+    public static final RegistryObject<Block> TITANIUM_PRESSURE_PLATE = registerPressurePlateBlock("titanium_pressure_plate", "everything", Material.STONE, 0.5f);
+
     // PURPLE SAPPHIRE ORE
     public static final RegistryObject<Block> PURPLE_SAPPHIRE_ORE = registerOre("purple_sapphire_ore", 6f, 3, 7);
     public static final RegistryObject<Block> DEEPSLATE_PURPLE_SAPPHIRE_ORE = registerOre("deepslate_purple_sapphire_ore", 6f, 3, 7);
@@ -53,20 +57,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> TIN_BLOCK = registerOre("tin_block", 6f, 3, 7);
     public static final RegistryObject<Block> RAW_TIN_BLOCK = registerOre("raw_tin_block", 6f, 3, 7);
 
-    public static final RegistryObject<Block> TITANIUM_STAIRS = registerStairBlock("titanium_stairs");
 
 
     public static final RegistryObject<Block> BLUE_LIGHT_CRYSTAL_ORE = registerLightCrystalOre("blue_light_crystal_ore", 6f, 3, 7, 9); // Does it Glow
     // public static final RegistryObject<Block> GREEN_LIGHT_CRYSTAL_ORE = registerOre("green_light_crystal_ore", 6f, 3, 7);
     // public static final RegistryObject<Block> PURPLE_LIGHT_CRYSTAL_ORE = registerOre("purple_light_crystal_ore", 6f, 3, 7);
-
-    private static RegistryObject<Block> registerStairBlock(String name) {
-        RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new StairBlock(TITANIUM_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(
-                TITANIUM_BLOCK.get())));
-
-        registerBlockItem(name, toReturn);
-        return toReturn;
-    }
 
     private static RegistryObject<Block> registerBlock(String name, float strength) {
         RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new Block(BlockBehaviour.Properties
@@ -88,6 +83,41 @@ public class ModBlocks {
         registerBlockItem(name, toReturn);
         return toReturn;
     }
+
+
+
+    private static RegistryObject<Block> registerStairBlock(String name, RegistryObject<Block> block) {
+        RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new StairBlock(block.get().defaultBlockState(), BlockBehaviour.Properties.copy(
+                block.get())));
+
+        registerBlockItem(name, toReturn);
+        return toReturn;
+    }
+
+    private static RegistryObject<Block> registerSlabBlock(String name, RegistryObject<Block> block) {
+        RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new SlabBlock(BlockBehaviour.Properties.copy(
+                block.get())));
+
+        registerBlockItem(name, toReturn);
+        return toReturn;
+    }
+    //    public static final Block STONE_PRESSURE_PLATE = register("stone_pressure_plate", new PressurePlateBlock(
+    //    PressurePlateBlock.Sensitivity.MOBS, BlockBehaviour.Properties.of(Material.STONE)
+    //    .requiresCorrectToolForDrops().noCollission().strength(0.5F)));
+    private static RegistryObject<Block> registerPressurePlateBlock(String name, String sensitivity, Material material, float strength) {
+        RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new PressurePlateBlock(
+                PressurePlateBlock.Sensitivity.valueOf(sensitivity.toUpperCase()),
+                BlockBehaviour.Properties.of(material)
+                        .requiresCorrectToolForDrops()
+                        .noCollission()
+                        .strength(strength)
+        ));
+
+        registerBlockItem(name, toReturn);
+        return toReturn;
+    }
+
+
 
     private static RegistryObject<Block> registerLightCrystalOre(String name, float strength, int minExp, int maxExp, int lightLevel) {
         RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new DropExperienceBlock(BlockBehaviour.Properties
