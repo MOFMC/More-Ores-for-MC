@@ -3,13 +3,18 @@ package com.agmpenguin.mofmc.block;
 import com.agmpenguin.mofmc.item.ModItems;
 import com.agmpenguin.mofmc.item.ModTabs;
 import com.agmpenguin.mofmc.mofmc;
+import net.minecraft.core.Direction;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.Half;
+import net.minecraft.world.level.block.state.properties.StairsShape;
 import net.minecraft.world.level.material.Material;
+import net.minecraftforge.common.extensions.IForgeBlockState;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -38,12 +43,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerOre("deepslate_titanium_ore", 6f, 3, 7);
     public static final RegistryObject<Block> NETHER_TITANIUM_ORE = registerOre("nether_titanium_ore", 6f, 3, 7);
     public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block", 6f);
-    //
-
-    public static final RegistryObject<Block> TITANIUM_STAIRS = registerStairBlock("titanium_stairs", TITANIUM_BLOCK);
+    public static final RegistryObject<Block> TITANIUM_STAIRS = registerStairBlock("titanium_stairs", TITANIUM_BLOCK, 6f);
     public static final RegistryObject<Block> TITANIUM_SLAB = registerSlabBlock("titanium_slab", TITANIUM_BLOCK);
     public static final RegistryObject<Block> TITANIUM_PRESSURE_PLATE = registerPressurePlateBlock("titanium_pressure_plate", "everything", Material.STONE, 0.5f);
-
     // PURPLE SAPPHIRE ORE
     public static final RegistryObject<Block> PURPLE_SAPPHIRE_ORE = registerOre("purple_sapphire_ore", 6f, 3, 7);
     public static final RegistryObject<Block> DEEPSLATE_PURPLE_SAPPHIRE_ORE = registerOre("deepslate_purple_sapphire_ore", 6f, 3, 7);
@@ -86,13 +88,18 @@ public class ModBlocks {
 
 
 
-    private static RegistryObject<Block> registerStairBlock(String name, RegistryObject<Block> block) {
-        RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new StairBlock(block.get().defaultBlockState(), BlockBehaviour.Properties.copy(
-                block.get())));
+    private static RegistryObject<Block> registerStairBlock(String name, RegistryObject<Block> block, float strength) {
+        RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new StairBlock(block.get().defaultBlockState(), BlockBehaviour.Properties
+                .of(Material.STONE)
+                .strength(strength)
+                .requiresCorrectToolForDrops()
+        ));
 
         registerBlockItem(name, toReturn);
         return toReturn;
     }
+
+
 
     private static RegistryObject<Block> registerSlabBlock(String name, RegistryObject<Block> block) {
         RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new SlabBlock(BlockBehaviour.Properties.copy(

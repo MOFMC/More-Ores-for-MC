@@ -39,17 +39,17 @@ public class LightSwordItem extends TieredItem {
         DispenserBlock.registerBehavior(this, ArmorItem.DISPENSE_ITEM_BEHAVIOR);
     }
 
-    public UseAnim getUseAnimation(ItemStack p_43105_) {
+    public UseAnim getUseAnimation(ItemStack itemStack) {
         return UseAnim.BLOCK;
     }
 
-    public int getUseDuration(ItemStack p_43107_) {
+    public int getUseDuration(ItemStack itemStack) {
         return 72000;
     }
 
-    public InteractionResultHolder<ItemStack> use(Level p_43099_, Player p_43100_, InteractionHand p_43101_) {
-        ItemStack itemstack = p_43100_.getItemInHand(p_43101_);
-        p_43100_.startUsingItem(p_43101_);
+    public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand interactionHand) {
+        ItemStack itemstack = player.getItemInHand(interactionHand);
+        player.startUsingItem(interactionHand);
         return InteractionResultHolder.consume(itemstack);
     }
 
@@ -57,29 +57,29 @@ public class LightSwordItem extends TieredItem {
         return this.attackDamage;
     }
 
-    public boolean canAttackBlock(BlockState p_43291_, Level p_43292_, BlockPos p_43293_, Player p_43294_) {
-        return !p_43294_.isCreative();
+    public boolean canAttackBlock(BlockState blockState, Level level, BlockPos blockPos, Player player) {
+        return !player.isCreative();
     }
 
-    public float getDestroySpeed(ItemStack p_43288_, BlockState p_43289_) {
-        if (p_43289_.is(Blocks.COBWEB)) {
+    public float getDestroySpeed(ItemStack itemStack, BlockState blockState) {
+        if (blockState.is(Blocks.COBWEB)) {
             return 15.0F;
         } else {
-            Material material = p_43289_.getMaterial();
-            return material != Material.PLANT && material != Material.REPLACEABLE_PLANT && !p_43289_.is(BlockTags.LEAVES) && material != Material.VEGETABLE ? 1.0F : 1.5F;
+            Material material = blockState.getMaterial();
+            return material != Material.PLANT && material != Material.REPLACEABLE_PLANT && !blockState.is(BlockTags.LEAVES) && material != Material.VEGETABLE ? 1.0F : 1.5F;
         }
     }
 
-    public boolean hurtEnemy(ItemStack p_43278_, LivingEntity p_43279_, LivingEntity p_43280_) {
-        p_43278_.hurtAndBreak(1, p_43280_, (p_43296_) -> {
+    public boolean hurtEnemy(ItemStack itemStack, LivingEntity livingEntity, LivingEntity player) {
+        itemStack.hurtAndBreak(1, player, (p_43296_) -> {
             p_43296_.broadcastBreakEvent(EquipmentSlot.MAINHAND);
         });
         return true;
     }
 
-    public boolean mineBlock(ItemStack p_43282_, Level p_43283_, BlockState p_43284_, BlockPos p_43285_, LivingEntity p_43286_) {
-        if (p_43284_.getDestroySpeed(p_43283_, p_43285_) != 0.0F) {
-            p_43282_.hurtAndBreak(2, p_43286_, (p_43276_) -> {
+    public boolean mineBlock(ItemStack itemStack, Level level, BlockState blockState, BlockPos blockPos, LivingEntity livingEntity) {
+        if (blockState.getDestroySpeed(level, blockPos) != 0.0F) {
+            itemStack.hurtAndBreak(2, livingEntity, (p_43276_) -> {
                 p_43276_.broadcastBreakEvent(EquipmentSlot.MAINHAND);
             });
         }
@@ -87,13 +87,13 @@ public class LightSwordItem extends TieredItem {
         return true;
     }
 
-    public boolean isCorrectToolForDrops(BlockState p_43298_) {
-        return p_43298_.is(Blocks.COBWEB);
+    public boolean isCorrectToolForDrops(BlockState blockState) {
+        return blockState.is(Blocks.COBWEB);
     }
 
-    public Multimap<Attribute, AttributeModifier> getDefaultAttributeModifiers(EquipmentSlot p_43274_) {
-        return p_43274_ == EquipmentSlot.MAINHAND ? this.defaultModifiers : super.getDefaultAttributeModifiers(p_43274_);
-    }
+    public Multimap<Attribute, AttributeModifier> getDefaultAttributeModifiersTwo(EquipmentSlot equipmentSlot, ItemStack itemStack) {
+        return equipmentSlot == EquipmentSlot.MAINHAND ? this.defaultModifiers : super.getAttributeModifiers(equipmentSlot, itemStack);
+    } // Hook to fire ItemAttributeModifierEvent. Modders should use ItemStack.getAttributeModifier
 
     /* ******************** FORGE START ******************** */
 

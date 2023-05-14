@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  M",
+    " MM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:titanium_rod"
+    }
+  },
+  "result": {
+    "item": "mofmc:titanium_stairs",
+    "count": 1
+  }
+}

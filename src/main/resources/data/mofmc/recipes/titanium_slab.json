@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:titanium_rod"
+    }
+  },
+  "result": {
+    "item": "mofmc:titanium_slab",
+    "count": 6
+  }
+}

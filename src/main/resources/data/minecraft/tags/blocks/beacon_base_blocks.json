@@ -1,5 +1,9 @@
 {
   "values": [
-    "mofmc:titanium_block"
+    "mofmc:ruby_block",
+    "mofmc:pyrite_block",
+    "mofmc:purple_sapphire_block",
+    "mofmc:titanium_block",
+    "mofmc:tin_block"
   ]
 }

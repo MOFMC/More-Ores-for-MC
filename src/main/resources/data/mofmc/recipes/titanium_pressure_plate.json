@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " MM"
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:titanium_rod"
+    }
+  },
+  "result": {
+    "item": "mofmc:titanium_pressure_plate",
+    "count": 1
+  }
+}

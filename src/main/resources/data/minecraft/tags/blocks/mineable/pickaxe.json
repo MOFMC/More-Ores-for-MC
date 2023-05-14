@@ -24,6 +24,9 @@
     "mofmc:nether_tin_ore",
     "mofmc:tin_block",
     "mofmc:raw_tin_block",
-    "mofmc:blue_light_crystal_ore"
+    "mofmc:blue_light_crystal_ore",
+    "mofmc:titanium_stairs",
+    "mofmc:titanium_slab",
+    "mofmc:titanium_pressure_plate"
   ]
 }
