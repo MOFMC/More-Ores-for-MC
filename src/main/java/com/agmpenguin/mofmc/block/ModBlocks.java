@@ -53,19 +53,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> TIN_BLOCK = registerOre("tin_block", 6f, 3, 7);
     public static final RegistryObject<Block> RAW_TIN_BLOCK = registerOre("raw_tin_block", 6f, 3, 7);
 
-    public static final RegistryObject<Block> TITANIUM_STAIRS = registerStairBlock("titanium_stairs", 6f);
+    public static final RegistryObject<Block> TITANIUM_STAIRS = registerStairBlock("titanium_stairs");
 
 
     public static final RegistryObject<Block> BLUE_LIGHT_CRYSTAL_ORE = registerLightCrystalOre("blue_light_crystal_ore", 6f, 3, 7, 9); // Does it Glow
     // public static final RegistryObject<Block> GREEN_LIGHT_CRYSTAL_ORE = registerOre("green_light_crystal_ore", 6f, 3, 7);
     // public static final RegistryObject<Block> PURPLE_LIGHT_CRYSTAL_ORE = registerOre("purple_light_crystal_ore", 6f, 3, 7);
 
-    private static final RegistryObject<Block> registerStairBlock(String name, float strength) {
-        RegistryObject toReturn = BLOCKS.register(name, () -> new StairBlock(TITANIUM_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties
-                .of(Material.STONE)
-                .strength(strength)
-                .requiresCorrectToolForDrops()
-        ));
+    private static RegistryObject<Block> registerStairBlock(String name) {
+        RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new StairBlock(TITANIUM_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(
+                TITANIUM_BLOCK.get())));
+
         registerBlockItem(name, toReturn);
         return toReturn;
     }
@@ -91,7 +89,7 @@ public class ModBlocks {
         return toReturn;
     }
 
-    public static RegistryObject<Block> registerLightCrystalOre(String name, float strength, int minExp, int maxExp, int lightLevel) {
+    private static RegistryObject<Block> registerLightCrystalOre(String name, float strength, int minExp, int maxExp, int lightLevel) {
         RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new DropExperienceBlock(BlockBehaviour.Properties
                 .of(Material.STONE)
                 .strength(strength)
