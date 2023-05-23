@@ -32,6 +32,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> NETHER_RUBY_ORE = registerOre("nether_ruby_ore", 6f, 3, 7);
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block", 6f);
     public static final RegistryObject<Block> RAW_RUBY_BLOCK = registerBlock("raw_ruby_block", 6f);
+    public static final RegistryObject<Block> RUBY_STAIRS = registerStairBlock("ruby_stairs", RUBY_BLOCK, 6f);
+    public static final RegistryObject<Block> RUBY_SLAB = registerSlabBlock("ruby_slab", RUBY_BLOCK);
+    public static final RegistryObject<Block> RUBY_PRESSURE_PLATE = registerPressurePlateBlock("ruby_pressure_plate", "everything", Material.STONE, 0.5f);
     // PYRITE ORE
     public static final RegistryObject<Block> PYRITE_ORE = registerOre("pyrite_ore", 6f, 3, 7);
     public static final RegistryObject<Block> DEEPSLATE_PYRITE_ORE = registerOre("deepslate_pyrite_ore", 6f, 3, 7);

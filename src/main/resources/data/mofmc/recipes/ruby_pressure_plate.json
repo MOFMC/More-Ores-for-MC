@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " MM"
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:ruby_block"
+    }
+  },
+  "result": {
+    "item": "mofmc:ruby_pressure_plate",
+    "count": 1
+  }
+}

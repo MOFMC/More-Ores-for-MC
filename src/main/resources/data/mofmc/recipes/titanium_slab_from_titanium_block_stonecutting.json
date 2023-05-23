@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "mofmc:titanium_block"
+  },
+  "result": "mofmc:titanium_slab"
+}

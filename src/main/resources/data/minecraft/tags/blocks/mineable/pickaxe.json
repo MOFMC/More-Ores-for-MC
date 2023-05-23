@@ -5,6 +5,9 @@
     "mofmc:nether_ruby_ore",
     "mofmc:ruby_block",
     "mofmc:raw_ruby_block",
+    "mofmc:ruby_stairs",
+    "mofmc:ruby_slab",
+    "mofmc:ruby_pressure_plate",
     "mofmc:pyrite_ore",
     "mofmc:deepslate_pyrite_ore",
     "mofmc:nether_pyrite_ore",
@@ -14,6 +17,9 @@
     "mofmc:deepslate_titanium_ore",
     "mofmc:nether_titanium_ore",
     "mofmc:titanium_block",
+    "mofmc:titanium_stairs",
+    "mofmc:titanium_slab",
+    "mofmc:titanium_pressure_plate",
     "mofmc:purple_sapphire_ore",
     "mofmc:deepslate_purple_sapphire_ore",
     "mofmc:nether_purple_sapphire_ore",
@@ -24,9 +30,6 @@
     "mofmc:nether_tin_ore",
     "mofmc:tin_block",
     "mofmc:raw_tin_block",
-    "mofmc:blue_light_crystal_ore",
-    "mofmc:titanium_stairs",
-    "mofmc:titanium_slab",
-    "mofmc:titanium_pressure_plate"
+    "mofmc:blue_light_crystal_ore"
   ]
 }
