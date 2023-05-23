@@ -16,7 +16,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "mofmc:titanium_stiars_from_titanium_block_stonecutting"
+        "recipe": "mofmc:titanium_stairs_from_titanium_block_stonecutting"
       }
     }
   },

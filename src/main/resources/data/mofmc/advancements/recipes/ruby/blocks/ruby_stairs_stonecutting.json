@@ -16,7 +16,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "mofmc:ruby_stiars_stonecutting"
+        "recipe": "mofmc:ruby_stairs_stonecutting"
       }
     }
   },
