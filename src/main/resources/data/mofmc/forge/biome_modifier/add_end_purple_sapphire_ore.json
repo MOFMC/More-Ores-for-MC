@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "features": "mofmc:end_purple_sapphire_ore_placed",
+  "biomes": "#minecraft:is_end",
+  "step": "underground_ores"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "features": "mofmc:nether_purple_sapphire_ore_placed",
+  "biomes": "#minecraft:is_nether",
+  "step": "underground_ores"
+}
