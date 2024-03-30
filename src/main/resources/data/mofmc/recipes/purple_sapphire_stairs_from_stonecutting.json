@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "purple_sapphire_stairs",
+  "count": 1,
+  "ingredient": {
+    "item": "mofmc:purple_sapphire_block"
+  },
+  "result": "mofmc:purple_sapphire_stairs"
+}

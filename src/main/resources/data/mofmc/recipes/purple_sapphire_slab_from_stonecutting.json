@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "purple_sapphire_slab",
+  "count": 2,
+  "ingredient": {
+    "item": "mofmc:purple_sapphire_block"
+  },
+  "result": "mofmc:purple_sapphire_slab"
+}

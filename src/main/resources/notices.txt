@@ -11,4 +11,3 @@
 
 Problems:
 - Balance everything (Tools, Armor, Blocks, WorldGen)
-- resources/data/forge/tags/items/ores inconsistency in lists
