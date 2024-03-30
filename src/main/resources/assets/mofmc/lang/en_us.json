@@ -84,6 +84,12 @@
   "block.mofmc.purple_sapphire_slab": "Purple Sapphire Slab",
   "block.mofmc.purple_sapphire_pressure_plate": "Purple Sapphire Pressure Plate",
 
+  "item.mofmc.purple_sapphire_sword": "Purple Sapphire Sword",
+  "item.mofmc.purple_sapphire_pickaxe": "Purple Sapphire Pickaxe",
+  "item.mofmc.purple_sapphire_axe": "Purple Sapphire Axe",
+  "item.mofmc.purple_sapphire_shovel": "Purple Sapphire Shovel",
+  "item.mofmc.purple_sapphire_hoe": "Purple Sapphire Hoe",
+
   "creativetab.mofmc_tab": "MOFMC",
 
   "item.mofmc.ruby_v_1": "Ruby Version 1"
