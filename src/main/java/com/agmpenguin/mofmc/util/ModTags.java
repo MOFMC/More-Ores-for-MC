@@ -34,6 +34,7 @@ public class ModTags {
     5. Middle Click = Go to Declaration/Find Instances
     6. Ctrl + D = Duplicate
     7. Shift + Shift = History
+    8. Ctrl + Shift + U = Toggle Case of Selection
 
 
     Thing that runs MC:

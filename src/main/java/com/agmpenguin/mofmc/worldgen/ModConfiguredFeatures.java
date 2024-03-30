@@ -30,6 +30,10 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_TITANIUM_ORE_KEY = registerKey("overworld_titanium_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_TITANIUM_ORE_KEY = registerKey("nether_titanium_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_TITANIUM_ORE_KEY = registerKey("end_titanium_ore");
+    // PURPLE SAPPHIRE
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_PURPLE_SAPPHIRE_ORE_KEY = registerKey("overworld_purple_sapphire_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_PURPLE_SAPPHIRE_ORE_KEY = registerKey("nether_purple_sapphire_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> END_PURPLE_SAPPHIRE_ORE_KEY = registerKey("end_purple_sapphire_ore");
 
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
