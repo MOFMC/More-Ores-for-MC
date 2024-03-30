@@ -71,6 +71,19 @@
   "item.mofmc.titanium_leggings": "Titanium Leggings",
   "item.mofmc.titanium_boots": "Titanium Boots",
 
+
+  "item.mofmc.purple_sapphire": "Purple Sapphire",
+  "item.mofmc.raw_purple_sapphire": "Raw Purple Sapphire",
+
+  "block.mofmc.purple_sapphire_ore": "Purple Sapphire Ore",
+  "block.mofmc.deepslate_purple_sapphire_ore": "Deepslate Purple Sapphire Ore",
+  "block.mofmc.nether_purple_sapphire_ore": "Nether Purple Sapphire Ore",
+  "block.mofmc.end_purple_sapphire_ore": "End Purple Sapphire Ore",
+  "block.mofmc.purple_sapphire_block": "Block of Purple Sapphire",
+  "block.mofmc.purple_sapphire_stairs": "Purple Sapphire Stairs",
+  "block.mofmc.purple_sapphire_slab": "Purple Sapphire Slab",
+  "block.mofmc.purple_sapphire_pressure_plate": "Purple Sapphire Pressure Plate",
+
   "creativetab.mofmc_tab": "MOFMC",
 
   "item.mofmc.ruby_v_1": "Ruby Version 1"
