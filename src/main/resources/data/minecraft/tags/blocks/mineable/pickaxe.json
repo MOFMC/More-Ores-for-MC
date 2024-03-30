@@ -27,6 +27,16 @@
     "mofmc:titanium_block",
     "mofmc:titanium_stairs",
     "mofmc:titanium_slab",
-    "mofmc:titanium_pressure_plate"
+    "mofmc:titanium_pressure_plate",
+
+    "mofmc:purple_sapphire_ore",
+    "mofmc:deepslate_purple_sapphire_ore",
+    "mofmc:nether_purple_sapphire_ore",
+    "mofmc:end_purple_sapphire_ore",
+    "mofmc:purple_sapphire_block",
+    "mofmc:raw_purple_sapphire_block",
+    "mofmc:purple_sapphire_stairs",
+    "mofmc:purple_sapphire_slab",
+    "mofmc:purple_sapphire_pressure_plate"
   ]
 }

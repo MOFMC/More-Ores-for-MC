@@ -5,3 +5,10 @@
     in each respective dimension.
 3. Maybe add in other versions of default Minecraft ores.
   - Ex: Nether Diamond Ore, End Redstone Ore, End Emerald Ore.
+
+
+
+
+Problems:
+- Rebalance everything
+- resources/data/forge/tags/items/ores inconsistency in lists
