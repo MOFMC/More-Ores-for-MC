@@ -22,8 +22,8 @@ public class ModTabs extends ModItems {
                         pOutput.accept(RUBY.get());
                         pOutput.accept(RAW_RUBY.get());
                         pOutput.accept(RUBY_SWORD.get());
-                        pOutput.accept(RUBY_AXE.get());
                         pOutput.accept(RUBY_PICKAXE.get());
+                        pOutput.accept(RUBY_AXE.get());
                         pOutput.accept(RUBY_SHOVEL.get());
                         pOutput.accept(RUBY_HOE.get());
                         pOutput.accept(RUBY_HELMET.get());
@@ -66,8 +66,8 @@ public class ModTabs extends ModItems {
                         pOutput.accept(TITANIUM_ROD.get());
                         pOutput.accept(TITANIUM_DUST.get());
                         pOutput.accept(TITANIUM_SWORD.get());
-                        pOutput.accept(TITANIUM_AXE.get());
                         pOutput.accept(TITANIUM_PICKAXE.get());
+                        pOutput.accept(TITANIUM_AXE.get());
                         pOutput.accept(TITANIUM_SHOVEL.get());
                         pOutput.accept(TITANIUM_HOE.get());
                         pOutput.accept(TITANIUM_HELMET.get());
@@ -82,6 +82,27 @@ public class ModTabs extends ModItems {
                         pOutput.accept(TITANIUM_STAIRS.get());
                         pOutput.accept(TITANIUM_SLAB.get());
                         pOutput.accept(TITANIUM_PRESSURE_PLATE.get());
+
+                        pOutput.accept(PURPLE_SAPPHIRE.get());
+                        pOutput.accept(RAW_PURPLE_SAPPHIRE.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_SWORD.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_PICKAXE.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_AXE.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_SHOVEL.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_HOE.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_HELMET.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_CHESTPLATE.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_LEGGINGS.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_BOOTS.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_ORE.get());
+                        pOutput.accept(DEEPSLATE_PURPLE_SAPPHIRE_ORE.get());
+                        pOutput.accept(NETHER_PURPLE_SAPPHIRE_ORE.get());
+                        pOutput.accept(END_PURPLE_SAPPHIRE_ORE.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_BLOCK.get());
+                        pOutput.accept(RAW_PURPLE_SAPPHIRE_BLOCK.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_STAIRS.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_SLAB.get());
+                        pOutput.accept(PURPLE_SAPPHIRE_PRESSURE_PLATE.get());
                     })
                     .build());
 

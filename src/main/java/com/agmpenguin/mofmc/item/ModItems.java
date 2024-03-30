@@ -50,6 +50,19 @@ public class ModItems {
     public static final RegistryObject<Item> TITANIUM_LEGGINGS = createModArmorItem("titanium_leggings", ModArmorMaterials.TITANIUM, ArmorItem.Type.LEGGINGS);
     public static final RegistryObject<Item> TITANIUM_BOOTS = createModArmorItem("titanium_boots", ModArmorMaterials.TITANIUM, ArmorItem.Type.BOOTS);
 
+    public static final RegistryObject<Item> PURPLE_SAPPHIRE = createModItem("purple_sapphire");
+    public static final RegistryObject<Item> RAW_PURPLE_SAPPHIRE = createModItem("raw_purple_sapphire");
+    public static final RegistryObject<Item> PURPLE_SAPPHIRE_SWORD = createModSwordItem("purple_sapphire_sword", ModTiers.PURPLE_SAPPHIRE, 2, 3f);
+    public static final RegistryObject<Item> PURPLE_SAPPHIRE_PICKAXE = createModPickaxeItem("purple_sapphire_pickaxe", ModTiers.PURPLE_SAPPHIRE, 1, 1f);
+    public static final RegistryObject<Item> PURPLE_SAPPHIRE_AXE = createModAxeItem("purple_sapphire_axe", ModTiers.PURPLE_SAPPHIRE, 4, 0f);
+    public static final RegistryObject<Item> PURPLE_SAPPHIRE_SHOVEL = createModShovelItem("purple_sapphire_shovel", ModTiers.PURPLE_SAPPHIRE, 0, 1f);
+    public static final RegistryObject<Item> PURPLE_SAPPHIRE_HOE = createModHoeItem("purple_sapphire_hoe", ModTiers.PURPLE_SAPPHIRE, 0, 0f);
+    public static final RegistryObject<Item> PURPLE_SAPPHIRE_HELMET = createModArmorItem("purple_sapphire_helmet", ModArmorMaterials.PURPLE_SAPPHIRE, ArmorItem.Type.HELMET);
+    public static final RegistryObject<Item> PURPLE_SAPPHIRE_CHESTPLATE = createModArmorItem("purple_sapphire_chestplate", ModArmorMaterials.PURPLE_SAPPHIRE, ArmorItem.Type.CHESTPLATE);
+    public static final RegistryObject<Item> PURPLE_SAPPHIRE_LEGGINGS = createModArmorItem("purple_sapphire_leggings", ModArmorMaterials.PURPLE_SAPPHIRE, ArmorItem.Type.LEGGINGS);
+    public static final RegistryObject<Item> PURPLE_SAPPHIRE_BOOTS = createModArmorItem("purple_sapphire_boots", ModArmorMaterials.PURPLE_SAPPHIRE, ArmorItem.Type.BOOTS);
+
+
     private static RegistryObject<Item> createModSwordItem(String name, ForgeTier tier, int attack, float speed) {      // Attack Damage Bonus, ? Speed Bonus ?
         return ITEMS.register(name, () -> new SwordItem(tier, attack, speed, new Item.Properties()));
     }

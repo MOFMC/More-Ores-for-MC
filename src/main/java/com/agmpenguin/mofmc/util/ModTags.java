@@ -12,6 +12,7 @@ public class ModTags {
         public static final TagKey<Item> RUBY_ORES = createForgeTag("ores/ruby");
         public static final TagKey<Item> PYRITE_ORES = createForgeTag("ores/pyrite");
         public static final TagKey<Item> TITANIUM_ORES = createForgeTag("ores/titanium");
+        public static final TagKey<Item> PURPLE_SAPPHIRE_ORES = createForgeTag("ores/purple_sapphire");
 
 
 

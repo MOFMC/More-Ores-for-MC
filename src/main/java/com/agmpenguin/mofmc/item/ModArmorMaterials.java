@@ -15,7 +15,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     PYRITE("pyrite", 17, new int[]{1, 3, 5, 2}, 12, SoundEvents.ARMOR_EQUIP_GOLD,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.PYRITE_INGOT.get())),
     TITANIUM("titanium", 28, new int[]{3, 4, 6, 3}, 16, SoundEvents.ARMOR_EQUIP_IRON,
-            2.0F, 0.0F, () -> Ingredient.of(ModItems.TITANIUM_ROD.get()));
+            2.0F, 0.0F, () -> Ingredient.of(ModItems.TITANIUM_ROD.get())),
+    PURPLE_SAPPHIRE("purple_sapphire", 28, new int[]{2, 4, 6, 2}, 19, SoundEvents.ARMOR_EQUIP_DIAMOND,
+            2.0F, 0.0F, () -> Ingredient.of(ModItems.PURPLE_SAPPHIRE.get()));
 
     private final String name;
     private final int durabilityMultiplier;

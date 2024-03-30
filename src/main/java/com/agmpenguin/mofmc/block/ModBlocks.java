@@ -51,7 +51,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> PURPLE_SAPPHIRE_ORE = registerOre("purple_sapphire_ore", 6f, 3, 7);
     public static final RegistryObject<Block> DEEPSLATE_PURPLE_SAPPHIRE_ORE = registerOre("deepslate_purple_sapphire_ore", 6f, 3, 7);
     public static final RegistryObject<Block> NETHER_PURPLE_SAPPHIRE_ORE = registerOre("nether_purple_sapphire_ore", 6f, 3, 7);
-    public static final RegistryObject<Block> END_SAPPHIRE_ORE = registerOre("end_purple_sapphire_ore", 6f, 3, 7);
+    public static final RegistryObject<Block> END_PURPLE_SAPPHIRE_ORE = registerOre("end_purple_sapphire_ore", 6f, 3, 7);
     public static final RegistryObject<Block> PURPLE_SAPPHIRE_BLOCK = registerBlock("purple_sapphire_block", 6f);
     public static final RegistryObject<Block> RAW_PURPLE_SAPPHIRE_BLOCK = registerBlock("raw_purple_sapphire_block", 6f);
     public static final RegistryObject<Block> PURPLE_SAPPHIRE_STAIRS = registerStairBlock("purple_sapphire_stairs", PURPLE_SAPPHIRE_BLOCK, 6f);
