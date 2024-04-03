@@ -5,6 +5,7 @@
     in each respective dimension.
 3. Maybe add in other versions of default Minecraft ores.
   - Ex: Nether Diamond Ore, End Redstone Ore, End Emerald Ore.
+4. Add buttons, fences, fence gates, walls, doors, and trapdoors.
 
 
 

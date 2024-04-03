@@ -62,6 +62,18 @@ public class ModItems {
     public static final RegistryObject<Item> PURPLE_SAPPHIRE_LEGGINGS = createModArmorItem("purple_sapphire_leggings", ModArmorMaterials.PURPLE_SAPPHIRE, ArmorItem.Type.LEGGINGS);
     public static final RegistryObject<Item> PURPLE_SAPPHIRE_BOOTS = createModArmorItem("purple_sapphire_boots", ModArmorMaterials.PURPLE_SAPPHIRE, ArmorItem.Type.BOOTS);
 
+    public static final RegistryObject<Item> TIN_INGOT = createModItem("tin_ingot");
+    public static final RegistryObject<Item> RAW_TIN = createModItem("raw_tin");
+    public static final RegistryObject<Item> TIN_SWORD = createModSwordItem("tin_sword", ModTiers.TIN, 2, 3f);
+    public static final RegistryObject<Item> TIN_PICKAXE = createModPickaxeItem("tin_pickaxe", ModTiers.TIN, 1, 1f);
+    public static final RegistryObject<Item> TIN_SHOVEL = createModShovelItem("tin_shovel", ModTiers.TIN, 0, 1f);
+    public static final RegistryObject<Item> TIN_AXE = createModAxeItem("tin_axe", ModTiers.TIN, 4, 0f);
+    public static final RegistryObject<Item> TIN_HOE = createModHoeItem("tin_hoe", ModTiers.TIN, 0, 0f);
+    public static final RegistryObject<Item> TIN_HELMET = createModArmorItem("tin_helmet", ModArmorMaterials.TIN, ArmorItem.Type.HELMET);
+    public static final RegistryObject<Item> TIN_CHESTPLATE = createModArmorItem("tin_chestplate", ModArmorMaterials.TIN, ArmorItem.Type.CHESTPLATE);
+    public static final RegistryObject<Item> TIN_LEGGINGS = createModArmorItem("tin_leggings", ModArmorMaterials.TIN, ArmorItem.Type.LEGGINGS);
+    public static final RegistryObject<Item> TIN_BOOTS = createModArmorItem("tin_boots", ModArmorMaterials.TIN, ArmorItem.Type.BOOTS);
+
 
     private static RegistryObject<Item> createModSwordItem(String name, ForgeTier tier, int attack, float speed) {      // Attack Damage Bonus, ? Speed Bonus ?
         return ITEMS.register(name, () -> new SwordItem(tier, attack, speed, new Item.Properties()));

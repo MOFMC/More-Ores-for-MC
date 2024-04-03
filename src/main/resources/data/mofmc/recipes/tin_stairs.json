@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tin_stairs",
+  "pattern": [
+    "  M",
+    " MM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:tin_block"
+    }
+  },
+  "result": {
+    "item": "mofmc:tin_stairs",
+    "count": 1
+  }
+}

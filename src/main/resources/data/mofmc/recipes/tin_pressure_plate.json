@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " MM"
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:tin_block"
+    }
+  },
+  "result": {
+    "item": "mofmc:tin_pressure_plate",
+    "count": 1
+  }
+}

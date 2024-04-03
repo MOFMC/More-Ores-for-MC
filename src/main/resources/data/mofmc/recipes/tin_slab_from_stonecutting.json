@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "tin_slab",
+  "count": 2,
+  "ingredient": {
+    "item": "mofmc:tin_block"
+  },
+  "result": "mofmc:tin_slab"
+}

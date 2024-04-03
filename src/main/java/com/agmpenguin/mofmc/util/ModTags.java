@@ -13,6 +13,7 @@ public class ModTags {
         public static final TagKey<Item> PYRITE_ORES = createForgeTag("ores/pyrite");
         public static final TagKey<Item> TITANIUM_ORES = createForgeTag("ores/titanium");
         public static final TagKey<Item> PURPLE_SAPPHIRE_ORES = createForgeTag("ores/purple_sapphire");
+        public static final TagKey<Item> TIN_ORES = createForgeTag("ores/tin");
 
 
 
@@ -35,6 +36,7 @@ public class ModTags {
     6. Ctrl + D = Duplicate
     7. Shift + Shift = History
     8. Ctrl + Shift + U = Toggle Case of Selection
+    9. Crtl + B = Go to Source
 
 
     Thing that runs MC:

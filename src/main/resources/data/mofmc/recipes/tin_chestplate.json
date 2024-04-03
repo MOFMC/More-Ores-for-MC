@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mofmc:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "mofmc:tin_chestplate",
+    "count": 1
+  }
+}

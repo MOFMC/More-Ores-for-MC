@@ -24,6 +24,10 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> OVERWORLD_PURPLE_SAPPHIRE_ORE_PLACED_KEY = registerKey("overworld_purple_sapphire_ore_placed");
     public static final ResourceKey<PlacedFeature> NETHER_PURPLE_SAPPHIRE_ORE_PLACED_KEY = registerKey("nether_purple_sapphire_ore_placed");
     public static final ResourceKey<PlacedFeature> END_PURPLE_SAPPHIRE_ORE_PLACED_KEY = registerKey("end_purple_sapphire_ore_placed");
+    // TIN
+    public static final ResourceKey<PlacedFeature> OVERWORLD_TIN_ORE_PLACED_KEY = registerKey("overworld_tin_ore_placed");
+    public static final ResourceKey<PlacedFeature> NETHER_TIN_ORE_PLACED_KEY = registerKey("nether_tin_ore_placed");
+    public static final ResourceKey<PlacedFeature> END_TIN_ORE_PLACED_KEY = registerKey("end_tin_ore_placed");
 
 
     private static ResourceKey<PlacedFeature> registerKey(String name) {

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tin_slab",
+  "pattern": [
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "mofmc:tin_block"
+    }
+  },
+  "result": {
+    "item": "mofmc:tin_slab",
+    "count": 6
+  }
+}
