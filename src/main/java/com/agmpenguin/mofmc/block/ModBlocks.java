@@ -69,7 +69,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> TIN_STAIRS = registerStairBlock("tin_stairs", TIN_BLOCK, 6f);
     public static final RegistryObject<Block> TIN_SLAB = registerSlabBlock("tin_slab", TIN_BLOCK, 6f);
     public static final RegistryObject<Block> TIN_PRESSURE_PLATE = registerPressurePlateBlock("tin_pressure_plate", "everything", BlockSetType.STONE, 0.5f);
-    // public static final RegistryObject<Block> TIN_BUTTON = registerButtonBlock("tin_button", Blocks.STONE_BUTTON, SoundType.BONE_BLOCK, BlockSetType.IRON, 6f);
+    public static final RegistryObject<Block> TIN_BUTTON = registerButtonBlock("tin_button", Blocks.STONE_BUTTON, SoundType.BONE_BLOCK, BlockSetType.IRON, 6f);
     // public static final RegistryObject<Block> TIN_FENCE =  registerFenceBlock("tin_fence", Blocks.IRON_BLOCK, SoundType.BONE_BLOCK, 6f);
     // public static final RegistryObject<Block> TIN_FENCE_GATE =  registerFenceGateBlock("tin_fence_gate", Blocks.IRON_BLOCK, SoundType.BONE_BLOCK, SoundEvents.BONE_MEAL_USE, SoundEvents.BONE_BLOCK_FALL, 6f);
     // public static final RegistryObject<Block> TIN_WALL =  registerWallBlock("tin_wall", Blocks.IRON_BLOCK, SoundType.BONE_BLOCK, 6f);
