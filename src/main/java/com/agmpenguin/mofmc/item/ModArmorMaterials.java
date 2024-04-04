@@ -10,17 +10,17 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    RUBY("ruby", 28, new int[]{3, 6, 8, 3}, 19, SoundEvents.ARMOR_EQUIP_DIAMOND,
+    RUBY("ruby", 28, new int[]{3, 8, 6, 3}, 19, SoundEvents.ARMOR_EQUIP_DIAMOND,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.RUBY.get())),
-    PYRITE("pyrite", 17, new int[]{1, 3, 5, 2}, 12, SoundEvents.ARMOR_EQUIP_GOLD,
+    PYRITE("pyrite", 17, new int[]{1, 5, 3, 2}, 12, SoundEvents.ARMOR_EQUIP_GOLD,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.PYRITE_INGOT.get())),
-    TITANIUM("titanium", 28, new int[]{3, 4, 6, 3}, 16, SoundEvents.ARMOR_EQUIP_IRON,
+    TITANIUM("titanium", 28, new int[]{3, 6, 4, 3}, 16, SoundEvents.ARMOR_EQUIP_IRON,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.TITANIUM_ROD.get())),
-    PURPLE_SAPPHIRE("purple_sapphire", 28, new int[]{2, 4, 6, 2}, 19, SoundEvents.ARMOR_EQUIP_DIAMOND,
+    PURPLE_SAPPHIRE("purple_sapphire", 28, new int[]{2, 6, 4, 2}, 19, SoundEvents.ARMOR_EQUIP_DIAMOND,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.PURPLE_SAPPHIRE.get())),
-    TIN("tin", 9, new int[]{1, 2, 4, 1}, 4, SoundEvents.ARMOR_EQUIP_GENERIC,
+    TIN("tin", 9, new int[]{1, 4, 2, 1}, 4, SoundEvents.ARMOR_EQUIP_GENERIC,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.TIN_INGOT.get())),
-    RAINBOW("rainbow", 42, new int[]{6,8,14,6}, 56, SoundEvents.ARMOR_EQUIP_NETHERITE, 10.0F, 7.0F, () -> Ingredient.of(ModItems.RAINBOW_GEM.get()));
+    RAINBOW("rainbow", 42, new int[]{6, 14, 8, 6}, 56, SoundEvents.ARMOR_EQUIP_NETHERITE, 10.0F, 7.0F, () -> Ingredient.of(ModItems.RAINBOW_GEM.get()));
 
     private final String name;
     private final int durabilityMultiplier;
