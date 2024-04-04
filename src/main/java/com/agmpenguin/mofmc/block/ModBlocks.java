@@ -75,15 +75,12 @@ public class ModBlocks {
     // public static final RegistryObject<Block> TIN_WALL =  registerWallBlock("tin_wall", Blocks.IRON_BLOCK, SoundType.BONE_BLOCK, 6f);
     // PLATINUM ORE
     // RAINBOW ORE
-    /*
     public static final RegistryObject<Block> RAINBOW_ORE = registerOre("rainbow_ore", 6f, 3, 7);
     public static final RegistryObject<Block> DEEPSLATE_RAINBOW_ORE = registerOre("deepslate_rainbow_ore", 6f, 3, 7);
     public static final RegistryObject<Block> NETHER_RAINBOW_ORE = registerOre("nether_rainbow_ore", 6f, 3, 7);
     public static final RegistryObject<Block> END_RAINBOW_ORE = registerOre("end_rainbow_ore", 6f, 3, 7);
-    public static final RegistryObject<Block> RAINBOW_BLOCK = registerBlock("rainbow_blocK", 6f);
-    public static final RegistryObject<Block> RAINBOW_BLOCK_2 = registerBlock("rainbow_block_2", 6f);
-
-     */
+    public static final RegistryObject<Block> RAINBOW_BLOCK = registerBlock("rainbow_block", 6f);
+    // public static final RegistryObject<Block> RAINBOW_BLOCK_2 = registerBlock("rainbow_block_2", 6f);
 
 
     private static RegistryObject<Block> registerBlock(String name, float strength) {

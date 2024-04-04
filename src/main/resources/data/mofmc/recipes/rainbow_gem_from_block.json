@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mofmc:rainbow_block"
+    }
+  ],
+  "result": {
+    "item": "mofmc:rainbow_gem",
+    "count": 9
+  }
+}

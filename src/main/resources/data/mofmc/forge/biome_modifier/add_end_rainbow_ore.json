@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "features": "mofmc:end_rainbow_ore_placed",
+  "biomes": "#minecraft:is_end",
+  "step": "underground_ores"
+}

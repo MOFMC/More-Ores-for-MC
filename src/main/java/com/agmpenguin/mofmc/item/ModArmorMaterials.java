@@ -19,8 +19,8 @@ public enum ModArmorMaterials implements ArmorMaterial {
     PURPLE_SAPPHIRE("purple_sapphire", 28, new int[]{2, 4, 6, 2}, 19, SoundEvents.ARMOR_EQUIP_DIAMOND,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.PURPLE_SAPPHIRE.get())),
     TIN("tin", 9, new int[]{1, 2, 4, 1}, 4, SoundEvents.ARMOR_EQUIP_GENERIC,
-            2.0F, 0.0F, () -> Ingredient.of(ModItems.TIN_INGOT.get()));
-    // RAINBOW("rainbow", 42, new int[]{6,8,14,6}, 56, SoundEvents.ARMOR_EQUIP_NETHERITE, 10.0F, 7.0F, () -> Ingredient.of(ModItems.RAINBOW_GEM.get()));
+            2.0F, 0.0F, () -> Ingredient.of(ModItems.TIN_INGOT.get())),
+    RAINBOW("rainbow", 42, new int[]{6,8,14,6}, 56, SoundEvents.ARMOR_EQUIP_NETHERITE, 10.0F, 7.0F, () -> Ingredient.of(ModItems.RAINBOW_GEM.get()));
 
     private final String name;
     private final int durabilityMultiplier;

@@ -1,0 +1,9 @@
+{
+  "replace": "false",
+  "values": [
+    "mofmc:rainbow_ore",
+    "mofmc:deepslate_rainbow_ore",
+    "mofmc:nether_rainbow_ore",
+    "mofmc:end_rainbow_ore"
+  ]
+}

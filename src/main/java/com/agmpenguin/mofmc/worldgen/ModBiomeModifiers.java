@@ -34,6 +34,10 @@ public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_OVERWORLD_TIN_ORE = registerKey("add_overworld_tin_ore");
     public static final ResourceKey<BiomeModifier> ADD_NETHER_TIN_ORE = registerKey("add_nether_tin_ore");
     public static final ResourceKey<BiomeModifier> ADD_END_TIN_ORE = registerKey("add_end_tin_ore");
+    // RAINBOW
+    public static final ResourceKey<BiomeModifier> ADD_OVERWORLD_RAINBOW_ORE = registerKey("add_overworld_rainbow_ore");
+    public static final ResourceKey<BiomeModifier> ADD_NETHER_RAINBOW_ORE = registerKey("add_nether_rainbow_ore");
+    public static final ResourceKey<BiomeModifier> ADD_END_RAINBOW_ORE = registerKey("add_end_rainbow_ore");
 
 
     public static ResourceKey<BiomeModifier> registerKey(String name) {
