@@ -66,14 +66,28 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_TIN = createModItem("raw_tin");
     public static final RegistryObject<Item> TIN_SWORD = createModSwordItem("tin_sword", ModTiers.TIN, 2, 3f);
     public static final RegistryObject<Item> TIN_PICKAXE = createModPickaxeItem("tin_pickaxe", ModTiers.TIN, 1, 1f);
-    public static final RegistryObject<Item> TIN_SHOVEL = createModShovelItem("tin_shovel", ModTiers.TIN, 0, 1f);
     public static final RegistryObject<Item> TIN_AXE = createModAxeItem("tin_axe", ModTiers.TIN, 4, 0f);
+    public static final RegistryObject<Item> TIN_SHOVEL = createModShovelItem("tin_shovel", ModTiers.TIN, 0, 1f);
     public static final RegistryObject<Item> TIN_HOE = createModHoeItem("tin_hoe", ModTiers.TIN, 0, 0f);
     public static final RegistryObject<Item> TIN_HELMET = createModArmorItem("tin_helmet", ModArmorMaterials.TIN, ArmorItem.Type.HELMET);
     public static final RegistryObject<Item> TIN_CHESTPLATE = createModArmorItem("tin_chestplate", ModArmorMaterials.TIN, ArmorItem.Type.CHESTPLATE);
     public static final RegistryObject<Item> TIN_LEGGINGS = createModArmorItem("tin_leggings", ModArmorMaterials.TIN, ArmorItem.Type.LEGGINGS);
     public static final RegistryObject<Item> TIN_BOOTS = createModArmorItem("tin_boots", ModArmorMaterials.TIN, ArmorItem.Type.BOOTS);
 
+    /*
+    public static final RegistryObject<Item> RAINBOW_GEM = createModItem("rainbow_gem");
+    public static final RegistryObject<Item> RAINBOW_SWORD = createModSwordItem("rainbow_sword", ModTiers.RAINBOW, 10, 6f);
+    public static final RegistryObject<Item> RAINBOW_PICKAXE = createModPickaxeItem("rainbow_pickaxe", ModTiers.RAINBOW, 8, 4f);
+    public static final RegistryObject<Item> RAINBOW_AXE = createModAxeItem("rainbow_axe", ModTiers.RAINBOW, 14, 2f);
+    public static final RegistryObject<Item> RAINBOW_SHOVEL = createModShovelItem("rainbow_shovel", ModTiers.RAINBOW, 4, 3f);
+    public static final RegistryObject<Item> RAINBOW_HOE = createModHoeItem("rainbow_hoe", ModTiers.RAINBOW, 28, 10f);
+    public static final RegistryObject<Item> RAINBOW_HELMET = createModArmorItem("rainbow_helmet", ModArmorMaterials.RAINBOW, ArmorItem.Type.HELMET);
+    public static final RegistryObject<Item> RAINBOW_CHESTPLATE = createModArmorItem("rainbow_chestplate", ModArmorMaterials.RAINBOW, ArmorItem.Type.CHESTPLATE);
+    public static final RegistryObject<Item> RAINBOW_LEGGINGS = createModArmorItem("rainbow_leggings", ModArmorMaterials.RAINBOW, ArmorItem.Type.LEGGINGS);
+    public static final RegistryObject<Item> RAINBOW_BOOTS = createModArmorItem("rainbow_boots", ModArmorMaterials.RAINBOW, ArmorItem.Type.BOOTS);
+
+
+     */
 
     private static RegistryObject<Item> createModSwordItem(String name, ForgeTier tier, int attack, float speed) {      // Attack Damage Bonus, ? Speed Bonus ?
         return ITEMS.register(name, () -> new SwordItem(tier, attack, speed, new Item.Properties()));

@@ -69,11 +69,21 @@ public class ModBlocks {
     public static final RegistryObject<Block> TIN_STAIRS = registerStairBlock("tin_stairs", TIN_BLOCK, 6f);
     public static final RegistryObject<Block> TIN_SLAB = registerSlabBlock("tin_slab", TIN_BLOCK, 6f);
     public static final RegistryObject<Block> TIN_PRESSURE_PLATE = registerPressurePlateBlock("tin_pressure_plate", "everything", BlockSetType.STONE, 0.5f);
-    public static final RegistryObject<Block> TIN_BUTTON = registerButtonBlock("tin_button", Blocks.STONE_BUTTON, SoundType.BONE_BLOCK, BlockSetType.IRON, 6f);
+    public static final RegistryObject<Block> TIN_BUTTON = registerButtonBlock("tin_button", Blocks.STONE_BUTTON, SoundType.BONE_BLOCK, BlockSetType.IRON);
     // public static final RegistryObject<Block> TIN_FENCE =  registerFenceBlock("tin_fence", Blocks.IRON_BLOCK, SoundType.BONE_BLOCK, 6f);
     // public static final RegistryObject<Block> TIN_FENCE_GATE =  registerFenceGateBlock("tin_fence_gate", Blocks.IRON_BLOCK, SoundType.BONE_BLOCK, SoundEvents.BONE_MEAL_USE, SoundEvents.BONE_BLOCK_FALL, 6f);
     // public static final RegistryObject<Block> TIN_WALL =  registerWallBlock("tin_wall", Blocks.IRON_BLOCK, SoundType.BONE_BLOCK, 6f);
     // PLATINUM ORE
+    // RAINBOW ORE
+    /*
+    public static final RegistryObject<Block> RAINBOW_ORE = registerOre("rainbow_ore", 6f, 3, 7);
+    public static final RegistryObject<Block> DEEPSLATE_RAINBOW_ORE = registerOre("deepslate_rainbow_ore", 6f, 3, 7);
+    public static final RegistryObject<Block> NETHER_RAINBOW_ORE = registerOre("nether_rainbow_ore", 6f, 3, 7);
+    public static final RegistryObject<Block> END_RAINBOW_ORE = registerOre("end_rainbow_ore", 6f, 3, 7);
+    public static final RegistryObject<Block> RAINBOW_BLOCK = registerBlock("rainbow_blocK", 6f);
+    public static final RegistryObject<Block> RAINBOW_BLOCK_2 = registerBlock("rainbow_block_2", 6f);
+
+     */
 
 
     private static RegistryObject<Block> registerBlock(String name, float strength) {
@@ -129,13 +139,14 @@ public class ModBlocks {
         return toReturn;
     }
 
-    private static RegistryObject<Block> registerButtonBlock(String name, Block block, SoundType sound, BlockSetType blockSetType, float strength) {
+    private static RegistryObject<Block> registerButtonBlock(String name, Block block, SoundType sound, BlockSetType blockSetType) {
         RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new ButtonBlock(BlockBehaviour.Properties
                 .copy(block)
                 .sound(sound)
-                .strength(strength)
-                .requiresCorrectToolForDrops(),
+                .strength(0.5f),
                 blockSetType, 10, true));
+
+        registerBlockItem(name, toReturn);
         return toReturn;
     }
 

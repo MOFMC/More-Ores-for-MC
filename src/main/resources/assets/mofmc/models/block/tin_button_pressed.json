@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button_pressed",
   "textures": {
-    "texture": "minecraft:block/tin_block"
+    "texture": "mofmc:block/tin_block"
   }
 }

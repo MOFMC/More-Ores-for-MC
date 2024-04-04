@@ -14,6 +14,7 @@ public class ModTags {
         public static final TagKey<Item> TITANIUM_ORES = createForgeTag("ores/titanium");
         public static final TagKey<Item> PURPLE_SAPPHIRE_ORES = createForgeTag("ores/purple_sapphire");
         public static final TagKey<Item> TIN_ORES = createForgeTag("ores/tin");
+        // public static final TagKey<Item> RAINBOW_ORES = createForgeTag("ores/rainbow");
 
 
 
@@ -50,4 +51,6 @@ public class ModTags {
                              - net/minecraft/client/main/Main
 
     Maybe I should check crash for skin args
+
+    IF BLUE THING APPEARS ON TOP WHEN INSPECTING FILES HIT Gradle, then the download button - "Download Sources"
  */
