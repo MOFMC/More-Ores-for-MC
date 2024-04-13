@@ -1,16 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "# #"
+    " MM"
   ],
   "key": {
-    "#": {
-      "item": "mofmc:ruby"
+    "M": {
+      "item": "mofmc:rainbow_block"
     }
   },
   "result": {
-    "item": "mofmc:ruby_helmet",
+    "item": "mofmc:rainbow_pressure_plate",
     "count": 1
   }
 }

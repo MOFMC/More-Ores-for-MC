@@ -1,0 +1,33 @@
+{
+  "values": [
+    "minecraft:andesite",
+    "minecraft:diorite",
+    "minecraft:granite",
+    "minecraft:stone",
+    "minecraft:deepslate",
+    "minecraft:tuff",
+    "minecraft:lava",
+    "minecraft:water",
+    "minecraft:grass_block",
+    "minecraft:sand",
+    "minecraft:dirt",
+    "minecraft:gravel",
+    "minecraft:sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:netherrack",
+    "minecraft:soul_sand",
+    "minecraft:soul_soil",
+
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:crimson_stem",
+    "minecraft:warped_stem",
+    "minecraft:nether_wart_block",
+    "minecraft:warped_wart_block",
+    "minecraft:magma_block",
+
+    "minecraft:end_stone"
+  ]
+}

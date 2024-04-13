@@ -2,15 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
+    "# #",
     "# #"
   ],
   "key": {
     "#": {
-      "item": "mofmc:ruby"
+      "item": "mofmc:purple_sapphire"
     }
   },
   "result": {
-    "item": "mofmc:ruby_helmet",
+    "item": "mofmc:purple_sapphire_leggings",
     "count": 1
   }
 }

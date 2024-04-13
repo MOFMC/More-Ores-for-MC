@@ -1,9 +1,11 @@
 package com.agmpenguin.mofmc.util;
 
+import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 
 public class ModTags {
 
@@ -17,12 +19,18 @@ public class ModTags {
         public static final TagKey<Item> RAINBOW_ORES = createForgeTag("ores/rainbow");
 
 
+        public static final TagKey<Block> OVERWORLD_ORE_REPLACEABLES = createMCTag("overworld_ore_replaceables");
 
 
-        public static final TagKey<Item> OVERWORLD_ORE_REPLACEABLES = createForgeTag("blocks/overworld_ore_replaceables");
+
 
         private static TagKey<Item> createForgeTag(String location) {
             return ItemTags.create(new ResourceLocation("forge", location));
+        }
+
+
+        private static TagKey<Block> createMCTag(String name) {
+            return TagKey.create(Registries.BLOCK, new ResourceLocation(name));
         }
     }
 }

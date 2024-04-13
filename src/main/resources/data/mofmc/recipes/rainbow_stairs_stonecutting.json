@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "rainbow_stairs",
+  "count": 1,
+  "ingredient": {
+    "item": "mofmc:rainbow_block"
+  },
+  "result": "mofmc:rainbow_stairs"
+}

@@ -17,16 +17,28 @@ public class ModTabs extends ModItems {
     public static final DeferredRegister<CreativeModeTab> MOD_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, mofmc.MOD_ID);
 
+    public static final String[] names = {"ruby", "pyrite", "titanium", "purple_sapphire", "tin", "rainbow"};
+
     public static RegistryObject<CreativeModeTab> MOFMC_TAB = MOD_TABS.register("mofmc_tab", () ->
             CreativeModeTab.builder().icon(() -> new ItemStack(RUBY.get()))
                     .title(Component.translatable("creativetab.mofmc_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
-                        for(RegistryObject<Item> a : ITEMS.getEntries()) {
-                            pOutput.accept(a.get());
-                        }
-                        for(RegistryObject<Block> a : BLOCKS.getEntries()) {
-                            pOutput.accept(a.get());
+                        for(String name : names) {
+                            for(RegistryObject<Item> itemVar : ITEMS.getEntries()) {
+                                if(itemVar.get().toString().contains(name)) {
+                                    pOutput.accept(itemVar.get());
+                                } else {
+                                    continue;
+                                }
+                            }
+                            for(RegistryObject<Block> blockVar : BLOCKS.getEntries()) {
+                                if(blockVar.get().toString().contains(name)) {
+                                    pOutput.accept(blockVar.get());
+                                } else {
+                                    continue;
+                                }
+                            }
                         }
                     })
                     .build());

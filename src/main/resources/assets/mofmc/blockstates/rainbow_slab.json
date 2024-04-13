@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mofmc:block/rainbow_slab"
+    },
+    "type=double": {
+      "model": "mofmc:block/rainbow_block"
+    },
+    "type=top": {
+      "model": "mofmc:block/rainbow_slab_top"
+    }
+  }
+}

@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "rainbow_slab",
   "pattern": [
-    "  M",
-    " MM",
     "MMM"
   ],
   "key": {
     "M": {
-      "item": "mofmc:titanium_block"
+      "item": "mofmc:rainbow_block"
     }
   },
   "result": {
-    "item": "mofmc:titanium_stairs",
-    "count": 1
+    "item": "mofmc:rainbow_slab",
+    "count": 6
   }
 }

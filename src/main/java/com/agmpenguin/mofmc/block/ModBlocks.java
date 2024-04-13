@@ -80,6 +80,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> NETHER_RAINBOW_ORE = registerOre("nether_rainbow_ore", 6f, 3, 7);
     public static final RegistryObject<Block> END_RAINBOW_ORE = registerOre("end_rainbow_ore", 6f, 3, 7);
     public static final RegistryObject<Block> RAINBOW_BLOCK = registerBlock("rainbow_block", 6f);
+    public static final RegistryObject<Block> RAINBOW_STAIRS = registerStairBlock("rainbow_stairs", RAINBOW_BLOCK, 6f);
+    public static final RegistryObject<Block> RAINBOW_SLAB = registerSlabBlock("rainbow_slab", RAINBOW_BLOCK, 6f);
+    public static final RegistryObject<Block> RAINBOW_PRESSURE_PLATE = registerPressurePlateBlock("rainbow_pressure_plate", "everything", BlockSetType.STONE, 0.5f);
     // public static final RegistryObject<Block> RAINBOW_BLOCK_2 = registerBlock("rainbow_block_2", 6f);
 
 
