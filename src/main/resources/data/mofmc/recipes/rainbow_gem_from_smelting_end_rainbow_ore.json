@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.9,
+  "group": "rainbow_gem",
+  "ingredient": {
+    "item": "mofmc:end_rainbow_ore"
+  },
+  "result": "mofmc:rainbow_gem"
+}

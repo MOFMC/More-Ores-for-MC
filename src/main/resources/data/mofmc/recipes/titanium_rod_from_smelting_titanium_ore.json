@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "cookingtime": 200,
-  "experience": 0.7,
+  "experience": 0.6,
   "group": "titanium_rod",
   "ingredient": {
     "item": "mofmc:titanium_ore"

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "cookingtime": 200,
-  "experience": 0.7,
+  "experience": 0.5,
   "group": "pyrite_ingot",
   "ingredient": {
     "item": "mofmc:pyrite_ore"

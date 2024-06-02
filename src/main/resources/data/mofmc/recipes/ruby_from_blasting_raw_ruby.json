@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "cookingtime": 100,
-  "experience": 0.7,
+  "experience": 1.2,
   "group": "ruby",
   "ingredient": {
     "item": "mofmc:raw_ruby"

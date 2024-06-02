@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smelting",
   "cookingtime": 200,
-  "experience": 0.7,
+  "experience": 0.9,
   "group": "rainbow_gem",
   "ingredient": {
-    "tag": "forge:ores/rainbow"
+    "item": "mofmc:deepslate_rainbow_ore"
   },
   "result": "mofmc:rainbow_gem"
 }
