@@ -4,7 +4,7 @@
       "item": "mofmc:tin_button"
     },
     "title": "Power?",
-    "description": "Obtain a Tin Button.",
+    "description": "Obtain a Tin Button",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

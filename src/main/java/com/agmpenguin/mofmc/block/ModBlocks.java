@@ -143,7 +143,7 @@ public class ModBlocks {
         RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new ButtonBlock(BlockBehaviour.Properties
                 .copy(block)
                 .sound(sound)
-                .strength(0.5f),
+                .strength(0.2f),
                 blockSetType, 10, true));
 
         registerBlockItem(name, toReturn);

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "building",
   "group": "ruby_stairs",
   "pattern": [
     "  M",

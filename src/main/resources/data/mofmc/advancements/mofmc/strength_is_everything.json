@@ -4,7 +4,7 @@
       "item": "mofmc:titanium_helmet"
     },
     "title": "Strength is Everything",
-    "description": "Obtain a Titanium Set.",
+    "description": "Obtain a Titanium Set",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -17,9 +17,21 @@
         "items": [
           {
             "items": [
-              "mofmc:titanium_helmet",
-              "mofmc:titanium_chestplate",
-              "mofmc:titanium_leggings",
+              "mofmc:titanium_helmet"
+            ]
+          },
+          {
+            "items": [
+              "mofmc:titanium_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "mofmc:titanium_leggings"
+            ]
+          },
+          {
+            "items": [
               "mofmc:titanium_boots"
             ]
           }

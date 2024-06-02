@@ -4,7 +4,7 @@
       "item": "mofmc:purple_sapphire"
     },
     "title": "Shiny!",
-    "description": "Obtain a Purple Sapphire.",
+    "description": "Obtain a Purple Sapphire",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -4,7 +4,7 @@
       "item": "mofmc:pyrite_ingot"
     },
     "title": "Gold?",
-    "description": "Obtain a Pyrite Ingot.",
+    "description": "Obtain a Pyrite Ingot",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

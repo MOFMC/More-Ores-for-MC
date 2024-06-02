@@ -4,7 +4,7 @@
       "item": "mofmc:rainbow_gem"
     },
     "title": "World of Color",
-    "description": "Obtain a Rainbow Gem.",
+    "description": "Obtain a Rainbow Gem",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

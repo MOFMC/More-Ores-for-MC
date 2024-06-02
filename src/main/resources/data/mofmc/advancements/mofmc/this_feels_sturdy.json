@@ -4,7 +4,7 @@
       "item": "mofmc:titanium_rod"
     },
     "title": "This Feels Sturdy",
-    "description": "Obtain a Titanium Rod.",
+    "description": "Obtain a Titanium Rod",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

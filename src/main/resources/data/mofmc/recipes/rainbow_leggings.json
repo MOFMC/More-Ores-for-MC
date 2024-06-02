@@ -3,15 +3,16 @@
   "category": "equipment",
   "pattern": [
     "###",
+    "# #",
     "# #"
   ],
   "key": {
     "#": {
-      "item": "mofmc:titanium_rod"
+      "item": "mofmc:rainbow_gem"
     }
   },
   "result": {
-    "item": "mofmc:titanium_helmet",
+    "item": "mofmc:rainbow_leggings",
     "count": 1
   }
 }
