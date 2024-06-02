@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:purple_sapphire"
+    },
+    "title": "Shiny!",
+    "description": "Obtain a Purple Sapphire.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mofmc:mofmc/mofmc",
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:purple_sapphire"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory"
+    ]
+  ]
+}

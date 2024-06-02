@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:titanium_helmet"
+    },
+    "title": "Strength is Everything",
+    "description": "Obtain a Titanium Set.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mofmc:mofmc/this_feels_sturdy",
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:titanium_helmet",
+              "mofmc:titanium_chestplate",
+              "mofmc:titanium_leggings",
+              "mofmc:titanium_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "mofmc:recipes/root",
+  "criteria": {
+    "has_nether_titanium_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:nether_titanium_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mofmc:titanium_rod_from_smelting_nether_titanium_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_titanium_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mofmc:titanium_rod_from_smelting_nether_titanium_ore"
+    ]
+  }
+}

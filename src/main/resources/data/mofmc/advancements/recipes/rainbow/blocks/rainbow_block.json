@@ -1,0 +1,34 @@
+{
+  "parent": "mofmc:recipes/root",
+  "criteria": {
+    "has_rainbow_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:rainbow_gem"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mofmc:rainbow_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rainbow_gem",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mofmc:rainbow_block"
+    ]
+  }
+}

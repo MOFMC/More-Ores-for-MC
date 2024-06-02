@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:tin_button"
+    },
+    "title": "Power?",
+    "description": "Obtain a Tin Button.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mofmc:mofmc/mofmc",
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:tin_button"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory"
+    ]
+  ]
+}

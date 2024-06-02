@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:netherite_block",
+    "minecraft:emerald_block",
+    "minecraft:diamond_block",
+    "minecraft:gold_block",
+    "minecraft:iron_block",
+    "mofmc:ruby_block",
+    "mofmc:pyrite_block",
+    "mofmc:titanium_block",
+    "mofmc:purple_sapphire_block",
+    "mofmc:tin_block",
+    "mofmc:rainbow_block"
+  ]
+}

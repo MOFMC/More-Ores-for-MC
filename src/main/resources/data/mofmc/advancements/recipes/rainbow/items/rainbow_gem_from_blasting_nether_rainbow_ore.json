@@ -1,0 +1,34 @@
+{
+  "parent": "mofmc:recipes/root",
+  "criteria": {
+    "has_nether_rainbow_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:nether_rainbow_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mofmc:rainbow_gem_from_blasting_nether_rainbow_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_rainbow_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mofmc:rainbow_gem_from_blasting_nether_rainbow_ore"
+    ]
+  }
+}
