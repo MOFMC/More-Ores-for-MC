@@ -39,7 +39,7 @@ authors="AGMPenguin" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''Created by AGMPenguin with artwork by AGMPenguin and AbbyTurtle2008'''
+description='''Created by AGMPenguin with artwork by AGMPenguin and AbbyTurtle1234'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mofmc]] #optional
     # the modid of the dependency
