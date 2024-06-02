@@ -1,2 +1,5 @@
 Titanium Color Scheme needs to be changed. (2nd darkest color is too bright).
 Titanium items & armor models need to be looked over.
+
+Rainbow Armor doesn't include darker shades, just the core shades. The darkest color should be pressing darker x 0.1
+four times and the lightest should be pressing lighter x 0.1 two times.

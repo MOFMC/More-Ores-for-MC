@@ -2,9 +2,9 @@
   "type": "minecraft:smelting",
   "cookingtime": 200,
   "experience": 0.7,
-  "group": "titanium_dust",
+  "group": "tin_ingot",
   "ingredient": {
-    "tag": "forge:ores/titanium"
+    "item": "mofmc:tin_ore"
   },
-  "result": "mofmc:titanium_dust"
+  "result": "mofmc:tin_ingot"
 }

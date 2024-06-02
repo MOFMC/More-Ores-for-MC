@@ -2,9 +2,9 @@
   "type": "minecraft:blasting",
   "cookingtime": 100,
   "experience": 0.7,
-  "group": "titanium_dust",
+  "group": "titanium_rod",
   "ingredient": {
-    "tag": "forge:ores/titanium"
+    "item": "mofmc:titanium_ore"
   },
-  "result": "mofmc:titanium_dust"
+  "result": "mofmc:titanium_rod"
 }
