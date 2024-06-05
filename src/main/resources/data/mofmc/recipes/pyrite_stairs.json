@@ -3,8 +3,8 @@
   "category": "building",
   "group": "pyrite_stairs",
   "pattern": [
-    "  M",
-    " MM",
+    "M  ",
+    "MM ",
     "MMM"
   ],
   "key": {

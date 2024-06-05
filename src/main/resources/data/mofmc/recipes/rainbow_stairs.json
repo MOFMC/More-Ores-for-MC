@@ -3,8 +3,8 @@
   "category": "building",
   "group": "rainbow_stairs",
   "pattern": [
-    "  M",
-    " MM",
+    "M  ",
+    "MM ",
     "MMM"
   ],
   "key": {

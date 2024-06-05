@@ -3,8 +3,8 @@
   "category": "building",
   "group": "ruby_stairs",
   "pattern": [
-    "  M",
-    " MM",
+    "M  ",
+    "MM ",
     "MMM"
   ],
   "key": {

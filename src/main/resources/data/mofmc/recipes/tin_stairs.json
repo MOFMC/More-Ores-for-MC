@@ -3,8 +3,8 @@
   "category": "building",
   "group": "tin_stairs",
   "pattern": [
-    "  M",
-    " MM",
+    "M  ",
+    "MM ",
     "MMM"
   ],
   "key": {

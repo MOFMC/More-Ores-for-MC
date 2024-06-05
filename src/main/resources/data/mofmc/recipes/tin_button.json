@@ -3,7 +3,7 @@
   "category": "redstone",
   "ingredients": [
     {
-      "item": "minecraft:tin_block"
+      "item": "mofmc:tin_ingot"
     }
   ],
   "result": {
