@@ -1,12 +1,12 @@
 {
   "values": [
-    "mofmc:rainbow_ore",
-    "mofmc:deepslate_rainbow_ore",
-    "mofmc:nether_rainbow_ore",
-    "mofmc:end_rainbow_ore",
-    "mofmc:rainbow_block",
-    "mofmc:rainbow_stairs",
-    "mofmc:rainbow_slab",
-    "mofmc:rainbow_pressure_plate"
+    "mofmc:ruby_ore",
+    "mofmc:deepslate_ruby_ore",
+    "mofmc:nether_ruby_ore",
+    "mofmc:end_ruby_ore",
+    "mofmc:ruby_block",
+    "mofmc:ruby_stairs",
+    "mofmc:ruby_slab",
+    "mofmc:ruby_pressure_plate"
   ]
 }

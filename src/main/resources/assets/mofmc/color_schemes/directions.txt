@@ -1,1 +1,0 @@
-Start at the darkest color, don't apply the lightest on armor (leave white).
