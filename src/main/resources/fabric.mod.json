@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mofmc",
+	"version": "1.20.1-0.0.2-fabric",
+	"name": "More Ores for MC",
+	"description": "Adds in more ores, armors, and items, with a sprinkle of new advancements.",
+	"authors": [
+		"AGMPenguin, AbbyTurtle1234"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mofmc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.agmpenguin.mofmc.MOFMC"
+		],
+		"client": [
+			"com.agmpenguin.mofmc.MOFMCClient"
+		],
+		"fabric-datagen": [
+			"com.agmpenguin.mofmc.MOFMCDataGenerator"
+		]
+	},
+	"mixins": [
+		"mofmc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
