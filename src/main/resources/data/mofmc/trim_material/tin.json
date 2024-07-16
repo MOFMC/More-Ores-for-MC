@@ -1,0 +1,12 @@
+{
+  "asset_name": "tin",
+  "description": {
+    "color": "#B0B0A7",
+    "translate": "trim_material.mofmc.tin"
+  },
+  "ingredient": "mofmc:tin_ingot",
+  "item_model_index": 0.05,
+  "override_armor_materials": {
+    "tin": "tin_darker"
+  }
+}

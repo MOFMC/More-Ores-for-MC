@@ -1,0 +1,98 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_ruby_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.01
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_pyrite_darker_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.02
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_titanium_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.03
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_purple_sapphire_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.04
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_tin_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.05
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_quartz_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.1
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_iron_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.2
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_netherite_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.3
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_redstone_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.4
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_copper_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.5
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_gold_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.6
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_emerald_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.7
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_diamond_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.8
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_lapis_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.9
+      }
+    },
+    {
+      "model": "mofmc:item/trims/pyrite/pyrite_chestplate_amethyst_trim",
+      "predicate": {
+        "minecraft:trim_type": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "mofmc:item/pyrite_chestplate"
+  }
+}

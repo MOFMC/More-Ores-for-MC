@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mofmc:ruby_pressure_plate",
+    "mofmc:pyrite_pressure_plate",
+    "mofmc:titanium_pressure_plate",
+    "mofmc:purple_sapphire_pressure_plate",
+    "mofmc:tin_pressure_plate",
+    "mofmc:rainbow_pressure_plate"
+  ]
+}

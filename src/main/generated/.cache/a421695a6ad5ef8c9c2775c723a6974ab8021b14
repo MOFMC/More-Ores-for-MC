@@ -1,0 +1,8 @@
+// 1.20.1	2024-07-16T17:10:48.1206258	More Ores for MC/Tags for minecraft:item
+91740ad5330cc08ef893cd5c7e57aec80fb805c6 data\minecraft\tags\items\stairs.json
+faa77442ce4314e77a074a58fb8c967e2b255e18 data\minecraft\tags\items\beacon_payment_items.json
+8d753c5cc4c52443b99cde250a73eb54b827cf6b data\minecraft\tags\items\trim_materials.json
+d5d0ee47365a0473cf21f0876b800bf68f1d157e data\mofmc\tags\items\ruby_ores.json
+555ec0c210bf786c5d37e0847b2851de2b912bf5 data\minecraft\tags\items\slabs.json
+0859ca9843c100ae33c9200ef542e1434b4ceb9c data\mofmc\tags\items\pressure_plates.json
+3bcb914420e6f65c603fe8d63ca7ce8b7b0a404e data\minecraft\tags\items\trimmable_armor.json

@@ -1,0 +1,12 @@
+{
+  "asset_name": "pyrite",
+  "description": {
+    "color": "#F4F2D7",
+    "translate": "trim_material.mofmc.pyrite"
+  },
+  "ingredient": "mofmc:pyrite_ingot",
+  "item_model_index": 0.02,
+  "override_armor_materials": {
+    "pyrite": "pyrite_darker"
+  }
+}

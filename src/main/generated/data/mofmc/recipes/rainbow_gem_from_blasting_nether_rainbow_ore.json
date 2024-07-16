@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "rainbow_gem",
+  "ingredient": {
+    "item": "mofmc:nether_rainbow_ore"
+  },
+  "result": "mofmc:rainbow_gem"
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mofmc:ruby_slab",
+    "mofmc:pyrite_slab",
+    "mofmc:titanium_slab",
+    "mofmc:purple_sapphire_slab",
+    "mofmc:tin_slab",
+    "mofmc:rainbow_slab"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "mofmc:ruby_ore",
+    "mofmc:deepslate_ruby_ore",
+    "mofmc:nether_ruby_ore",
+    "mofmc:end_ruby_ore",
+    "mofmc:ruby_block",
+    "mofmc:raw_ruby_block",
+    "mofmc:ruby_stairs",
+    "mofmc:ruby_slab",
+    "mofmc:ruby_pressure_plate"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mofmc:ruby",
+    "mofmc:pyrite_ingot",
+    "mofmc:titanium_ingot",
+    "mofmc:purple_sapphire",
+    "mofmc:tin_ingot"
+  ]
+}

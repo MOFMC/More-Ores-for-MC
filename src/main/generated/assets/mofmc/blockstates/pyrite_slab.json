@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mofmc:block/pyrite_slab"
+    },
+    "type=double": {
+      "model": "mofmc:block/pyrite_block"
+    },
+    "type=top": {
+      "model": "mofmc:block/pyrite_slab_top"
+    }
+  }
+}

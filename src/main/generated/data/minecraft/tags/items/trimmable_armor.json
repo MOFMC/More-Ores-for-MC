@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "mofmc:ruby_helmet",
+    "mofmc:ruby_chestplate",
+    "mofmc:ruby_leggings",
+    "mofmc:ruby_boots",
+    "mofmc:pyrite_helmet",
+    "mofmc:pyrite_chestplate",
+    "mofmc:pyrite_leggings",
+    "mofmc:pyrite_boots",
+    "mofmc:titanium_helmet",
+    "mofmc:titanium_chestplate",
+    "mofmc:titanium_leggings",
+    "mofmc:titanium_boots",
+    "mofmc:purple_sapphire_helmet",
+    "mofmc:purple_sapphire_chestplate",
+    "mofmc:purple_sapphire_leggings",
+    "mofmc:purple_sapphire_boots",
+    "mofmc:tin_helmet",
+    "mofmc:tin_chestplate",
+    "mofmc:tin_leggings",
+    "mofmc:tin_boots",
+    "mofmc:rainbow_helmet",
+    "mofmc:rainbow_chestplate",
+    "mofmc:rainbow_leggings",
+    "mofmc:rainbow_boots"
+  ]
+}

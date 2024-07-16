@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "titanium_ingot",
+  "ingredient": {
+    "item": "mofmc:purple_sapphire_ore"
+  },
+  "result": "mofmc:titanium_ingot"
+}

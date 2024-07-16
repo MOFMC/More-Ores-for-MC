@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mofmc:block/titanium_slab"
+    },
+    "type=double": {
+      "model": "mofmc:block/titanium_block"
+    },
+    "type=top": {
+      "model": "mofmc:block/titanium_slab_top"
+    }
+  }
+}

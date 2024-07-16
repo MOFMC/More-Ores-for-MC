@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:andesite",
+    "minecraft:granite",
+    "minecraft:gravel",
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:deepslate",
+    "minecraft:dripstone_block",
+    "minecraft:pointed_dripstone",
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:diorite",
+    "minecraft:magma_block",
+    "minecraft:water",
+    "minecraft:lava",
+    "minecraft:tuff",
+    "minecraft:sculk",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:netherrack"
+  ]
+}

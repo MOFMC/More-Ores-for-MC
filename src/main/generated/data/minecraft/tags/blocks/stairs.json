@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mofmc:ruby_stairs",
+    "mofmc:pyrite_stairs",
+    "mofmc:titanium_stairs",
+    "mofmc:purple_sapphire_stairs",
+    "mofmc:tin_stairs",
+    "mofmc:rainbow_stairs"
+  ]
+}

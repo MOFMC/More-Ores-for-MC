@@ -1,0 +1,12 @@
+{
+  "asset_name": "purple_sapphire",
+  "description": {
+    "color": "#EA80FD",
+    "translate": "trim_material.mofmc.purple_sapphire"
+  },
+  "ingredient": "mofmc:purple_sapphire",
+  "item_model_index": 0.04,
+  "override_armor_materials": {
+    "purple_sapphire": "purple_sapphire_darker"
+  }
+}

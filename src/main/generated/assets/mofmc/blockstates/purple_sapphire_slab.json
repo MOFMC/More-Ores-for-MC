@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mofmc:block/purple_sapphire_slab"
+    },
+    "type=double": {
+      "model": "mofmc:block/purple_sapphire_block"
+    },
+    "type=top": {
+      "model": "mofmc:block/purple_sapphire_slab_top"
+    }
+  }
+}

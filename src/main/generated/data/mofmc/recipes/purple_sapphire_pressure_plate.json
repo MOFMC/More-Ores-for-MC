@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "mofmc:purple_sapphire"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "mofmc:purple_sapphire_pressure_plate"
+  },
+  "show_notification": true
+}

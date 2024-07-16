@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mofmc:ruby_block",
+    "mofmc:titanium_block",
+    "mofmc:purple_sapphire_block",
+    "mofmc:rainbow_block"
+  ]
+}
