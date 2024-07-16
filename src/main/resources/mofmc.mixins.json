@@ -5,6 +5,9 @@
 	"mixins": [
 		"ExampleMixin"
 	],
+	"client": [
+		"LogoDrawerMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	}
