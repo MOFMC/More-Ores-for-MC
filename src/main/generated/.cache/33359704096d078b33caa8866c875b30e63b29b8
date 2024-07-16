@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-16T17:10:48.0375167	More Ores for MC/Model Definitions
+// 1.20.1	2024-07-16T17:21:04.5600759	More Ores for MC/Model Definitions
 150cce37a77958efdfad6f08d5d42996ab1b361d assets\mofmc\models\block\nether_titanium_ore.json
 457265da0d9a65878149627568b126f9261838e6 assets\mofmc\models\block\deepslate_ruby_ore.json
 464ad0c36e56ee15e50f0cf03c9179aa327d80cc assets\mofmc\blockstates\raw_tin_block.json
@@ -65,8 +65,8 @@ bbf096f1b1d1849f273ec9b09793afc6d2ac86dc assets\mofmc\models\block\raw_pyrite_bl
 21ae39d202f725cc1b3ba6fbe2e4bb53a13594a0 assets\mofmc\models\block\tin_block.json
 97494a1e416585edff5452c043ea9bf23e024b35 assets\mofmc\models\item\raw_ruby_block.json
 c4f78faba3ca14386c811edb1d53a461fea26463 assets\mofmc\blockstates\end_rainbow_ore.json
-f6fd527447779882451aa120ed7abfae5afe5a2b assets\mofmc\blockstates\ruby_stairs.json
 9252cf747a19cd5d4a10fdf0ebd6540ae51b9740 assets\mofmc\models\block\ruby_slab_top.json
+f6fd527447779882451aa120ed7abfae5afe5a2b assets\mofmc\blockstates\ruby_stairs.json
 ac1627ff5eb380a5bdd14fcd8cc96c0bae3894d6 assets\mofmc\blockstates\end_purple_sapphire_ore.json
 dd21cef53f7b14de7e14014d24bd6191cae1adf8 assets\mofmc\models\item\purple_sapphire_slab.json
 d18a26686085394aa720c747f2af0e2cbb02b9ff assets\mofmc\models\block\purple_sapphire_ore.json
@@ -118,8 +118,8 @@ a4931cb8f3f83f1d5ec6f3e663dc00bb695e48b7 assets\mofmc\models\item\titanium_axe.j
 9cb5be0a370675b100dfb71597256b7c4154e68f assets\mofmc\blockstates\tin_slab.json
 267add404979a036637348dabc9b01d1a4495c69 assets\mofmc\models\item\pyrite_sword.json
 ffb46f84643b95d44702f7aae3142fd03944f8ac assets\mofmc\models\block\ruby_stairs.json
-47fd58c7b247639191dbf3a32b89aa21a6f63f69 assets\mofmc\models\item\titanium_hoe.json
 b1ad50c9b63feb31722b894f6811b7da4eafbe28 assets\mofmc\models\block\rainbow_pressure_plate_down.json
+47fd58c7b247639191dbf3a32b89aa21a6f63f69 assets\mofmc\models\item\titanium_hoe.json
 a7fd3e85eeed54a4b7cd628bfe29d5b6cd2854ee assets\mofmc\models\block\pyrite_pressure_plate_down.json
 3a1dbd5842d70dcf60e9185972d6bf37f4923027 assets\mofmc\models\item\end_titanium_ore.json
 5e0015ec3bccdea87c92d62dad05392f22a9cffe assets\mofmc\blockstates\purple_sapphire_slab.json
