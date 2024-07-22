@@ -95,15 +95,15 @@ public class ModConfiguredFeatures {
         register(context, NETHER_RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherRubyOres, 6, 0.5f));
         register(context, END_RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(endRubyOres, 4, 0.4f));
 
-        register(context, OVERWORLD_PYRITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPyriteOres, 7, 0f));
+        register(context, OVERWORLD_PYRITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPyriteOres, 8, 0f));
         register(context, NETHER_PYRITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherPyriteOres, 8, 0f));
         register(context, END_PYRITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(endPyriteOres, 6, 0f));
 
-        register(context, OVERWORLD_TITANIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTitaniumOres, 6, 0f));
+        register(context, OVERWORLD_TITANIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTitaniumOres, 7, 0f));
         register(context, NETHER_TITANIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherTitaniumOres, 7, 0f));
         register(context, END_TITANIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(endTitaniumOres, 8, 0f));
 
-        register(context, OVERWORLD_PURPLE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPurpleSapphireOres, 7, 0.2f));
+        register(context, OVERWORLD_PURPLE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPurpleSapphireOres, 6, 0.2f));
         register(context, NETHER_PURPLE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherPurpleSapphireOres, 6, 0.2f));
         register(context, END_PURPLE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreFeatureConfig(endPurpleSapphireOres, 5, 0.1f));
 

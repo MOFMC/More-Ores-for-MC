@@ -10,18 +10,18 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    RUBY("ruby", 34, new int[]{4, 8, 7, 3}, 8, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
-            1.0f, 0.0f, () -> Ingredient.ofItems(ModItems.RUBY)),
+    RUBY("ruby", 34, new int[]{3, 8, 6, 3}, 8, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
+            2.5f, 0.0f, () -> Ingredient.ofItems(ModItems.RUBY)), // {4, 8, 7, 3} toughness: 1.0f
     PYRITE("pyrite", 17, new int[]{2, 5, 3, 1}, 9, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
             0.0f, 0.0f, () -> Ingredient.ofItems(ModItems.PYRITE_INGOT)),
     TITANIUM("titanium", 30, new int[]{3, 6, 4, 2}, 6, SoundEvents.ITEM_ARMOR_EQUIP_IRON,
-            1.0F, 1.0F, () -> Ingredient.ofItems(ModItems.TITANIUM_INGOT)),
+            0.0F, 0.0F, () -> Ingredient.ofItems(ModItems.TITANIUM_INGOT)), // toughness: 1.0F, knockbackResistance: 1.0F
     PURPLE_SAPPHIRE("purple_sapphire", 24, new int[]{3, 6, 4, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0f, 0.0f, () -> Ingredient.ofItems(ModItems.PURPLE_SAPPHIRE)),
     TIN("tin", 9, new int[]{1, 4, 2, 1}, 2, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC,
             0.0F, 0.0F, () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
     RAINBOW("rainbow", 27, new int[]{3, 7, 5, 3}, 14, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
-            0.0F, 0.0F, () -> Ingredient.ofItems(ModItems.RAINBOW_GEM));
+            1.0F, 0.0F, () -> Ingredient.ofItems(ModItems.RAINBOW_GEM));
     ;
 
     private final String name;

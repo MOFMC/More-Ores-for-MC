@@ -6,7 +6,8 @@
 		"ExampleMixin"
 	],
 	"client": [
-		"LogoDrawerMixin"
+		"LogoDrawerMixin",
+		"StonecutterMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

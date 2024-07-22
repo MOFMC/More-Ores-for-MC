@@ -3,6 +3,7 @@ package com.agmpenguin.mofmc;
 import com.agmpenguin.mofmc.block.ModBlocks;
 import com.agmpenguin.mofmc.item.ModItems;
 import com.agmpenguin.mofmc.item.ModTabs;
+import com.agmpenguin.mofmc.recipe.ModRecipes;
 import com.agmpenguin.mofmc.world.gen.ModOreGeneration;
 import net.fabricmc.api.ModInitializer;
 

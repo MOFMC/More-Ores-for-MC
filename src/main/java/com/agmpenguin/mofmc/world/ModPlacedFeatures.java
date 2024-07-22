@@ -76,7 +76,7 @@ public class ModPlacedFeatures {
         registerOther(context, NETHER_TITANIUM_ORE_PLACED_KEY, ModConfiguredFeatures.NETHER_TITANIUM_ORE_KEY, 8, 10);
         registerOther(context, END_TITANIUM_ORE_PLACED_KEY, ModConfiguredFeatures.END_TITANIUM_ORE_KEY, 4, 0);
 
-        register(context, OVERWORLD_PURPLE_SAPPHIRE_ORE_PLACED_KEY, ModConfiguredFeatures.OVERWORLD_PURPLE_SAPPHIRE_ORE_KEY, 7, -64, 41);
+        register(context, OVERWORLD_PURPLE_SAPPHIRE_ORE_PLACED_KEY, ModConfiguredFeatures.OVERWORLD_PURPLE_SAPPHIRE_ORE_KEY, 6, -64, 41);
         registerOther(context, NETHER_PURPLE_SAPPHIRE_ORE_PLACED_KEY, ModConfiguredFeatures.NETHER_PURPLE_SAPPHIRE_ORE_KEY, 6, 10);
         registerOther(context, END_PURPLE_SAPPHIRE_ORE_PLACED_KEY, ModConfiguredFeatures.END_PURPLE_SAPPHIRE_ORE_KEY, 4, 0);
 

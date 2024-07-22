@@ -1,6 +1,7 @@
 package com.agmpenguin.mofmc.block;
 
 import com.agmpenguin.mofmc.MOFMC;
+import com.agmpenguin.mofmc.block.custom.DiamondStonecutterBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -72,6 +73,8 @@ public class ModBlocks {
     public static final Block RAINBOW_SLAB = registerSlabBlock("rainbow_slab");
     public static final Block RAINBOW_PRESSURE_PLATE = registerPressurePlateBlock("rainbow_pressure_plate");
 
+    // public static final Block DIAMOND_STONECUTTER  = register("diamond_stonecutter", new DiamondStonecutterBlock(FabricBlockSettings.copyOf(Blocks.STONECUTTER).nonOpaque()));
+    // public static final Block DIAMOND_STONECUTTER = register("diamond_stonecutter", new DiamondStonecutterBlock2(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASEDRUM).requiresTool().strength(3.5f)));
     // public static final Block DIAMOND_STONECUTTER = register("diamond_stonecutter", new StonecutterBlock(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASEDRUM).requiresTool().strength(3.5f)));
 
     private static Block register(String name, Block block) {

@@ -72,6 +72,8 @@ public class ModModelProvider extends FabricModelProvider {
         rainbowPool.stairs(ModBlocks.RAINBOW_STAIRS);
         rainbowPool.slab(ModBlocks.RAINBOW_SLAB);
         rainbowPool.pressurePlate(ModBlocks.RAINBOW_PRESSURE_PLATE);
+
+        // blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIAMOND_STONECUTTER);
     }
 
     @Override
