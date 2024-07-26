@@ -2,6 +2,36 @@
   "parent": "minecraft:item/generated",
   "overrides": [
     {
+      "model": "mofmc:item/purple_sapphire_chestplate_ruby_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.01
+      }
+    },
+    {
+      "model": "mofmc:item/purple_sapphire_chestplate_pyrite_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.02
+      }
+    },
+    {
+      "model": "mofmc:item/purple_sapphire_chestplate_titanium_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.03
+      }
+    },
+    {
+      "model": "mofmc:item/purple_sapphire_chestplate_purple_sapphire_darker_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.04
+      }
+    },
+    {
+      "model": "mofmc:item/purple_sapphire_chestplate_tin_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.05
+      }
+    },
+    {
       "model": "mofmc:item/purple_sapphire_chestplate_quartz_trim",
       "predicate": {
         "minecraft:trim_type": 0.1

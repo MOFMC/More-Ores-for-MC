@@ -2,6 +2,36 @@
   "parent": "minecraft:item/generated",
   "overrides": [
     {
+      "model": "mofmc:item/pyrite_leggings_ruby_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.01
+      }
+    },
+    {
+      "model": "mofmc:item/pyrite_leggings_pyrite_darker_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.02
+      }
+    },
+    {
+      "model": "mofmc:item/pyrite_leggings_titanium_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.03
+      }
+    },
+    {
+      "model": "mofmc:item/pyrite_leggings_purple_sapphire_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.04
+      }
+    },
+    {
+      "model": "mofmc:item/pyrite_leggings_tin_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.05
+      }
+    },
+    {
       "model": "mofmc:item/pyrite_leggings_quartz_trim",
       "predicate": {
         "minecraft:trim_type": 0.1

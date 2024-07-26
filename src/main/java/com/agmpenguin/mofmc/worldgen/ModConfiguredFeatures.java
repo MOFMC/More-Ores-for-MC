@@ -18,7 +18,9 @@ import java.util.List;
 
 public class ModConfiguredFeatures {
     // RUBY
-    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_RUBY_ORE_KEY = registerKey("overworld_ruby_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_SMALL_RUBY_ORE_KEY = registerKey("overworld_small_ruby_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_LARGE_RUBY_ORE_KEY = registerKey("overworld_large_ruby_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_BURIED_RUBY_ORE_KEY = registerKey("overworld_buried_ruby_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_RUBY_ORE_KEY = registerKey("nether_ruby_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_RUBY_ORE_KEY = registerKey("end_ruby_ore");
     // PYRITE

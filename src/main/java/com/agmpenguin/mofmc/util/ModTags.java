@@ -46,6 +46,7 @@ public class ModTags {
     7. Shift + Shift = History
     8. Ctrl + Shift + U = Toggle Case of Selection
     9. Crtl + B = Go to Source
+    10. Shift + Shift = Find File by Name
 
 
     Thing that runs MC:

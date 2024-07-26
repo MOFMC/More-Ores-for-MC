@@ -145,5 +145,13 @@
   "item.mofmc.rainbow_leggings": "Rainbow Leggings",
   "item.mofmc.rainbow_boots": "Rainbow Boots",
 
+
+  "trim_material.mofmc.ruby": "Ruby Material",
+  "trim_material.mofmc.pyrite": "Pyrite Material",
+  "trim_material.mofmc.titanium": "Titanium Material",
+  "trim_material.mofmc.purple_sapphire": "Purple Sapphire Material",
+  "trim_material.mofmc.tin": "Tin Material",
+
+
   "creativetab.mofmc_tab": "MOFMC"
 }

@@ -8,7 +8,9 @@ import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 
 public class ModPlacedFeatures {
     // RUBY
-    public static final ResourceKey<PlacedFeature> OVERWORLD_RUBY_ORE_PLACED_KEY = registerKey("overworld_ruby_ore_placed");
+    public static final ResourceKey<PlacedFeature> OVERWORLD_SMALL_RUBY_ORE_PLACED_KEY = registerKey("overworld_small_ruby_ore_placed");
+    public static final ResourceKey<PlacedFeature> OVERWORLD_LARGE_RUBY_ORE_PLACED_KEY = registerKey("overworld_large_ruby_ore_placed");
+    public static final ResourceKey<PlacedFeature> OVERWORLD_BURIED_RUBY_ORE_PLACED_KEY = registerKey("overworld_buried_ruby_ore_placed");
     public static final ResourceKey<PlacedFeature> NETHER_RUBY_ORE_PLACED_KEY = registerKey("nether_ruby_ore_placed");
     public static final ResourceKey<PlacedFeature> END_RUBY_ORE_PLACED_KEY = registerKey("end_ruby_ore_placed");
     // PYRITE

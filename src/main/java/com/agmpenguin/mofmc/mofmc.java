@@ -1,11 +1,11 @@
 package com.agmpenguin.mofmc;
 
 import com.agmpenguin.mofmc.block.ModBlocks;
+import com.agmpenguin.mofmc.item.ModArmorMaterials;
 import com.agmpenguin.mofmc.item.ModTabs;
 import com.agmpenguin.mofmc.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -18,8 +18,9 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
+
+import java.util.Map;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(mofmc.MOD_ID)
@@ -54,6 +55,12 @@ public class mofmc {
 
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
          */
+        LOGGER.info(Map.of(net.minecraft.world.item.ArmorMaterials.DIAMOND, "diamond_darker").toString());
+        LOGGER.info(net.minecraft.world.item.ArmorMaterials.DIAMOND.toString());
+        LOGGER.info(net.minecraft.world.item.ArmorMaterials.DIAMOND.getName());
+        LOGGER.info(net.minecraft.world.item.ArmorMaterials.DIAMOND.getSerializedName());
+        LOGGER.info(Map.of(ModArmorMaterials.TIN, "tin_darker").toString());
+
     }
 
     // Add the example block item to the building blocks tab

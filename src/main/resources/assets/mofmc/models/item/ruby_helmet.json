@@ -2,6 +2,36 @@
   "parent": "minecraft:item/generated",
   "overrides": [
     {
+      "model": "mofmc:item/ruby_helmet_ruby_darker_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.01
+      }
+    },
+    {
+      "model": "mofmc:item/ruby_helmet_pyrite_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.02
+      }
+    },
+    {
+      "model": "mofmc:item/ruby_helmet_titanium_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.03
+      }
+    },
+    {
+      "model": "mofmc:item/ruby_helmet_purple_sapphire_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.04
+      }
+    },
+    {
+      "model": "mofmc:item/ruby_helmet_tin_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.05
+      }
+    },
+    {
       "model": "mofmc:item/ruby_helmet_quartz_trim",
       "predicate": {
         "minecraft:trim_type": 0.1

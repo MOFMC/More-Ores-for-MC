@@ -1,3 +1,15 @@
+For a trim of the same material, using 'darker' is recommended!
+To create trims en masse, copy a set of armor with them all, use mass rename and mass replace to change around. To only affect the material the armor is made out of,
+enable regex while renaming multiple files at once, type the name of the mineral being replaced followed by "_(?!t)" and replace it with the new mineral followed by
+"_".
+
+DARKER DOESN'T ACTUALLY WORK (for models) BECAUSE IT CAN ONLY CHECK FOR ArmorMaterials, NOT ModArmorMaterials
+
+C:/Users/manle/.gradle/caches/forge_gradle/minecraft_repo/versions/1.20.1/client-extra.jar!/META-INF/MOJANGCS.SF:59841
+
+
+
+
 Placed Feature:
 - Spawn Tries Per Chunk
 - Placement
