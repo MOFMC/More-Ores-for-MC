@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-22T17:10:35.7584172	More Ores for MC/Block Loot Tables
+// 1.20.1	2025-03-23T20:10:20.2074129	More Ores for MC/Block Loot Tables
 a2e4115bfc85d22c5f17bf8683abf576b26fc6da data\mofmc\loot_tables\blocks\raw_tin_block.json
 6814550c436bec306a8ba829f68f1704a15983e8 data\mofmc\loot_tables\blocks\rainbow_block.json
 499c4eb74677db473b8e91fe9117e41b79436eff data\mofmc\loot_tables\blocks\nether_titanium_ore.json
@@ -23,8 +23,8 @@ eca2f416d4c576163aa1bfa139885b51a32d40eb data\mofmc\loot_tables\blocks\deepslate
 48dec2817151999dadd754e17f324be104cf6dba data\mofmc\loot_tables\blocks\purple_sapphire_slab.json
 bc3bfea07caa4b9293c7b43d463a13dca26e40f9 data\mofmc\loot_tables\blocks\pyrite_ore.json
 cb3754f0a248ad9d507d2f4e09f7c6e3c53af2e2 data\mofmc\loot_tables\blocks\ruby_block.json
-f97fb6b17c8f3a13ccd9b6f59c42e4b58cc0c8a6 data\mofmc\loot_tables\blocks\ruby_pressure_plate.json
 3cd8880d3befff7896cf99245e234fc54484863c data\mofmc\loot_tables\blocks\tin_pressure_plate.json
+f97fb6b17c8f3a13ccd9b6f59c42e4b58cc0c8a6 data\mofmc\loot_tables\blocks\ruby_pressure_plate.json
 ddbd8aee047457adfc97c24e3f33999a8a5d4985 data\mofmc\loot_tables\blocks\deepslate_rainbow_ore.json
 4eccc1b2e5e4af2b429a62d5394a5d67f7d82531 data\mofmc\loot_tables\blocks\nether_tin_ore.json
 1f55ed741516655b31735eecd62a019d60a119bc data\mofmc\loot_tables\blocks\purple_sapphire_pressure_plate.json
@@ -40,7 +40,6 @@ ac9728c0d1df20b276453fbb58e0c5e27f2c8f1d data\mofmc\loot_tables\blocks\end_tin_o
 199b750132b9351e05dcb7a1a1a643f4651aea5c data\mofmc\loot_tables\blocks\raw_purple_sapphire_block.json
 66d7c5599dac156f599ab504e6107e3ee4e741a9 data\mofmc\loot_tables\blocks\end_pyrite_ore.json
 f18e76d8ae280a448ed91d5b7d08e30875f9c59a data\mofmc\loot_tables\blocks\tin_block.json
-4ffbd4f1312672daf60be8a34e5f761a79ee537f data\mofmc\loot_tables\blocks\diamond_stonecutter.json
 d5246f607fb9729aea00f0d452c7d39082ade121 data\mofmc\loot_tables\blocks\titanium_pressure_plate.json
 576b1b9e9cf1fc832c06ab80c0dc812bc4599b5d data\mofmc\loot_tables\blocks\pyrite_block.json
 2931ccc548a0d9ce67263ca6c97f52ddcfb8ccbe data\mofmc\loot_tables\blocks\rainbow_ore.json

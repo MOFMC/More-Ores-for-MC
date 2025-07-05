@@ -26,9 +26,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     private static final List<ItemConvertible> PYRITE_SMELTABLES = List.of(
             ModItems.RAW_PYRITE, ModBlocks.PYRITE_ORE, ModBlocks.DEEPSLATE_PYRITE_ORE,  ModBlocks.NETHER_PYRITE_ORE, ModBlocks.END_PYRITE_ORE);
     private static final List<ItemConvertible> PURPLE_SAPPHIRE_SMELTABLES = List.of(
-            ModItems.RAW_TITANIUM, ModBlocks.TITANIUM_ORE, ModBlocks.DEEPSLATE_TITANIUM_ORE,  ModBlocks.NETHER_TITANIUM_ORE, ModBlocks.END_TITANIUM_ORE);
+            ModItems.RAW_PURPLE_SAPPHIRE, ModBlocks.PURPLE_SAPPHIRE_ORE, ModBlocks.DEEPSLATE_PURPLE_SAPPHIRE_ORE,  ModBlocks.NETHER_PURPLE_SAPPHIRE_ORE, ModBlocks.END_PURPLE_SAPPHIRE_ORE);
     private static final List<ItemConvertible> TITANIUM_SMELTABLES = List.of(
-    ModItems.RAW_PURPLE_SAPPHIRE, ModBlocks.PURPLE_SAPPHIRE_ORE, ModBlocks.DEEPSLATE_PURPLE_SAPPHIRE_ORE,  ModBlocks.NETHER_PURPLE_SAPPHIRE_ORE, ModBlocks.END_PURPLE_SAPPHIRE_ORE);
+            ModItems.RAW_TITANIUM, ModBlocks.TITANIUM_ORE, ModBlocks.DEEPSLATE_TITANIUM_ORE,  ModBlocks.NETHER_TITANIUM_ORE, ModBlocks.END_TITANIUM_ORE);
     private static final List<ItemConvertible> TIN_SMELTABLES = List.of(
             ModItems.RAW_TIN, ModBlocks.TIN_ORE, ModBlocks.DEEPSLATE_TIN_ORE,  ModBlocks.NETHER_TIN_ORE, ModBlocks.END_TIN_ORE);
     private static final List<ItemConvertible> RAINBOW_SMELTABLES = List.of(

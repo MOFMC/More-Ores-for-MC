@@ -80,50 +80,50 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_RUBY, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_SWORD, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_AXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_SHOVEL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUBY_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUBY_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RUBY_HOE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.PYRITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_PYRITE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PYRITE_SWORD, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PYRITE_PICKAXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PYRITE_AXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PYRITE_SHOVEL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PYRITE_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PYRITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PYRITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PYRITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PYRITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PYRITE_HOE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.TITANIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_TITANIUM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TITANIUM_SWORD, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TITANIUM_PICKAXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TITANIUM_AXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TITANIUM_SHOVEL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TITANIUM_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TITANIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_HOE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.PURPLE_SAPPHIRE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_PURPLE_SAPPHIRE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PURPLE_SAPPHIRE_SWORD, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PURPLE_SAPPHIRE_PICKAXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PURPLE_SAPPHIRE_AXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PURPLE_SAPPHIRE_SHOVEL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PURPLE_SAPPHIRE_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PURPLE_SAPPHIRE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PURPLE_SAPPHIRE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PURPLE_SAPPHIRE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PURPLE_SAPPHIRE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PURPLE_SAPPHIRE_HOE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.TIN_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TIN_SWORD, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TIN_PICKAXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TIN_AXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TIN_SHOVEL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.TIN_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_HOE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.RAINBOW_GEM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAINBOW_SWORD, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAINBOW_PICKAXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAINBOW_AXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAINBOW_SHOVEL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAINBOW_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAINBOW_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAINBOW_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAINBOW_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAINBOW_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RAINBOW_HOE, Models.HANDHELD);
 
         // itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_HELMET));
         // itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_CHESTPLATE));

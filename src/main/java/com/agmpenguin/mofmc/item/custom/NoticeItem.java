@@ -24,7 +24,7 @@ public class NoticeItem extends Item {
             return TypedActionResult.fail(itemStack);
         }
         if(world.isClient) {
-            String toDo = "Increase spawning of Tin. Decrease spawning of Purple Sapphire. Maybe decrease spawning of Titanium. Add in diamond Stone Cutter for Ruby.";
+            String toDo = "Increase spawning of Tin. Decrease spawning of Purple Sapphire. Maybe decrease spawning of Titanium. Maybe add in more tabs. Diamond Stone Cutter. Think about tin button. Everything with titanium (rod -> ingot). Titanium & Sapphire Sword Textures Are Crap, They Aren't Consistent With The Game";
             user.sendMessage(Text.literal(toDo));
         }
         return TypedActionResult.pass(user.getStackInHand(hand));

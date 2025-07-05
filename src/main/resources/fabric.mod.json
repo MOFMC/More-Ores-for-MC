@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
 	"id": "mofmc",
-	"version": "1.20.1-0.0.2-fabric",
+	"version": "1.20.1-0.0.3-fabric",
 	"name": "More Ores for MC",
 	"description": "Adds in more ores, armors, and items, with a sprinkle of new advancements.",
 	"authors": [
-		"AGMPenguin, AbbyTurtle1234"
+		"AGMPenguin, AbbyTurtle1234, PPengo"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

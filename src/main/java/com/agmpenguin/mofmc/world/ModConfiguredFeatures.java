@@ -50,7 +50,7 @@ public class ModConfiguredFeatures {
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
-        RuleTest netherReplaceables = new TagMatchRuleTest(BlockTags.BASE_STONE_NETHER);
+        RuleTest netherReplaceables = new BlockMatchRuleTest(Blocks.NETHERRACK);
         RuleTest endReplaceables = new BlockMatchRuleTest(Blocks.END_STONE);
 
 
