@@ -1,15 +1,19 @@
 {
 	"schemaVersion": 1,
 	"id": "mofmc",
-	"version": "1.20.1-0.0.3-fabric",
+	"version": "1.20.1-0.1.0-fabric",
 	"name": "More Ores for MC",
 	"description": "Adds in more ores, armors, and items, with a sprinkle of new advancements.",
 	"authors": [
-		"AGMPenguin, AbbyTurtle1234, PPengo"
+		"AGMPenguin, AbbyTurtle1234"
+	],
+	"contributors": [
+		"PPengo"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/more-ores-for-mc",
+		"issues": "https://github.com/MOFMC/More-Ores-for-MC/issues",
+		"sources": "https://github.com/MOFMC/More-Ores-for-MC/tree/1.20.1-fabric"
 	},
 	"license": "MIT",
 	"icon": "assets/mofmc/icon.png",

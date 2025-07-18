@@ -70,6 +70,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TIN_STAIRS)
                 .add(ModBlocks.TIN_SLAB)
                 .add(ModBlocks.TIN_PRESSURE_PLATE)
+                .add(ModBlocks.TIN_BUTTON)
                 .add(ModBlocks.RAINBOW_ORE)
                 .add(ModBlocks.DEEPSLATE_RAINBOW_ORE)
                 .add(ModBlocks.NETHER_RAINBOW_ORE)

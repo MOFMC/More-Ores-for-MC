@@ -8,6 +8,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
@@ -61,6 +62,7 @@ public class ModBlocks {
     public static final Block TIN_STAIRS = registerStairsBlock("tin_stairs", TIN_BLOCK);
     public static final Block TIN_SLAB = registerSlabBlock("tin_slab");
     public static final Block TIN_PRESSURE_PLATE = registerPressurePlateBlock("tin_pressure_plate");
+    public static final Block TIN_BUTTON = registerButtonBlock("tin_button");
     // Rainbow
     public static final Block RAINBOW_ORE = registerOre("rainbow_ore");
     public static final Block DEEPSLATE_RAINBOW_ORE = registerOre("deepslate_rainbow_ore");
@@ -108,6 +110,27 @@ public class ModBlocks {
 
     private static PressurePlateBlock registerPressurePlateBlock(String name) {
         PressurePlateBlock block = new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), BlockSetType.IRON);
+        registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, new Identifier(MOFMC.MOD_ID, name), block);
+    }
+
+    /*
+    public static final RegistryObject<Block> TIN_BUTTON = registerButtonBlock("tin_button", Blocks.STONE_BUTTON, SoundType.BONE_BLOCK, BlockSetType.IRON);
+
+    private static RegistryObject<Block> registerButtonBlock(String name, Block block, SoundType sound, BlockSetType blockSetType) {
+        RegistryObject<Block> toReturn = BLOCKS.register(name, () -> new ButtonBlock(BlockBehaviour.Properties
+                .copy(block)
+                .sound(sound)
+                .strength(0.2f),
+                blockSetType, 10, true));
+
+        registerBlockItem(name, toReturn);
+        return toReturn;
+    }
+     */
+
+    private static ButtonBlock registerButtonBlock(String name) {
+        ButtonBlock block = new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE_BUTTON).strength(0.5f).collidable(false), BlockSetType.IRON, 20, false);
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(MOFMC.MOD_ID, name), block);
     }

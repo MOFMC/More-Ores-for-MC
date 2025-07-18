@@ -68,6 +68,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_TIN_BLOCK);
         addDrop(ModBlocks.TIN_STAIRS);
         addDrop(ModBlocks.TIN_PRESSURE_PLATE);
+        addDrop(ModBlocks.TIN_BUTTON);
         addDrop(ModBlocks.TIN_SLAB, slabDrops(ModBlocks.TIN_SLAB));
         addDrop(ModBlocks.TIN_ORE, oreDrops(ModBlocks.TIN_ORE, ModItems.RAW_TIN));
         addDrop(ModBlocks.DEEPSLATE_TIN_ORE, oreDrops(ModBlocks.DEEPSLATE_TIN_ORE, ModItems.RAW_TIN));

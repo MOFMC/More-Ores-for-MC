@@ -82,7 +82,7 @@ public class ModItems {
     public static final Item RAINBOW_LEGGINGS = registerArmorItem("rainbow_leggings");
     public static final Item RAINBOW_BOOTS = registerArmorItem("rainbow_boots");
 
-    public static final Item NOTICE_ITEM = registerItem("notice_item", new NoticeItem(new FabricItemSettings()));
+    // public static final Item NOTICE_ITEM = registerItem("notice_item", new NoticeItem(new FabricItemSettings()));
 
 
     private static void addItemsToTab(FabricItemGroupEntries entries) {

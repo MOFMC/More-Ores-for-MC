@@ -21,6 +21,8 @@ public class ModTags {
 
         public static final TagKey<Item> PRESSURE_PLATES = createTag("pressure_plates");
 
+        public static final TagKey<Item> ALL = createTag("all");
+
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, new Identifier(MOFMC.MOD_ID, name));
         }

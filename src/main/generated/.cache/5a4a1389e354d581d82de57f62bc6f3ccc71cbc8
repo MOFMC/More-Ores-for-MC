@@ -1,10 +1,10 @@
-// 1.20.1	2025-03-23T20:10:19.9915423	More Ores for MC/Tags for minecraft:block
+// 1.20.1	2025-07-18T14:58:08.2534613	More Ores for MC/Tags for minecraft:block
 555ec0c210bf786c5d37e0847b2851de2b912bf5 data\minecraft\tags\blocks\slabs.json
 0477c4febbcf708243d40931f5ebe86b67be7df7 data\minecraft\tags\blocks\needs_diamond_tool.json
 aca807ffe99e7d3e3ab007de0da0da3b61e9d937 data\minecraft\tags\blocks\beacon_base_blocks.json
 91740ad5330cc08ef893cd5c7e57aec80fb805c6 data\minecraft\tags\blocks\stairs.json
 d58d41a921e98a7e9d91b51a5ccc89941479b3be data\minecraft\tags\blocks\needs_stone_tool.json
 e5724954ff41884c1f4258f0df569609b504d7a6 data\mofmc\tags\blocks\ore_replaceables.json
-db494c0f3630233f5e9f89ea1dfedf04308c6fe2 data\minecraft\tags\blocks\mineable\pickaxe.json
+c0566343b762891682d2ffc2744006bca4e2d195 data\minecraft\tags\blocks\mineable\pickaxe.json
 5701e1196c2cd75f890cf8f02e8d7637b0dac3f9 data\minecraft\tags\blocks\pressure_plates.json
 26daaed9804e77656aa251e31c797eac7449108f data\minecraft\tags\blocks\needs_iron_tool.json

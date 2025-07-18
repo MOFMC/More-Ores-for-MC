@@ -1,0 +1,3 @@
+Check for what item is in selector area.
+Depending on what it is, add in the items that it could be cut into.
+Use their textures (maybe from their items or the data gen, IDK)

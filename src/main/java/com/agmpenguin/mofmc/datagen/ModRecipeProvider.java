@@ -9,6 +9,7 @@ import net.minecraft.block.Block;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.RecipeProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
@@ -16,6 +17,7 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -116,6 +118,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         stairs(ModBlocks.TIN_STAIRS, ModBlocks.TIN_BLOCK, exporter);
         slab(ModBlocks.TIN_SLAB, ModBlocks.TIN_BLOCK, exporter);
         pressurePlate(ModBlocks.TIN_PRESSURE_PLATE, ModItems.TIN_INGOT, exporter);
+        button(ModBlocks.TIN_BUTTON, ModItems.TIN_INGOT, exporter);
         sword(ModItems.TIN_SWORD, ModItems.TIN_INGOT, exporter);
         pickaxe(ModItems.TIN_PICKAXE, ModItems.TIN_INGOT, exporter);
         axe(ModItems.TIN_AXE, ModItems.TIN_INGOT, exporter);
@@ -145,6 +148,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     public static String getRecipeName(ItemConvertible item) {
         return Registries.ITEM.getId(item.asItem()).toString();
+    }
+
+    /*
+    public static void offerShapelessRecipe(Consumer<RecipeJsonProvider> exporter, ItemConvertible output, ItemConvertible input, @Nullable String group, int outputCount) {
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, output, outputCount).input(input).group(group).criterion(RecipeProvider.hasItem(input), RecipeProvider.conditionsFromItem(input)).offerTo(exporter, RecipeProvider.convertBetween(output, input));
+    }
+     */
+
+    public static void button(ItemConvertible output, ItemConvertible input, Consumer<RecipeJsonProvider> exporter) {
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, output, 1).input(input).criterion(hasItem(input), conditionsFromItem(input)).offerTo(exporter, new Identifier(getRecipeName(output)));
     }
 
     public static void sword(Item sword, ItemConvertible ingredient, Consumer<RecipeJsonProvider> exporter) {

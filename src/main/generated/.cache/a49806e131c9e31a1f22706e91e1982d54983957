@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-23T20:10:20.083424	More Ores for MC/Recipes
+// 1.20.1	2025-07-18T14:58:08.3903935	More Ores for MC/Recipes
 a95d16320acc81a0b11801f7a2fa1fef928d7e6f data\mofmc\advancements\recipes\misc\pyrite_ingot_from_blasting_deepslate_pyrite_ore.json
 f557748e60da394f606bb94d6981c51daa9128c8 data\mofmc\recipes\purple_sapphire_pressure_plate.json
 a647b7615c8ee776e0785b88edb52777a9d4606b data\mofmc\recipes\ruby_from_smelting_end_ruby_ore.json
@@ -84,6 +84,7 @@ ca33d9f0f248f91df79ac6b5bc69023641a2a5ed data\mofmc\recipes\pyrite_ingot_from_bl
 66d5aae126545036235a7f82880f8000d4cbbf0d data\mofmc\advancements\recipes\tools\purple_sapphire_shovel.json
 63106408836c4498cdada511da75ffd1e98a0db9 data\mofmc\advancements\recipes\misc\rainbow_gem_from_blasting_deepslate_rainbow_ore.json
 eb0a7883c4731795b5a85ffedec349a73d5256db data\mofmc\recipes\rainbow_stairs.json
+7915db69080edec66aec2f9a0b21ae53451c19c8 data\mofmc\recipes\tin_button.json
 29f60ba54d67c95f9451ec7c4637662cc640b4ad data\mofmc\advancements\recipes\combat\rainbow_boots.json
 797fb45ade6a6e442c3a6a6631acb250fd32fa80 data\mofmc\advancements\recipes\tools\ruby_pickaxe.json
 8d00c16afdd22f72168a24e5808b1bc99a8dde33 data\mofmc\advancements\recipes\misc\rainbow_gem_from_smelting_end_rainbow_ore.json
@@ -147,6 +148,7 @@ f30c73448ab50cb79b55b05e611b5a0e579c6fa2 data\mofmc\recipes\purple_sapphire_hoe.
 d2ce70fb5f3660c686d04958765793467011f950 data\mofmc\advancements\recipes\misc\titanium_ingot_from_blasting_titanium_ore.json
 6d37669fc4126057ad89f4e5778a7731e7d687e0 data\mofmc\recipes\ruby_axe.json
 cd4e1b8bce7ca30f54b4864c61ac3ccee53f35be data\mofmc\advancements\recipes\combat\pyrite_leggings.json
+7f07c0fac45f6308fa197047abd02b5d1dcf8f67 data\mofmc\advancements\recipes\redstone\tin_button.json
 0f690434c4b45a7446f1530c1a4543fb666de908 data\mofmc\advancements\recipes\combat\tin_leggings.json
 d1f5c7cd33989247dea5964ead6d0a816f780199 data\mofmc\recipes\rainbow_gem_from_blasting_nether_rainbow_ore.json
 347fa564467ffef2160ff567645a807807837e85 data\mofmc\advancements\recipes\building_blocks\pyrite_slab.json

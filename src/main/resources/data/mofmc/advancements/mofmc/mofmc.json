@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:ruby"
+    },
+    "title": "MOFMC",
+    "description": "",
+    "background": "mofmc:textures/block/ruby_ore.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "mofmc:all"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory"
+    ]
+  ]
+}

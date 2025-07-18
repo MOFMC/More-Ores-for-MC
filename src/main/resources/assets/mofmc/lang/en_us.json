@@ -107,6 +107,7 @@
   "block.mofmc.tin_stairs": "Tin Stairs",
   "block.mofmc.tin_slab": "Tin Slab",
   "block.mofmc.tin_pressure_plate": "Tin Pressure Plate",
+  "block.mofmc.tin_button": "Tin Button",
 
   "item.mofmc.tin_sword": "Tin Sword",
   "item.mofmc.tin_pickaxe": "Tin Pickaxe",
@@ -149,6 +150,10 @@
   "trim_material.mofmc.tin": "Tin Material",
 
   "tab.mofmc": "MOFMC",
+  "tab.mofmc2": "MOFMC V2",
+  "tab.mofmc3": "MOFMC V3",
+  "tab.mofmc4": "MOFMC V4 (Fave)",
+  "tab.mofmc5": "MOFMC V5",
 
   "item.mofmc.notice_item": "Notice"
 }

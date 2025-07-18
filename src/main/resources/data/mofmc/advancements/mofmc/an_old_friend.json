@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:ruby"
+    },
+    "title": "An Old Friend",
+    "description": "Obtain a Ruby",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mofmc:mofmc/mofmc",
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:ruby"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory"
+    ]
+  ]
+}

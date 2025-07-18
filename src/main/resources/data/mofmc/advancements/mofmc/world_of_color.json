@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mofmc:rainbow_gem"
+    },
+    "title": "World of Color",
+    "description": "Obtain a Rainbow Gem",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mofmc:mofmc/mofmc",
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mofmc:rainbow_gem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory"
+    ]
+  ]
+}

@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-23T20:10:20.2074129	More Ores for MC/Block Loot Tables
+// 1.20.1	2025-07-18T14:58:08.6613895	More Ores for MC/Block Loot Tables
 a2e4115bfc85d22c5f17bf8683abf576b26fc6da data\mofmc\loot_tables\blocks\raw_tin_block.json
 6814550c436bec306a8ba829f68f1704a15983e8 data\mofmc\loot_tables\blocks\rainbow_block.json
 499c4eb74677db473b8e91fe9117e41b79436eff data\mofmc\loot_tables\blocks\nether_titanium_ore.json
@@ -26,6 +26,7 @@ cb3754f0a248ad9d507d2f4e09f7c6e3c53af2e2 data\mofmc\loot_tables\blocks\ruby_bloc
 3cd8880d3befff7896cf99245e234fc54484863c data\mofmc\loot_tables\blocks\tin_pressure_plate.json
 f97fb6b17c8f3a13ccd9b6f59c42e4b58cc0c8a6 data\mofmc\loot_tables\blocks\ruby_pressure_plate.json
 ddbd8aee047457adfc97c24e3f33999a8a5d4985 data\mofmc\loot_tables\blocks\deepslate_rainbow_ore.json
+e8095eaafc2e104c0dd1421c87bfa8b9fce0a867 data\mofmc\loot_tables\blocks\tin_button.json
 4eccc1b2e5e4af2b429a62d5394a5d67f7d82531 data\mofmc\loot_tables\blocks\nether_tin_ore.json
 1f55ed741516655b31735eecd62a019d60a119bc data\mofmc\loot_tables\blocks\purple_sapphire_pressure_plate.json
 d402ca958a1c361ec9e23147bfee88861d2bcdfd data\mofmc\loot_tables\blocks\tin_stairs.json

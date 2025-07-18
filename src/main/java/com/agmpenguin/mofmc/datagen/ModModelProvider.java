@@ -63,6 +63,7 @@ public class ModModelProvider extends FabricModelProvider {
         tinPool.stairs(ModBlocks.TIN_STAIRS);
         tinPool.slab(ModBlocks.TIN_SLAB);
         tinPool.pressurePlate(ModBlocks.TIN_PRESSURE_PLATE);
+        tinPool.button(ModBlocks.TIN_BUTTON);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAINBOW_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_RAINBOW_ORE);
@@ -132,6 +133,6 @@ public class ModModelProvider extends FabricModelProvider {
         // itemModelGenerator.register(ModItems.RUBY, Models.GENERATED_TWO_LAYERS);
 
         // itemModelGenerator.suffixTrim(new Identifier(MOFMC.MOD_ID, "ruby"), "ruby_material");
-        itemModelGenerator.register(ModItems.NOTICE_ITEM, Models.GENERATED);
+        // itemModelGenerator.register(ModItems.NOTICE_ITEM, Models.GENERATED);
     }
 }
